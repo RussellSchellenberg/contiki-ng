@@ -37,13 +37,13 @@
 #ifdef LPM_CONF_ON
 #define LPM_ON LPM_CONF_ON
 #else
-#define LPM_ON LPM1
+#define LPM_ON LPM4	//LPM1 // LPM4
 #endif /* LPM_CONF_ON */
 
 #ifdef LPM_CONF_OFF
 #define LPM_OFF LPM_CONF_OFF
 #else
-#define LPM_OFF LPM1_EXIT
+#define LPM_OFF LPM4_EXIT	//LPM4_EXIT
 #endif /* LPM_CONF_OFF */
 
 #define LPM_SLEEP() do { if(lpm_status == LPM_STATUS_ON) LPM_ON; } while(0)

@@ -1,0 +1,7 @@
+../../Makefile.gcc:23: Warning: you're using an old version of msp430-gcc.
+../../Makefile.gcc:24: Upgrade to 4.7.x is recommended for extended memory support and bugfixes.
+rlwrap ../../tools/serial-io/serialdump -b115200 /dev/ttyUSB0
+connecting to /dev/ttyUSB0 [OK]
+[INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:eb04
+[INFO: App       ] Received DATA '65497' from fd00::212:7400:1a6c:eb04
+
