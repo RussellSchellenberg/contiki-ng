@@ -14,8 +14,17 @@
 #include "sys/energest.h"
 #include "sys/timer.h"
 
-volatile unsigned long start, end;
-volatile unsigned long DeepSleepTime = 0;
+volatile long start, end;
+
+unsigned long LSPC, DSPC;
+unsigned long voltage = 3.0; // Units = Volts
+unsigned long ActiveCurrent = 330;
+unsigned long LPM1Current = 75;
+unsigned long LPM4Current = .02;
+unsigned long ActiveTime = 0;
+unsigned long LPM1Time = 0;
+unsigned long LPM4Time = 0;
+unsigned long TotalTime = 0;
 
 //#define ENERGEST_CONF_ON 1 // This was manually changed in the file for the Sim
 // --- END Code Block for Simulation ---
@@ -83,34 +92,34 @@ udp_rx_callback(struct simple_udp_connection *c,
   energest_flush();
   printf("\nEnergest:\n");
 
-// ("Start: %4lu\n", start);  // Used for Debugging
-// printf("End: %4lu\n", end); // Used for Debugging
-DeepSleepTime += (end - start); // Difference in time between going to sleep and waking up
-// printf("Deep Sleep Time: %4lus\n", DeepSleepTime); // Used for Debugging
+ActiveTime = (to_seconds(energest_type_time(ENERGEST_TYPE_CPU)));
+LPM1Time = (to_seconds(energest_type_time(ENERGEST_TYPE_LPM)));
+LPM4Time += (end - start); // Difference in time between going to sleep and waking up
+TotalTime = (to_seconds(ENERGEST_GET_TOTAL_TIME()));
 
+LSPC = voltage *((ActiveTime * ActiveCurrent) + (LPM1Time * LPM1Current));
+DSPC = voltage *((ActiveTime * ActiveCurrent) + ((LPM1Time-LPM4Time) * LPM1Current) + (LPM4Time * LPM4Current));
 
+printf("Light Sleep System:\n");
+printf("     Active: %5lus, LPM1: %5lus, LPM4:     0s, Total Time: %5lus\n", ActiveTime, LPM1Time, TotalTime);
+printf("     Energy Used: %10luuW\n\n", LSPC);
+printf("Deep Sleep System:\n");
+printf("     Active: %5lus, LPM1: %5lus, LPM4: %5lus, Total Time: %5lus\n\n", ActiveTime, LPM1Time-LPM4Time, LPM4Time, TotalTime);
+printf("     Energy Used: %10luuW\n\n", DSPC);
+//printf("Active: %5lus\n", ActiveTime);
 // Trying to get the Deep LPM working
-  printf(" CPU:          %4lus, LPM:      %4lus, DEEP LPM: %4lus,  Total time: %lus\n",
+/*
+  printf("Active:          %lus, LPM:      %gs, DEEP LPM: %gs,  Total time: %lus\n",
          to_seconds(energest_type_time(ENERGEST_TYPE_CPU)),
-         (to_seconds(energest_type_time(ENERGEST_TYPE_LPM))-DeepSleepTime),
+         (double)()(to_seconds(energest_type_time(ENERGEST_TYPE_LPM))-DeepSleepTime)),
          DeepSleepTime,
          to_seconds(ENERGEST_GET_TOTAL_TIME()));
-
-/*
-// Original Energest code
-printf("CPU:          %4lus, LPM:      %4lus, DEEP LPM: %4lus,  Total time: %lus\n",
-       to_seconds(energest_type_time(ENERGEST_TYPE_CPU)),
-       to_seconds(energest_type_time(ENERGEST_TYPE_LPM)),
-       to_seconds(energest_type_time(ENERGEST_TYPE_DEEP_LPM)),
-       to_seconds(ENERGEST_GET_TOTAL_TIME()));
-
-  printf(" Radio LISTEN %4lus TRANSMIT %4lus OFF      %4lus\n",
-         to_seconds(energest_type_time(ENERGEST_TYPE_LISTEN)),
-         to_seconds(energest_type_time(ENERGEST_TYPE_TRANSMIT)),
-         to_seconds(ENERGEST_GET_TOTAL_TIME()
-                    - energest_type_time(ENERGEST_TYPE_TRANSMIT)
-                    - energest_type_time(ENERGEST_TYPE_LISTEN)));
 */
+
+   //LSPC = voltage *( ((ActiveCurrent)*(to_seconds(energest_type_time(ENERGEST_TYPE_CPU)))) + LPM1Current*(to_seconds(energest_type_time(ENERGEST_TYPE_LPM))));
+//   LSPC = LPM1Current*(to_seconds(energest_type_time(ENERGEST_TYPE_LPM)));
+  // printf("Light Sleep Power Consumption: %g W\n", (double)LSPC);
+
 // --- END Code Block for Simulation ---
 
   process_exit(&udp_client_sleep);
@@ -173,18 +182,14 @@ PROCESS_THREAD(udp_client_sleep, ev, data)
   etimer_set(&periodic_timer, 5 * CLOCK_SECOND);
   PROCESS_BEGIN();
   LOG_INFO("Going to sleep\n");
-//    LOG_INFO("\n Hello_1\n");
-  //  printf("\n Hello_print_1\n");
-  //  LOG_INFO("Staying up late!\n");
-  // LOG_INFO("Ticks per second: %u\n", RTIMER_SECOND);
-  //  powertrace_start(CLOCK_SECOND * 10);
+
   P5OUT &= ~(1<<4);
   P5OUT |= (1<<5);
 
   // This is messing up the simulation
   //  PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
 
-  LPM4; //Comment out to stay awake
+  //LPM4; //Comment out to stay awake
 
   // For Simulation: Start timer to see how long it sleeps.
   start = clock_seconds();
