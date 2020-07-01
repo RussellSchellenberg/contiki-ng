@@ -2,6 +2,12 @@ import datetime
 import pandas
 import argparse
 
+def custom_pivot(df):
+    df = pandas.pivot_table(df, values='Total Energy', index=['Time'], columns=['ID'])
+    df = df.interpolate(method ='linear', limit_direction ='backward')
+    df['Average'] = df.mean(axis=1)
+    return df
+
 parser = argparse.ArgumentParser(description='Convert Cooja logs to .csv format')
 parser.add_argument('--inputpath', action='store',
                    help='The name of the file to convert.')
@@ -43,11 +49,9 @@ for i in df["ID"].unique():
 df = df.sort_values(by=['Time'])
 
 light_df = df.loc[df['Mode'] == 'Light']
-light_df = pandas.pivot_table(light_df, values='Total Energy', index=['Time'], columns=['ID'])
-light_df = light_df.interpolate(method ='linear', limit_direction ='backward')
+light_df = custom_pivot(light_df)
 light_df.to_csv(args.outputpath[0:-4] + '_light_sleep.csv')
 
 deep_df = df.loc[df['Mode'] == 'Deep']
-deep_df = pandas.pivot_table(deep_df, values='Total Energy', index=['Time'], columns=['ID'])
-deep_df = deep_df.interpolate(method ='linear', limit_direction ='backward')
+deep_df = custom_pivot(deep_df)
 deep_df.to_csv(args.outputpath[0:-4]  + '_deep_sleep.csv')
