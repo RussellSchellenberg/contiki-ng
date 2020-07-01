@@ -58,6 +58,9 @@ static struct timer mgt_timer;
 #endif
 extern int msp430_dco_required;
 
+#include "dev/msp430-lpm-override.h"
+extern int msp430_lpm4_required;
+
 #define UIP_OVER_MESH_CHANNEL 8
 
 #ifdef EXPERIMENT_SETUP
@@ -220,20 +223,32 @@ platform_idle(void)
 #endif
 
     /* Re-enable interrupts and go to sleep atomically. */
-    ENERGEST_SWITCH(ENERGEST_TYPE_CPU, ENERGEST_TYPE_LPM);
+    //ENERGEST_SWITCH(ENERGEST_TYPE_CPU, ENERGEST_TYPE_LPM);
+    ENERGEST_OFF(ENERGEST_TYPE_LPM);
+    ENERGEST_OFF(ENERGEST_TYPE_DEEP_LPM);
     watchdog_stop();
-    /* check if the DCO needs to be on - if so - only LPM 1 */
-    if (msp430_dco_required) {
-      _BIS_SR(GIE | CPUOFF); /* LPM1 sleep for DMA to work!. */
-    } else {
-      _BIS_SR(GIE | SCG0 | SCG1 | CPUOFF); /* LPM3 sleep. This
-						statement will block
-						until the CPU is
-						woken up by an
-						interrupt that sets
-						the wake up flag. */
+
+    int energest_type = ENERGEST_TYPE_DEEP_LPM;
+    
+    if(msp430_lpm4_required){
+      ENERGEST_SWITCH(ENERGEST_TYPE_CPU, energest_type);
+      _BIS_SR(GIE | LPM4_bits);
+    }
+    else {
+      energest_type = ENERGEST_TYPE_LPM;
+      ENERGEST_SWITCH(ENERGEST_TYPE_CPU, energest_type);
+      if (msp430_dco_required) { /* check if the DCO needs to be on - if so - only LPM 1 */
+        _BIS_SR(GIE | CPUOFF); /* LPM1 sleep for DMA to work!. */
+      } else {
+        _BIS_SR(GIE | SCG0 | SCG1 | CPUOFF);  /* LPM3 sleep. This
+              statement will block
+              until the CPU is
+              woken up by an
+              interrupt that sets
+              the wake up flag. */
+      }
     }
     watchdog_start();
-    ENERGEST_SWITCH(ENERGEST_TYPE_LPM, ENERGEST_TYPE_CPU);
+    ENERGEST_SWITCH(energest_type, ENERGEST_TYPE_CPU);
   }
 }

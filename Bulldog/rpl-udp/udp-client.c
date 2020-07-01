@@ -14,13 +14,17 @@
 #include "sys/energest.h"
 #include "sys/timer.h"
 
+#include "dev/watchdog.h"
+#include "dev/msp430-lpm-override.h"
+extern int msp430_lpm4_required;
+
 volatile long start, end;
 
 unsigned long LSPC, DSPC;
 unsigned long voltage = 3.0; // Units = Volts
 unsigned long ActiveCurrent = 330;
 unsigned long LPM1Current = 75;
-unsigned long LPM4Current = .02;
+unsigned long LPM4Current_DIV = 50;
 unsigned long ActiveTime = 0;
 unsigned long LPM1Time = 0;
 unsigned long LPM4Time = 0;
@@ -74,7 +78,14 @@ udp_rx_callback(struct simple_udp_connection *c,
          const uint8_t *data,
          uint16_t datalen)
 {
+  
   end = clock_seconds(); // For Deep sleep
+  watchdog_stop();
+  msp430_lpm4_required = 0;
+  ENERGEST_OFF(ENERGEST_TYPE_DEEP_LPM);
+  ENERGEST_SWITCH(ENERGEST_TYPE_CPU, ENERGEST_TYPE_LPM);
+  LPM1;
+  watchdog_start();
 
   P5OUT &= ~(1<<5);
   P5OUT |= (1<<4);
@@ -94,18 +105,20 @@ udp_rx_callback(struct simple_udp_connection *c,
 
 ActiveTime = (to_seconds(energest_type_time(ENERGEST_TYPE_CPU)));
 LPM1Time = (to_seconds(energest_type_time(ENERGEST_TYPE_LPM)));
-LPM4Time += (end - start); // Difference in time between going to sleep and waking up
+LPM4Time = (to_seconds(energest_type_time(ENERGEST_TYPE_DEEP_LPM))); // Difference in time between going to sleep and waking up
 TotalTime = (to_seconds(ENERGEST_GET_TOTAL_TIME()));
 
-LSPC = voltage *((ActiveTime * ActiveCurrent) + (LPM1Time * LPM1Current));
-DSPC = voltage *((ActiveTime * ActiveCurrent) + ((LPM1Time-LPM4Time) * LPM1Current) + (LPM4Time * LPM4Current));
-
+LSPC = voltage *((ActiveTime * ActiveCurrent) + ((LPM1Time + LPM4Time) * LPM1Current));
 printf("Light Sleep System:\n");
-printf("     Active: %5lus, LPM1: %5lus, LPM4:     0s, Total Time: %5lus\n", ActiveTime, LPM1Time, TotalTime);
+printf("     Active: %5lus, LPM1: %5lus, LPM4:     0s, Total Time: %5lus\n", ActiveTime, (LPM1Time + LPM4Time), TotalTime);
 printf("     Energy Used: %10luuW\n\n", LSPC);
+printf("Simulation_Data: Light %5lu %5lu 0 %5lu %10lu\n", ActiveTime, (LPM1Time + LPM4Time), TotalTime, LSPC);
+
+DSPC = voltage *((ActiveTime * ActiveCurrent) + (LPM1Time * LPM1Current) + (LPM4Time / LPM4Current_DIV));
 printf("Deep Sleep System:\n");
-printf("     Active: %5lus, LPM1: %5lus, LPM4: %5lus, Total Time: %5lus\n\n", ActiveTime, LPM1Time-LPM4Time, LPM4Time, TotalTime);
+printf("     Active: %5lus, LPM1: %5lus, LPM4: %5lus, Total Time: %5lus\n\n", ActiveTime, LPM1Time, LPM4Time, TotalTime);
 printf("     Energy Used: %10luuW\n\n", DSPC);
+printf("Simulation_Data: Deep %5lu %5lu %5lu %5lu %10lu\n", ActiveTime, LPM1Time, LPM4Time, TotalTime, DSPC);
 //printf("Active: %5lus\n", ActiveTime);
 // Trying to get the Deep LPM working
 /*
@@ -137,7 +150,7 @@ PROCESS_THREAD(udp_client_process, ev, data)
   static struct etimer periodic_timer;
   static char str[32];
   uip_ipaddr_t dest_ipaddr;
-
+ 
   P5DIR |= 0x70;
 
   PROCESS_BEGIN();
@@ -187,12 +200,19 @@ PROCESS_THREAD(udp_client_sleep, ev, data)
   P5OUT |= (1<<5);
 
   // This is messing up the simulation
-  //  PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
+  //PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
 
-  //LPM4; //Comment out to stay awake
-
-  // For Simulation: Start timer to see how long it sleeps.
+   // For Simulation: Start timer to see how long it sleeps.
+  watchdog_stop();
   start = clock_seconds();
+  msp430_lpm4_required = 1;//LPM4; //Comment out to stay awake
+  ENERGEST_OFF(ENERGEST_TYPE_CPU);
+  ENERGEST_SWITCH(ENERGEST_TYPE_LPM, ENERGEST_TYPE_DEEP_LPM);
+  LPM4;
+  watchdog_start();
+  
+
+
   //printf("Start_2: %4lu\n", start); // Used for Debugging
 
   PROCESS_END();
