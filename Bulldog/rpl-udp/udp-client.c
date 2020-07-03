@@ -6,6 +6,7 @@
 #include <msp430.h>
 #include "dev/lpm.h"
 #include "sys/log.h"
+#include "dev/battery-sensor.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include "dev/sht11/sht11-sensor.h"
@@ -48,6 +49,10 @@ int get_temperature(){
   return ((sht11_sensor.value(SHT11_SENSOR_TEMP)/10)-396)/10;
 }
 
+static uint32_t get_battery(){
+    return battery_sensor.value(0);
+}
+
 static unsigned long to_seconds(uint64_t time){ // Sim
   return (unsigned long)(time / ENERGEST_SECOND);
 }
@@ -87,15 +92,15 @@ udp_rx_callback(struct simple_udp_connection *c,
   LPM1;
   watchdog_start();
 
-  P5OUT &= ~(1<<5);
-  P5OUT |= (1<<4);
+  //P5OUT &= ~(1<<5);
+  //P5OUT |= (1<<4);
   static char str[32];
 
   LOG_INFO("Received '%.*s' from ", datalen, (char *) data);
   LOG_INFO_6ADDR(sender_addr);
   LOG_INFO_("\n");
-  LOG_INFO("Sending Temperature: %u\n", get_temperature());
-  snprintf(str, sizeof(str), "%u", get_temperature());
+  LOG_INFO("Sending Battery: %lu\n", get_battery());
+  snprintf(str, sizeof(str), "%lu", get_battery());
   simple_udp_sendto(&udp_conn, str, strlen(str), sender_addr);
 
   // --- START Code Block for Simulation ---
@@ -154,8 +159,8 @@ PROCESS_THREAD(udp_client_process, ev, data)
   P5DIR |= 0x70;
 
   PROCESS_BEGIN();
-
-  P5OUT &= ~(1<<5);
+  SENSORS_ACTIVATE(battery_sensor);
+  //P5OUT &= ~(1<<5);
 
   /* Initialize UDP connection */
   simple_udp_register(&udp_conn, UDP_CLIENT_PORT, NULL,
@@ -196,19 +201,19 @@ PROCESS_THREAD(udp_client_sleep, ev, data)
   PROCESS_BEGIN();
   LOG_INFO("Going to sleep\n");
 
-  P5OUT &= ~(1<<4);
-  P5OUT |= (1<<5);
+  //P5OUT &= ~(1<<4);
+  //P5OUT |= (1<<5);
 
-  // This is messing up the simulation
-  //PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
+  // Comment out for simulation only:
+  PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
 
    // For Simulation: Start timer to see how long it sleeps.
   watchdog_stop();
   start = clock_seconds();
-  msp430_lpm4_required = 1;//LPM4; //Comment out to stay awake
+  //msp430_lpm4_required = 1; //Comment out to stay awake
   ENERGEST_OFF(ENERGEST_TYPE_CPU);
   ENERGEST_SWITCH(ENERGEST_TYPE_LPM, ENERGEST_TYPE_DEEP_LPM);
-  LPM4;
+  //LPM4; //Comment out to stay awake
   watchdog_start();
   
 
