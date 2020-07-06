@@ -146,7 +146,7 @@ PROCESS_THREAD(udp_server_process, ev, data)
           LOG_INFO_6ADDR(&sink_addrs[s_i]);
           LOG_INFO_("\n");
           simple_udp_sendto(&udp_conn, (char *) req, strlen(req), &sink_addrs[s_i]);
-          etimer_set(&periodic_timer, SEND_INTERVAL + (random_rand() % (5 * CLOCK_SECOND)));
+          etimer_set(&periodic_timer, SEND_INTERVAL + (random_rand() % (10 * CLOCK_SECOND)));
           PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
         }
         if((rec_data & (1<<s_i)) == 0){
@@ -157,7 +157,7 @@ PROCESS_THREAD(udp_server_process, ev, data)
       }
     }
     rec_data = 0;
-    etimer_set(&periodic_timer, 20 * CLOCK_SECOND  + (random_rand() % (1 * CLOCK_SECOND)));
+    etimer_set(&periodic_timer, 200 * CLOCK_SECOND  + (random_rand() % (1 * CLOCK_SECOND)));
   }
 
   PROCESS_END();

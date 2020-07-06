@@ -1,0 +1,2725 @@
+00:00.353	ID:8	[INFO: Main      ] Starting Contiki-NG-release/v4.4-71-g3f2d0669c
+00:00.356	ID:8	[INFO: Main      ] - Routing: RPL Lite
+00:00.358	ID:8	[INFO: Main      ] - Net: sicslowpan
+00:00.360	ID:8	[INFO: Main      ] - MAC: CSMA
+00:00.364	ID:8	[INFO: Main      ] - 802.15.4 PANID: 0xabcd
+00:00.367	ID:8	[INFO: Main      ] - 802.15.4 Default channel: 26
+00:00.369	ID:8	[INFO: Main      ] Node ID: 8
+00:00.375	ID:8	[INFO: Main      ] Link-layer address: 0012.7408.0008.0808
+00:00.386	ID:8	[INFO: Main      ] Tentative link-local IPv6 address: fe80::212:7408:8:808
+00:00.390	ID:8	[INFO: Sky       ] CC2420 CCA threshold -45
+00:00.469	ID:11	[INFO: Main      ] Starting Contiki-NG-release/v4.4-71-g3f2d0669c
+00:00.472	ID:11	[INFO: Main      ] - Routing: RPL Lite
+00:00.475	ID:11	[INFO: Main      ] - Net: sicslowpan
+00:00.477	ID:11	[INFO: Main      ] - MAC: CSMA
+00:00.480	ID:11	[INFO: Main      ] - 802.15.4 PANID: 0xabcd
+00:00.484	ID:11	[INFO: Main      ] - 802.15.4 Default channel: 26
+00:00.486	ID:11	[INFO: Main      ] Node ID: 11
+00:00.491	ID:11	[INFO: Main      ] Link-layer address: 0012.740b.000b.0b0b
+00:00.503	ID:11	[INFO: Main      ] Tentative link-local IPv6 address: fe80::212:740b:b:b0b
+00:00.506	ID:11	[INFO: Sky       ] CC2420 CCA threshold -45
+00:00.516	ID:2	[INFO: Main      ] Starting Contiki-NG-release/v4.4-71-g3f2d0669c
+00:00.519	ID:2	[INFO: Main      ] - Routing: RPL Lite
+00:00.522	ID:2	[INFO: Main      ] - Net: sicslowpan
+00:00.524	ID:2	[INFO: Main      ] - MAC: CSMA
+00:00.527	ID:2	[INFO: Main      ] - 802.15.4 PANID: 0xabcd
+00:00.531	ID:2	[INFO: Main      ] - 802.15.4 Default channel: 26
+00:00.531	ID:6	[INFO: Main      ] Starting Contiki-NG-release/v4.4-71-g3f2d0669c
+00:00.533	ID:2	[INFO: Main      ] Node ID: 2
+00:00.534	ID:6	[INFO: Main      ] - Routing: RPL Lite
+00:00.536	ID:6	[INFO: Main      ] - Net: sicslowpan
+00:00.538	ID:2	[INFO: Main      ] Link-layer address: 0012.7402.0002.0202
+00:00.538	ID:6	[INFO: Main      ] - MAC: CSMA
+00:00.542	ID:6	[INFO: Main      ] - 802.15.4 PANID: 0xabcd
+00:00.545	ID:6	[INFO: Main      ] - 802.15.4 Default channel: 26
+00:00.547	ID:6	[INFO: Main      ] Node ID: 6
+00:00.550	ID:2	[INFO: Main      ] Tentative link-local IPv6 address: fe80::212:7402:2:202
+00:00.553	ID:6	[INFO: Main      ] Link-layer address: 0012.7406.0006.0606
+00:00.553	ID:2	[INFO: Sky       ] CC2420 CCA threshold -45
+00:00.564	ID:6	[INFO: Main      ] Tentative link-local IPv6 address: fe80::212:7406:6:606
+00:00.568	ID:6	[INFO: Sky       ] CC2420 CCA threshold -45
+00:00.628	ID:4	[INFO: Main      ] Starting Contiki-NG-release/v4.4-71-g3f2d0669c
+00:00.631	ID:4	[INFO: Main      ] - Routing: RPL Lite
+00:00.634	ID:4	[INFO: Main      ] - Net: sicslowpan
+00:00.636	ID:4	[INFO: Main      ] - MAC: CSMA
+00:00.639	ID:4	[INFO: Main      ] - 802.15.4 PANID: 0xabcd
+00:00.643	ID:4	[INFO: Main      ] - 802.15.4 Default channel: 26
+00:00.645	ID:4	[INFO: Main      ] Node ID: 4
+00:00.650	ID:4	[INFO: Main      ] Link-layer address: 0012.7404.0004.0404
+00:00.662	ID:4	[INFO: Main      ] Tentative link-local IPv6 address: fe80::212:7404:4:404
+00:00.662	ID:1	[INFO: Main      ] Starting Contiki-NG-release/v4.4-71-g3f2d0669c
+00:00.665	ID:1	[INFO: Main      ] - Routing: RPL Lite
+00:00.665	ID:4	[INFO: Sky       ] CC2420 CCA threshold -45
+00:00.668	ID:1	[INFO: Main      ] - Net: sicslowpan
+00:00.670	ID:1	[INFO: Main      ] - MAC: CSMA
+00:00.673	ID:1	[INFO: Main      ] - 802.15.4 PANID: 0xabcd
+00:00.677	ID:1	[INFO: Main      ] - 802.15.4 Default channel: 26
+00:00.679	ID:1	[INFO: Main      ] Node ID: 1
+00:00.682	ID:7	[INFO: Main      ] Starting Contiki-NG-release/v4.4-71-g3f2d0669c
+00:00.684	ID:1	[INFO: Main      ] Link-layer address: 0012.7401.0001.0101
+00:00.685	ID:7	[INFO: Main      ] - Routing: RPL Lite
+00:00.687	ID:7	[INFO: Main      ] - Net: sicslowpan
+00:00.689	ID:7	[INFO: Main      ] - MAC: CSMA
+00:00.693	ID:7	[INFO: Main      ] - 802.15.4 PANID: 0xabcd
+00:00.696	ID:1	[INFO: Main      ] Tentative link-local IPv6 address: fe80::212:7401:1:101
+00:00.696	ID:7	[INFO: Main      ] - 802.15.4 Default channel: 26
+00:00.698	ID:7	[INFO: Main      ] Node ID: 7
+00:00.699	ID:1	[INFO: Sky       ] CC2420 CCA threshold -45
+00:00.704	ID:7	[INFO: Main      ] Link-layer address: 0012.7407.0007.0707
+00:00.715	ID:7	[INFO: Main      ] Tentative link-local IPv6 address: fe80::212:7407:7:707
+00:00.719	ID:7	[INFO: Sky       ] CC2420 CCA threshold -45
+00:00.837	ID:10	[INFO: Main      ] Starting Contiki-NG-release/v4.4-71-g3f2d0669c
+00:00.839	ID:10	[INFO: Main      ] - Routing: RPL Lite
+00:00.842	ID:10	[INFO: Main      ] - Net: sicslowpan
+00:00.844	ID:10	[INFO: Main      ] - MAC: CSMA
+00:00.847	ID:10	[INFO: Main      ] - 802.15.4 PANID: 0xabcd
+00:00.851	ID:10	[INFO: Main      ] - 802.15.4 Default channel: 26
+00:00.853	ID:10	[INFO: Main      ] Node ID: 10
+00:00.859	ID:10	[INFO: Main      ] Link-layer address: 0012.740a.000a.0a0a
+00:00.870	ID:10	[INFO: Main      ] Tentative link-local IPv6 address: fe80::212:740a:a:a0a
+00:00.873	ID:10	[INFO: Sky       ] CC2420 CCA threshold -45
+00:00.989	ID:9	[INFO: Main      ] Starting Contiki-NG-release/v4.4-71-g3f2d0669c
+00:00.991	ID:9	[INFO: Main      ] - Routing: RPL Lite
+00:00.994	ID:9	[INFO: Main      ] - Net: sicslowpan
+00:00.995	ID:5	[INFO: Main      ] Starting Contiki-NG-release/v4.4-71-g3f2d0669c
+00:00.996	ID:9	[INFO: Main      ] - MAC: CSMA
+00:00.998	ID:5	[INFO: Main      ] - Routing: RPL Lite
+00:00.999	ID:9	[INFO: Main      ] - 802.15.4 PANID: 0xabcd
+00:01.000	ID:5	[INFO: Main      ] - Net: sicslowpan
+00:01.003	ID:5	[INFO: Main      ] - MAC: CSMA
+00:01.003	ID:9	[INFO: Main      ] - 802.15.4 Default channel: 26
+00:01.005	ID:9	[INFO: Main      ] Node ID: 9
+00:01.006	ID:5	[INFO: Main      ] - 802.15.4 PANID: 0xabcd
+00:01.010	ID:5	[INFO: Main      ] - 802.15.4 Default channel: 26
+00:01.010	ID:9	[INFO: Main      ] Link-layer address: 0012.7409.0009.0909
+00:01.012	ID:5	[INFO: Main      ] Node ID: 5
+00:01.017	ID:5	[INFO: Main      ] Link-layer address: 0012.7405.0005.0505
+00:01.022	ID:9	[INFO: Main      ] Tentative link-local IPv6 address: fe80::212:7409:9:909
+00:01.025	ID:9	[INFO: Sky       ] CC2420 CCA threshold -45
+00:01.029	ID:5	[INFO: Main      ] Tentative link-local IPv6 address: fe80::212:7405:5:505
+00:01.032	ID:5	[INFO: Sky       ] CC2420 CCA threshold -45
+00:01.179	ID:3	[INFO: Main      ] Starting Contiki-NG-release/v4.4-71-g3f2d0669c
+00:01.182	ID:3	[INFO: Main      ] - Routing: RPL Lite
+00:01.185	ID:3	[INFO: Main      ] - Net: sicslowpan
+00:01.187	ID:3	[INFO: Main      ] - MAC: CSMA
+00:01.190	ID:3	[INFO: Main      ] - 802.15.4 PANID: 0xabcd
+00:01.194	ID:3	[INFO: Main      ] - 802.15.4 Default channel: 26
+00:01.196	ID:3	[INFO: Main      ] Node ID: 3
+00:01.201	ID:3	[INFO: Main      ] Link-layer address: 0012.7403.0003.0303
+00:01.213	ID:3	[INFO: Main      ] Tentative link-local IPv6 address: fe80::212:7403:3:303
+00:01.216	ID:3	[INFO: Sky       ] CC2420 CCA threshold -45
+00:01.741	ID:8	[INFO: App       ] Not reachable yet
+00:01.904	ID:2	[INFO: App       ] Not reachable yet
+00:01.919	ID:6	[INFO: App       ] Not reachable yet
+00:02.016	ID:4	[INFO: App       ] Not reachable yet
+00:02.050	ID:1	[INFO: App       ] Not reachable yet
+00:02.070	ID:7	[INFO: App       ] Not reachable yet
+00:02.224	ID:10	[INFO: App       ] Not reachable yet
+00:02.376	ID:9	[INFO: App       ] Not reachable yet
+00:02.383	ID:5	[INFO: App       ] Not reachable yet
+00:02.567	ID:3	[INFO: App       ] Not reachable yet
+00:07.655	ID:8	[INFO: App       ] Not reachable yet
+00:07.818	ID:2	[INFO: App       ] Not reachable yet
+00:07.833	ID:6	[INFO: App       ] Not reachable yet
+00:07.930	ID:4	[INFO: App       ] Not reachable yet
+00:07.964	ID:1	[INFO: App       ] Not reachable yet
+00:07.984	ID:7	[INFO: App       ] Not reachable yet
+00:08.139	ID:10	[INFO: App       ] Not reachable yet
+00:08.291	ID:9	[INFO: App       ] Not reachable yet
+00:08.297	ID:5	[INFO: App       ] Not reachable yet
+00:08.481	ID:3	[INFO: App       ] Not reachable yet
+00:12.328	ID:1	[INFO: App       ] Sending SYN to fd00::212:740b:b:b0b
+00:12.374	ID:11	[INFO: App       ] Received 'SYN' from fd00::212:7401:1:101
+00:12.374	ID:11	
+00:12.719	ID:4	[INFO: App       ] Not reachable yet
+00:12.773	ID:7	[INFO: App       ] Not reachable yet
+00:13.272	ID:8	[INFO: App       ] Not reachable yet
+00:13.439	ID:2	[INFO: App       ] Sending SYN to fd00::212:740b:b:b0b
+00:13.450	ID:6	[INFO: App       ] Not reachable yet
+00:13.485	ID:11	[INFO: App       ] Received 'SYN' from fd00::212:7402:2:202
+00:13.485	ID:11	
+00:13.756	ID:10	[INFO: App       ] Not reachable yet
+00:13.908	ID:9	[INFO: App       ] Not reachable yet
+00:13.914	ID:5	[INFO: App       ] Not reachable yet
+00:14.099	ID:3	[INFO: App       ] Not reachable yet
+00:17.173	ID:4	[INFO: App       ] Not reachable yet
+00:17.226	ID:7	[INFO: App       ] Not reachable yet
+00:17.991	ID:8	[INFO: App       ] Not reachable yet
+00:18.169	ID:6	[INFO: App       ] Not reachable yet
+00:18.318	ID:10	[INFO: App       ] Not reachable yet
+00:18.626	ID:9	[INFO: App       ] Not reachable yet
+00:18.633	ID:5	[INFO: App       ] Not reachable yet
+00:18.888	ID:3	[INFO: App       ] Not reachable yet
+00:22.780	ID:8	[INFO: App       ] Not reachable yet
+00:22.958	ID:6	[INFO: App       ] Not reachable yet
+00:23.009	ID:4	[INFO: App       ] Not reachable yet
+00:23.062	ID:7	[INFO: App       ] Not reachable yet
+00:23.416	ID:9	[INFO: App       ] Not reachable yet
+00:23.422	ID:5	[INFO: App       ] Not reachable yet
+00:24.057	ID:10	[INFO: App       ] Sending SYN to fd00::212:740b:b:b0b
+00:24.124	ID:11	[INFO: App       ] Received 'SYN' from fd00::212:740a:a:a0a
+00:24.124	ID:11	
+00:24.626	ID:3	[INFO: App       ] Sending SYN to fd00::212:740b:b:b0b
+00:24.697	ID:11	[INFO: App       ] Received 'SYN' from fd00::212:7403:3:303
+00:24.697	ID:11	
+00:27.233	ID:8	[INFO: App       ] Not reachable yet
+00:27.411	ID:6	[INFO: App       ] Not reachable yet
+00:27.571	ID:4	[INFO: App       ] Not reachable yet
+00:27.624	ID:7	[INFO: App       ] Not reachable yet
+00:27.873	ID:9	[INFO: App       ] Not reachable yet
+00:27.875	ID:5	[INFO: App       ] Not reachable yet
+00:31.618	ID:4	[INFO: App       ] Not reachable yet
+00:32.095	ID:9	[INFO: App       ] Not reachable yet
+00:33.069	ID:8	[INFO: App       ] Not reachable yet
+00:33.247	ID:6	[INFO: App       ] Not reachable yet
+00:33.382	ID:7	[INFO: App       ] Not reachable yet
+00:33.711	ID:5	[INFO: App       ] Not reachable yet
+00:36.716	ID:4	[INFO: App       ] Sending SYN to fd00::212:740b:b:b0b
+00:36.837	ID:11	[INFO: App       ] Received 'SYN' from fd00::212:7404:4:404
+00:36.837	ID:11	
+00:37.429	ID:7	[INFO: App       ] Not reachable yet
+00:37.631	ID:8	[INFO: App       ] Not reachable yet
+00:37.763	ID:9	[INFO: App       ] Sending SYN to fd00::212:740b:b:b0b
+00:37.809	ID:6	[INFO: App       ] Not reachable yet
+00:37.875	ID:11	[INFO: App       ] Received 'SYN' from fd00::212:7409:9:909
+00:37.875	ID:11	
+00:38.274	ID:5	[INFO: App       ] Not reachable yet
+00:41.656	ID:7	[INFO: App       ] Not reachable yet
+00:43.186	ID:8	[INFO: App       ] Not reachable yet
+00:43.364	ID:6	[INFO: App       ] Not reachable yet
+00:43.828	ID:5	[INFO: App       ] Not reachable yet
+00:46.796	ID:7	[INFO: App       ] Not reachable yet
+00:48.678	ID:8	[INFO: App       ] Not reachable yet
+00:49.270	ID:6	[INFO: App       ] Not reachable yet
+00:49.321	ID:5	[INFO: App       ] Not reachable yet
+00:51.570	ID:7	[INFO: App       ] Not reachable yet
+00:53.497	ID:6	[INFO: App       ] Not reachable yet
+00:54.104	ID:8	[INFO: App       ] Sending SYN to fd00::212:740b:b:b0b
+00:54.280	ID:11	[INFO: App       ] Received 'SYN' from fd00::212:7408:8:808
+00:54.280	ID:11	
+00:55.036	ID:5	[INFO: App       ] Sending SYN to fd00::212:740b:b:b0b
+00:55.158	ID:11	[INFO: App       ] Received 'SYN' from fd00::212:7405:5:505
+00:55.158	ID:11	
+00:56.320	ID:7	[INFO: App       ] Not reachable yet
+00:58.637	ID:6	[INFO: App       ] Not reachable yet
+01:02.054	ID:7	[INFO: App       ] Not reachable yet
+01:04.130	ID:6	[INFO: App       ] Not reachable yet
+01:06.687	ID:7	[INFO: App       ] Not reachable yet
+01:09.844	ID:6	[INFO: App       ] Sending SYN to fd00::212:740b:b:b0b
+01:09.978	ID:11	[INFO: App       ] Received 'SYN' from fd00::212:7406:6:606
+01:09.978	ID:11	
+01:11.800	ID:7	[INFO: App       ] Sending SYN to fd00::212:740b:b:b0b
+01:11.968	ID:11	[INFO: App       ] Received 'SYN' from fd00::212:7407:7:707
+01:11.968	ID:11	
+03:22.502	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+03:30.611	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+03:32.330	ID:1	
+03:32.330	ID:1	Energest:
+03:32.337	ID:1	     Active:     1s, LPM1:   210s, LPM4:     0s, Total Time:   211s
+03:32.337	ID:1	
+03:32.340	ID:1	     RX:   211s, TX:     0s
+03:32.345	ID:1	     Energy Used:    8378520uW
+03:32.345	ID:1	
+03:32.353	ID:1	Simulation_Data:     1   210     0   211     0    8378520
+03:33.441	ID:2	
+03:33.442	ID:2	Energest:
+03:33.449	ID:2	     Active:     1s, LPM1:   211s, LPM4:     0s, Total Time:   212s
+03:33.449	ID:2	
+03:33.452	ID:2	     RX:   212s, TX:     0s
+03:33.456	ID:2	     Energy Used:    8418225uW
+03:33.456	ID:2	
+03:33.465	ID:2	Simulation_Data:     1   211     0   212     0    8418225
+03:44.059	ID:10	
+03:44.059	ID:10	Energest:
+03:44.066	ID:10	     Active:     1s, LPM1:   222s, LPM4:     0s, Total Time:   223s
+03:44.066	ID:10	
+03:44.069	ID:10	     RX:   223s, TX:     0s
+03:44.074	ID:10	     Energy Used:    8854980uW
+03:44.074	ID:10	
+03:44.082	ID:10	Simulation_Data:     1   222     0   223     0    8854980
+03:44.268	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+03:44.313	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+03:44.317	ID:1	[INFO: App       ] Sending Battery: 246
+03:44.370	ID:11	[INFO: App       ] Received DATA 'Battery: 50, Temperature: 6360' from fd00::212:7401:1:101
+03:44.370	ID:11	
+03:44.628	ID:3	
+03:44.629	ID:3	Energest:
+03:44.636	ID:3	     Active:     1s, LPM1:   222s, LPM4:     0s, Total Time:   223s
+03:44.636	ID:3	
+03:44.639	ID:3	     RX:   223s, TX:     0s
+03:44.643	ID:3	     Energy Used:    8854980uW
+03:44.643	ID:3	
+03:44.652	ID:3	Simulation_Data:     1   222     0   223     0    8854980
+03:54.346	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+03:54.391	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+03:54.395	ID:2	[INFO: App       ] Sending Battery: 103
+03:54.450	ID:11	[INFO: App       ] Received DATA 'Battery: 199, Temperature: 6360' from fd00::212:7402:2:202
+03:54.451	ID:11	
+03:56.718	ID:4	
+03:56.718	ID:4	Energest:
+03:56.725	ID:4	     Active:     1s, LPM1:   235s, LPM4:     0s, Total Time:   236s
+03:56.725	ID:4	
+03:56.728	ID:4	     RX:   236s, TX:     0s
+03:56.733	ID:4	     Energy Used:    9371145uW
+03:56.733	ID:4	
+03:56.741	ID:4	Simulation_Data:     1   235     0   236     0    9371145
+03:57.765	ID:9	
+03:57.766	ID:9	Energest:
+03:57.773	ID:9	     Active:     1s, LPM1:   235s, LPM4:     0s, Total Time:   236s
+03:57.773	ID:9	
+03:57.776	ID:9	     RX:   236s, TX:     0s
+03:57.780	ID:9	     Energy Used:    9371145uW
+03:57.780	ID:9	
+03:57.789	ID:9	Simulation_Data:     1   235     0   236     0    9371145
+04:02.721	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+04:02.772	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+04:02.776	ID:10	[INFO: App       ] Sending Battery: 214
+04:02.902	ID:11	[INFO: App       ] Received DATA 'Battery: 202, Temperature: 6360' from fd00::212:740a:a:a0a
+04:02.902	ID:11	
+04:14.106	ID:8	
+04:14.107	ID:8	Energest:
+04:14.114	ID:8	     Active:     1s, LPM1:   252s, LPM4:     0s, Total Time:   253s
+04:14.114	ID:8	
+04:14.117	ID:8	     RX:   253s, TX:     0s
+04:14.121	ID:8	     Energy Used:   10046130uW
+04:14.121	ID:8	
+04:14.130	ID:8	Simulation_Data:     1   252     0   253     0   10046130
+04:14.932	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+04:15.025	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+04:15.028	ID:3	[INFO: App       ] Sending Battery: 143
+04:15.038	ID:5	
+04:15.038	ID:5	Energest:
+04:15.045	ID:5	     Active:     1s, LPM1:   253s, LPM4:     0s, Total Time:   254s
+04:15.045	ID:5	
+04:15.048	ID:5	     RX:   253s, TX:     0s
+04:15.053	ID:5	     Energy Used:   10046355uW
+04:15.053	ID:5	
+04:15.062	ID:5	Simulation_Data:     1   253     0   253     0   10046355
+04:15.123	ID:11	[INFO: App       ] Received DATA 'Battery: 189, Temperature: 6360' from fd00::212:7403:3:303
+04:15.123	ID:11	
+04:25.252	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+04:25.353	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+04:25.356	ID:4	[INFO: App       ] Sending Battery: 46
+04:25.521	ID:11	[INFO: App       ] Received DATA 'Battery: 80, Temperature: 6360' from fd00::212:7404:4:404
+04:25.521	ID:11	
+04:29.847	ID:6	
+04:29.847	ID:6	Energest:
+04:29.854	ID:6	     Active:     0s, LPM1:   268s, LPM4:     0s, Total Time:   269s
+04:29.854	ID:6	
+04:29.857	ID:6	     RX:   269s, TX:     0s
+04:29.862	ID:6	     Energy Used:   10680420uW
+04:29.862	ID:6	
+04:29.871	ID:6	Simulation_Data:     0   268     0   269     0   10680420
+04:31.802	ID:7	
+04:31.803	ID:7	Energest:
+04:31.810	ID:7	     Active:     1s, LPM1:   270s, LPM4:     0s, Total Time:   271s
+04:31.810	ID:7	
+04:31.813	ID:7	     RX:   271s, TX:     0s
+04:31.818	ID:7	     Energy Used:   10760820uW
+04:31.818	ID:7	
+04:31.827	ID:7	Simulation_Data:     1   270     0   271     0   10760820
+04:33.057	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+04:33.135	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+04:33.138	ID:9	[INFO: App       ] Sending Battery: 143
+04:33.277	ID:11	[INFO: App       ] Received DATA 'Battery: 219, Temperature: 6360' from fd00::212:7409:9:909
+04:33.277	ID:11	
+04:46.721	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+04:46.857	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+04:46.861	ID:8	[INFO: App       ] Sending Battery: 112
+04:47.034	ID:11	[INFO: App       ] Received DATA 'Battery: 157, Temperature: 6360' from fd00::212:7408:8:808
+04:47.034	ID:11	
+05:00.252	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+05:00.411	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+05:00.414	ID:5	[INFO: App       ] Sending Battery: 46
+05:00.631	ID:11	[INFO: App       ] Received DATA 'Battery: 127, Temperature: 6360' from fd00::212:7405:5:505
+05:00.631	ID:11	
+05:09.205	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+05:09.349	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+05:09.352	ID:6	[INFO: App       ] Sending Battery: 75
+05:09.576	ID:11	[INFO: App       ] Received DATA 'Battery: 137, Temperature: 6360' from fd00::212:7406:6:606
+05:09.576	ID:11	
+05:20.057	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+05:20.222	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+05:20.225	ID:7	[INFO: App       ] Sending Battery: 33
+05:20.487	ID:11	[INFO: App       ] Received DATA 'Battery: 132, Temperature: 6360' from fd00::212:7407:7:707
+05:20.488	ID:11	
+06:52.353	ID:1	
+06:52.354	ID:1	Energest:
+06:52.361	ID:1	     Active:     1s, LPM1:   410s, LPM4:     0s, Total Time:   411s
+06:52.361	ID:1	
+06:52.364	ID:1	     RX:   411s, TX:     0s
+06:52.368	ID:1	     Energy Used:   16319520uW
+06:52.368	ID:1	
+06:52.377	ID:1	Simulation_Data:     1   410     0   411     0   16319520
+06:53.465	ID:2	
+06:53.465	ID:2	Energest:
+06:53.472	ID:2	     Active:     1s, LPM1:   411s, LPM4:     0s, Total Time:   412s
+06:53.473	ID:2	
+06:53.476	ID:2	     RX:   412s, TX:     0s
+06:53.480	ID:2	     Energy Used:   16359225uW
+06:53.480	ID:2	
+06:53.489	ID:2	Simulation_Data:     1   411     0   412     0   16359225
+07:04.082	ID:10	
+07:04.083	ID:10	Energest:
+07:04.090	ID:10	     Active:     1s, LPM1:   421s, LPM4:     0s, Total Time:   423s
+07:04.090	ID:10	
+07:04.093	ID:10	     RX:   423s, TX:     0s
+07:04.097	ID:10	     Energy Used:   16795755uW
+07:04.097	ID:10	
+07:04.106	ID:10	Simulation_Data:     1   421     0   423     0   16795755
+07:04.651	ID:3	
+07:04.652	ID:3	Energest:
+07:04.659	ID:3	     Active:     1s, LPM1:   422s, LPM4:     0s, Total Time:   423s
+07:04.659	ID:3	
+07:04.662	ID:3	     RX:   423s, TX:     0s
+07:04.667	ID:3	     Energy Used:   16795980uW
+07:04.667	ID:3	
+07:04.676	ID:3	Simulation_Data:     1   422     0   423     0   16795980
+07:16.741	ID:4	
+07:16.742	ID:4	Energest:
+07:16.749	ID:4	     Active:     1s, LPM1:   434s, LPM4:     0s, Total Time:   436s
+07:16.749	ID:4	
+07:16.752	ID:4	     RX:   436s, TX:     0s
+07:16.756	ID:4	     Energy Used:   17311920uW
+07:16.756	ID:4	
+07:16.765	ID:4	Simulation_Data:     1   434     0   436     0   17311920
+07:17.789	ID:9	
+07:17.789	ID:9	Energest:
+07:17.796	ID:9	     Active:     1s, LPM1:   435s, LPM4:     0s, Total Time:   436s
+07:17.796	ID:9	
+07:17.800	ID:9	     RX:   436s, TX:     0s
+07:17.804	ID:9	     Energy Used:   17312145uW
+07:17.804	ID:9	
+07:17.813	ID:9	Simulation_Data:     1   435     0   436     0   17312145
+07:34.130	ID:8	
+07:34.130	ID:8	Energest:
+07:34.137	ID:8	     Active:     1s, LPM1:   452s, LPM4:     0s, Total Time:   453s
+07:34.137	ID:8	
+07:34.140	ID:8	     RX:   453s, TX:     0s
+07:34.145	ID:8	     Energy Used:   17987130uW
+07:34.145	ID:8	
+07:34.154	ID:8	Simulation_Data:     1   452     0   453     0   17987130
+07:35.061	ID:5	
+07:35.062	ID:5	Energest:
+07:35.069	ID:5	     Active:     1s, LPM1:   452s, LPM4:     0s, Total Time:   454s
+07:35.069	ID:5	
+07:35.072	ID:5	     RX:   453s, TX:     0s
+07:35.076	ID:5	     Energy Used:   17987130uW
+07:35.076	ID:5	
+07:35.085	ID:5	Simulation_Data:     1   452     0   453     0   17987130
+07:49.870	ID:6	
+07:49.871	ID:6	Energest:
+07:49.878	ID:6	     Active:     1s, LPM1:   468s, LPM4:     0s, Total Time:   469s
+07:49.878	ID:6	
+07:49.881	ID:6	     RX:   469s, TX:     0s
+07:49.885	ID:6	     Energy Used:   18622410uW
+07:49.885	ID:6	
+07:49.894	ID:6	Simulation_Data:     1   468     0   469     0   18622410
+07:51.826	ID:7	
+07:51.826	ID:7	Energest:
+07:51.833	ID:7	     Active:     1s, LPM1:   469s, LPM4:     0s, Total Time:   471s
+07:51.834	ID:7	
+07:51.837	ID:7	     RX:   471s, TX:     0s
+07:51.841	ID:7	     Energy Used:   18701595uW
+07:51.841	ID:7	
+07:51.850	ID:7	Simulation_Data:     1   469     0   471     0   18701595
+08:54.330	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+08:54.391	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+08:54.394	ID:1	[INFO: App       ] Sending Battery: 9
+08:54.449	ID:11	[INFO: App       ] Received DATA 'Battery: 209, Temperature: 6360' from fd00::212:7401:1:101
+08:54.449	ID:11	
+09:04.604	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+09:04.665	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+09:04.668	ID:2	[INFO: App       ] Sending Battery: 68
+09:04.740	ID:11	[INFO: App       ] Received DATA 'Battery: 199, Temperature: 6360' from fd00::212:7402:2:202
+09:04.740	ID:11	
+09:12.432	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+09:12.499	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+09:12.502	ID:10	[INFO: App       ] Sending Battery: 2
+09:12.644	ID:11	[INFO: App       ] Received DATA 'Battery: 18, Temperature: 6360' from fd00::212:740a:a:a0a
+09:12.644	ID:11	
+09:18.557	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+09:18.642	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+09:18.645	ID:3	[INFO: App       ] Sending Battery: 61
+09:18.787	ID:11	[INFO: App       ] Received DATA 'Battery: 107, Temperature: 6360' from fd00::212:7403:3:303
+09:18.787	ID:11	
+09:23.854	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+09:23.931	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+09:23.934	ID:4	[INFO: App       ] Sending Battery: 9
+09:24.075	ID:11	[INFO: App       ] Received DATA 'Battery: 50, Temperature: 6360' from fd00::212:7404:4:404
+09:24.076	ID:11	
+09:32.197	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+09:32.330	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+09:32.333	ID:9	[INFO: App       ] Sending Battery: 36
+09:32.472	ID:11	[INFO: App       ] Received DATA 'Battery: 112, Temperature: 6360' from fd00::212:7409:9:909
+09:32.472	ID:11	
+09:42.463	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+09:42.615	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+09:42.618	ID:8	[INFO: App       ] Sending Battery: 180
+09:42.784	ID:11	[INFO: App       ] Received DATA 'Battery: 204, Temperature: 6360' from fd00::212:7408:8:808
+09:42.784	ID:11	
+09:52.525	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+09:52.653	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+09:52.657	ID:5	[INFO: App       ] Sending Battery: 129
+09:52.834	ID:11	[INFO: App       ] Received DATA 'Battery: 189, Temperature: 6360' from fd00::212:7405:5:505
+09:52.834	ID:11	
+10:06.174	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+10:06.333	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+10:06.337	ID:6	[INFO: App       ] Sending Battery: 108
+10:06.568	ID:11	[INFO: App       ] Received DATA 'Battery: 142, Temperature: 6360' from fd00::212:7406:6:606
+10:06.568	ID:11	
+10:12.376	ID:1	
+10:12.377	ID:1	Energest:
+10:12.384	ID:1	     Active:     2s, LPM1:   609s, LPM4:     0s, Total Time:   611s
+10:12.384	ID:1	
+10:12.387	ID:1	     RX:   611s, TX:     0s
+10:12.392	ID:1	     Energy Used:   24261285uW
+10:12.392	ID:1	
+10:12.401	ID:1	Simulation_Data:     2   609     0   611     0   24261285
+10:13.488	ID:2	
+10:13.489	ID:2	Energest:
+10:13.496	ID:2	     Active:     2s, LPM1:   610s, LPM4:     0s, Total Time:   612s
+10:13.496	ID:2	
+10:13.499	ID:2	     RX:   612s, TX:     0s
+10:13.504	ID:2	     Energy Used:   24300990uW
+10:13.504	ID:2	
+10:13.513	ID:2	Simulation_Data:     2   610     0   612     0   24300990
+10:20.877	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+10:21.042	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+10:21.046	ID:7	[INFO: App       ] Sending Battery: 197
+10:21.245	ID:11	[INFO: App       ] Received DATA 'Battery: 40, Temperature: 6360' from fd00::212:7407:7:707
+10:21.246	ID:11	
+10:24.105	ID:10	
+10:24.106	ID:10	Energest:
+10:24.113	ID:10	     Active:     1s, LPM1:   621s, LPM4:     0s, Total Time:   623s
+10:24.113	ID:10	
+10:24.116	ID:10	     RX:   623s, TX:     0s
+10:24.121	ID:10	     Energy Used:   24736755uW
+10:24.121	ID:10	
+10:24.130	ID:10	Simulation_Data:     1   621     0   623     0   24736755
+10:24.675	ID:3	
+10:24.676	ID:3	Energest:
+10:24.683	ID:3	     Active:     1s, LPM1:   621s, LPM4:     0s, Total Time:   623s
+10:24.683	ID:3	
+10:24.686	ID:3	     RX:   623s, TX:     0s
+10:24.690	ID:3	     Energy Used:   24736755uW
+10:24.690	ID:3	
+10:24.699	ID:3	Simulation_Data:     1   621     0   623     0   24736755
+10:36.765	ID:4	
+10:36.765	ID:4	Energest:
+10:36.772	ID:4	     Active:     1s, LPM1:   634s, LPM4:     0s, Total Time:   636s
+10:36.772	ID:4	
+10:36.775	ID:4	     RX:   636s, TX:     0s
+10:36.780	ID:4	     Energy Used:   25252920uW
+10:36.780	ID:4	
+10:36.789	ID:4	Simulation_Data:     1   634     0   636     0   25252920
+10:37.812	ID:9	
+10:37.813	ID:9	Energest:
+10:37.820	ID:9	     Active:     1s, LPM1:   635s, LPM4:     0s, Total Time:   636s
+10:37.820	ID:9	
+10:37.823	ID:9	     RX:   636s, TX:     0s
+10:37.827	ID:9	     Energy Used:   25253145uW
+10:37.827	ID:9	
+10:37.836	ID:9	Simulation_Data:     1   635     0   636     0   25253145
+10:54.153	ID:8	
+10:54.154	ID:8	Energest:
+10:54.161	ID:8	     Active:     1s, LPM1:   652s, LPM4:     0s, Total Time:   653s
+10:54.161	ID:8	
+10:54.164	ID:8	     RX:   653s, TX:     0s
+10:54.168	ID:8	     Energy Used:   25928130uW
+10:54.168	ID:8	
+10:54.177	ID:8	Simulation_Data:     1   652     0   653     0   25928130
+10:55.084	ID:5	
+10:55.085	ID:5	Energest:
+10:55.092	ID:5	     Active:     1s, LPM1:   652s, LPM4:     0s, Total Time:   654s
+10:55.092	ID:5	
+10:55.095	ID:5	     RX:   653s, TX:     0s
+10:55.100	ID:5	     Energy Used:   25928130uW
+10:55.100	ID:5	
+10:55.109	ID:5	Simulation_Data:     1   652     0   653     0   25928130
+11:09.893	ID:6	
+11:09.894	ID:6	Energest:
+11:09.901	ID:6	     Active:     1s, LPM1:   667s, LPM4:     0s, Total Time:   669s
+11:09.901	ID:6	
+11:09.904	ID:6	     RX:   669s, TX:     0s
+11:09.909	ID:6	     Energy Used:   26563185uW
+11:09.909	ID:6	
+11:09.918	ID:6	Simulation_Data:     1   667     0   669     0   26563185
+11:11.849	ID:7	
+11:11.850	ID:7	Energest:
+11:11.857	ID:7	     Active:     1s, LPM1:   669s, LPM4:     0s, Total Time:   671s
+11:11.857	ID:7	
+11:11.860	ID:7	     RX:   671s, TX:     0s
+11:11.864	ID:7	     Energy Used:   26642595uW
+11:11.864	ID:7	
+11:11.873	ID:7	Simulation_Data:     1   669     0   671     0   26642595
+13:32.400	ID:1	
+13:32.401	ID:1	Energest:
+13:32.408	ID:1	     Active:     2s, LPM1:   809s, LPM4:     0s, Total Time:   811s
+13:32.408	ID:1	
+13:32.411	ID:1	     RX:   811s, TX:     0s
+13:32.415	ID:1	     Energy Used:   32202285uW
+13:32.415	ID:1	
+13:32.424	ID:1	Simulation_Data:     2   809     0   811     0   32202285
+13:33.512	ID:2	
+13:33.512	ID:2	Energest:
+13:33.519	ID:2	     Active:     2s, LPM1:   810s, LPM4:     0s, Total Time:   813s
+13:33.519	ID:2	
+13:33.522	ID:2	     RX:   812s, TX:     0s
+13:33.527	ID:2	     Energy Used:   32241990uW
+13:33.527	ID:2	
+13:33.536	ID:2	Simulation_Data:     2   810     0   812     0   32241990
+13:44.129	ID:10	
+13:44.130	ID:10	Energest:
+13:44.137	ID:10	     Active:     1s, LPM1:   821s, LPM4:     0s, Total Time:   823s
+13:44.137	ID:10	
+13:44.140	ID:10	     RX:   823s, TX:     0s
+13:44.144	ID:10	     Energy Used:   32677755uW
+13:44.144	ID:10	
+13:44.153	ID:10	Simulation_Data:     1   821     0   823     0   32677755
+13:44.698	ID:3	
+13:44.699	ID:3	Energest:
+13:44.706	ID:3	     Active:     1s, LPM1:   821s, LPM4:     0s, Total Time:   823s
+13:44.706	ID:3	
+13:44.709	ID:3	     RX:   823s, TX:     0s
+13:44.714	ID:3	     Energy Used:   32677755uW
+13:44.714	ID:3	
+13:44.723	ID:3	Simulation_Data:     1   821     0   823     0   32677755
+13:47.471	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+13:47.501	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+13:47.504	ID:1	[INFO: App       ] Sending Battery: 173
+13:47.589	ID:11	[INFO: App       ] Received DATA 'Battery: 5, Temperature: 6360' from fd00::212:7401:1:101
+13:47.589	ID:11	
+13:56.788	ID:4	
+13:56.789	ID:4	Energest:
+13:56.796	ID:4	     Active:     1s, LPM1:   834s, LPM4:     0s, Total Time:   836s
+13:56.796	ID:4	
+13:56.799	ID:4	     RX:   836s, TX:     0s
+13:56.803	ID:4	     Energy Used:   33193920uW
+13:56.803	ID:4	
+13:56.812	ID:4	Simulation_Data:     1   834     0   836     0   33193920
+13:57.836	ID:9	
+13:57.836	ID:9	Energest:
+13:57.843	ID:9	     Active:     1s, LPM1:   835s, LPM4:     0s, Total Time:   836s
+13:57.843	ID:9	
+13:57.846	ID:9	     RX:   836s, TX:     0s
+13:57.851	ID:9	     Energy Used:   33194145uW
+13:57.851	ID:9	
+13:57.860	ID:9	Simulation_Data:     1   835     0   836     0   33194145
+13:58.611	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+13:58.657	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+13:58.660	ID:2	[INFO: App       ] Sending Battery: 138
+13:58.708	ID:11	[INFO: App       ] Received DATA 'Battery: 234, Temperature: 6360' from fd00::212:7402:2:202
+13:58.708	ID:11	
+14:08.549	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+14:08.616	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+14:08.620	ID:10	[INFO: App       ] Sending Battery: 161
+14:08.714	ID:11	[INFO: App       ] Received DATA 'Battery: 177, Temperature: 6360' from fd00::212:740a:a:a0a
+14:08.714	ID:11	
+14:14.176	ID:8	
+14:14.177	ID:8	Energest:
+14:14.184	ID:8	     Active:     1s, LPM1:   852s, LPM4:     0s, Total Time:   853s
+14:14.184	ID:8	
+14:14.187	ID:8	     RX:   853s, TX:     0s
+14:14.192	ID:8	     Energy Used:   33869130uW
+14:14.192	ID:8	
+14:14.201	ID:8	Simulation_Data:     1   852     0   853     0   33869130
+14:15.108	ID:5	
+14:15.109	ID:5	Energest:
+14:15.116	ID:5	     Active:     1s, LPM1:   852s, LPM4:     0s, Total Time:   854s
+14:15.116	ID:5	
+14:15.119	ID:5	     RX:   854s, TX:     0s
+14:15.123	ID:5	     Energy Used:   33908610uW
+14:15.123	ID:5	
+14:15.132	ID:5	Simulation_Data:     1   852     0   854     0   33908610
+14:21.572	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+14:21.613	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+14:21.616	ID:3	[INFO: App       ] Sending Battery: 49
+14:21.680	ID:11	[INFO: App       ] Received DATA 'Battery: 189, Temperature: 6360' from fd00::212:7403:3:303
+14:21.680	ID:11	
+14:29.917	ID:6	
+14:29.918	ID:6	Energest:
+14:29.925	ID:6	     Active:     1s, LPM1:   867s, LPM4:     0s, Total Time:   869s
+14:29.925	ID:6	
+14:29.928	ID:6	     RX:   869s, TX:     0s
+14:29.932	ID:6	     Energy Used:   34504185uW
+14:29.932	ID:6	
+14:29.941	ID:6	Simulation_Data:     1   867     0   869     0   34504185
+14:31.205	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+14:31.353	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+14:31.356	ID:4	[INFO: App       ] Sending Battery: 8
+14:31.429	ID:11	[INFO: App       ] Received DATA 'Battery: 70, Temperature: 6360' from fd00::212:7404:4:404
+14:31.429	ID:11	
+14:31.873	ID:7	
+14:31.873	ID:7	Energest:
+14:31.880	ID:7	     Active:     1s, LPM1:   869s, LPM4:     0s, Total Time:   871s
+14:31.880	ID:7	
+14:31.883	ID:7	     RX:   871s, TX:     0s
+14:31.888	ID:7	     Energy Used:   34583595uW
+14:31.888	ID:7	
+14:31.897	ID:7	Simulation_Data:     1   869     0   871     0   34583595
+14:44.822	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+14:44.916	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+14:44.920	ID:9	[INFO: App       ] Sending Battery: 204
+14:45.026	ID:11	[INFO: App       ] Received DATA 'Battery: 45, Temperature: 6360' from fd00::212:7409:9:909
+14:45.026	ID:11	
+14:52.799	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+14:52.942	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+14:52.946	ID:8	[INFO: App       ] Sending Battery: 48
+14:53.056	ID:11	[INFO: App       ] Received DATA 'Battery: 167, Temperature: 6360' from fd00::212:7408:8:808
+14:53.056	ID:11	
+15:02.510	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+15:02.614	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+15:02.617	ID:5	[INFO: App       ] Sending Battery: 99
+15:02.779	ID:11	[INFO: App       ] Received DATA 'Battery: 152, Temperature: 6360' from fd00::212:7405:5:505
+15:02.779	ID:11	
+15:08.525	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+15:08.625	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+15:08.629	ID:6	[INFO: App       ] Sending Battery: 207
+15:08.865	ID:11	[INFO: App       ] Received DATA 'Battery: 50, Temperature: 6360' from fd00::212:7406:6:606
+15:08.865	ID:11	
+15:14.338	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+15:14.519	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+15:14.522	ID:7	[INFO: App       ] Sending Battery: 147
+15:14.714	ID:11	[INFO: App       ] Received DATA 'Battery: 204, Temperature: 6360' from fd00::212:7407:7:707
+15:14.714	ID:11	
+16:52.423	ID:1	
+16:52.424	ID:1	Energest:
+16:52.432	ID:1	     Active:     2s, LPM1:  1009s, LPM4:     0s, Total Time:  1011s
+16:52.432	ID:1	
+16:52.435	ID:1	     RX:  1011s, TX:     0s
+16:52.440	ID:1	     Energy Used:   40143285uW
+16:52.440	ID:1	
+16:52.449	ID:1	Simulation_Data:     2  1009     0  1011     0   40143285
+16:53.535	ID:2	
+16:53.536	ID:2	Energest:
+16:53.543	ID:2	     Active:     2s, LPM1:  1010s, LPM4:     0s, Total Time:  1013s
+16:53.543	ID:2	
+16:53.547	ID:2	     RX:  1012s, TX:     0s
+16:53.551	ID:2	     Energy Used:   40182990uW
+16:53.551	ID:2	
+16:53.561	ID:2	Simulation_Data:     2  1010     0  1012     0   40182990
+17:04.152	ID:10	
+17:04.153	ID:10	Energest:
+17:04.161	ID:10	     Active:     2s, LPM1:  1021s, LPM4:     0s, Total Time:  1023s
+17:04.161	ID:10	
+17:04.164	ID:10	     RX:  1023s, TX:     0s
+17:04.169	ID:10	     Energy Used:   40619745uW
+17:04.169	ID:10	
+17:04.178	ID:10	Simulation_Data:     2  1021     0  1023     0   40619745
+17:04.722	ID:3	
+17:04.722	ID:3	Energest:
+17:04.730	ID:3	     Active:     2s, LPM1:  1021s, LPM4:     0s, Total Time:  1023s
+17:04.730	ID:3	
+17:04.733	ID:3	     RX:  1023s, TX:     0s
+17:04.738	ID:3	     Energy Used:   40619745uW
+17:04.738	ID:3	
+17:04.747	ID:3	Simulation_Data:     2  1021     0  1023     0   40619745
+17:16.811	ID:4	
+17:16.812	ID:4	Energest:
+17:16.820	ID:4	     Active:     2s, LPM1:  1034s, LPM4:     0s, Total Time:  1036s
+17:16.820	ID:4	
+17:16.823	ID:4	     RX:  1036s, TX:     0s
+17:16.828	ID:4	     Energy Used:   41135910uW
+17:16.828	ID:4	
+17:16.837	ID:4	Simulation_Data:     2  1034     0  1036     0   41135910
+17:17.859	ID:9	
+17:17.860	ID:9	Energest:
+17:17.867	ID:9	     Active:     2s, LPM1:  1034s, LPM4:     0s, Total Time:  1036s
+17:17.867	ID:9	
+17:17.871	ID:9	     RX:  1036s, TX:     0s
+17:17.875	ID:9	     Energy Used:   41135910uW
+17:17.875	ID:9	
+17:17.885	ID:9	Simulation_Data:     2  1034     0  1036     0   41135910
+17:34.200	ID:8	
+17:34.201	ID:8	Energest:
+17:34.208	ID:8	     Active:     2s, LPM1:  1051s, LPM4:     0s, Total Time:  1053s
+17:34.208	ID:8	
+17:34.212	ID:8	     RX:  1053s, TX:     0s
+17:34.216	ID:8	     Energy Used:   41810895uW
+17:34.216	ID:8	
+17:34.226	ID:8	Simulation_Data:     2  1051     0  1053     0   41810895
+17:35.131	ID:5	
+17:35.132	ID:5	Energest:
+17:35.140	ID:5	     Active:     1s, LPM1:  1052s, LPM4:     0s, Total Time:  1054s
+17:35.140	ID:5	
+17:35.143	ID:5	     RX:  1054s, TX:     0s
+17:35.147	ID:5	     Energy Used:   41849610uW
+17:35.148	ID:5	
+17:35.157	ID:5	Simulation_Data:     1  1052     0  1054     0   41849610
+17:49.940	ID:6	
+17:49.941	ID:6	Energest:
+17:49.949	ID:6	     Active:     1s, LPM1:  1067s, LPM4:     0s, Total Time:  1069s
+17:49.949	ID:6	
+17:49.952	ID:6	     RX:  1069s, TX:     0s
+17:49.956	ID:6	     Energy Used:   42445185uW
+17:49.956	ID:6	
+17:49.966	ID:6	Simulation_Data:     1  1067     0  1069     0   42445185
+17:51.896	ID:7	
+17:51.897	ID:7	Energest:
+17:51.904	ID:7	     Active:     1s, LPM1:  1069s, LPM4:     0s, Total Time:  1071s
+17:51.904	ID:7	
+17:51.908	ID:7	     RX:  1071s, TX:     0s
+17:51.912	ID:7	     Energy Used:   42524595uW
+17:51.912	ID:7	
+17:51.922	ID:7	Simulation_Data:     1  1069     0  1071     0   42524595
+18:45.213	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+18:45.258	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+18:45.262	ID:1	[INFO: App       ] Sending Battery: 144
+18:45.347	ID:11	[INFO: App       ] Received DATA 'Battery: 204, Temperature: 6360' from fd00::212:7401:1:101
+18:45.347	ID:11	
+18:51.135	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+18:51.153	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+18:51.156	ID:2	[INFO: App       ] Sending Battery: 209
+18:51.224	ID:11	[INFO: App       ] Received DATA 'Battery: 107, Temperature: 6360' from fd00::212:7402:2:202
+18:51.224	ID:11	
+19:03.104	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+19:03.155	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+19:03.159	ID:10	[INFO: App       ] Sending Battery: 117
+19:03.245	ID:11	[INFO: App       ] Received DATA 'Battery: 140, Temperature: 6360' from fd00::212:740a:a:a0a
+19:03.245	ID:11	
+19:15.783	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+19:15.845	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+19:15.849	ID:3	[INFO: App       ] Sending Battery: 62
+19:15.943	ID:11	[INFO: App       ] Received DATA 'Battery: 122, Temperature: 6360' from fd00::212:7403:3:303
+19:15.943	ID:11	
+19:23.322	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+19:23.439	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+19:23.442	ID:4	[INFO: App       ] Sending Battery: 27
+19:23.576	ID:11	[INFO: App       ] Received DATA 'Battery: 117, Temperature: 6360' from fd00::212:7404:4:404
+19:23.576	ID:11	
+19:35.096	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+19:35.174	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+19:35.177	ID:9	[INFO: App       ] Sending Battery: 132
+19:35.276	ID:11	[INFO: App       ] Received DATA 'Battery: 229, Temperature: 6360' from fd00::212:7409:9:909
+19:35.277	ID:11	
+19:43.478	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+19:43.599	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+19:43.603	ID:8	[INFO: App       ] Sending Battery: 86
+19:43.792	ID:11	[INFO: App       ] Received DATA 'Battery: 152, Temperature: 6360' from fd00::212:7408:8:808
+19:43.792	ID:11	
+19:49.846	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+19:50.005	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+19:50.008	ID:5	[INFO: App       ] Sending Battery: 22
+19:50.201	ID:11	[INFO: App       ] Received DATA 'Battery: 82, Temperature: 6360' from fd00::212:7405:5:505
+19:50.201	ID:11	
+19:58.572	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+19:58.755	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+19:58.758	ID:6	[INFO: App       ] Sending Battery: 214
+19:58.982	ID:11	[INFO: App       ] Received DATA 'Battery: 20, Temperature: 6360' from fd00::212:7406:6:606
+19:58.982	ID:11	
+20:05.033	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+20:05.206	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+20:05.210	ID:7	[INFO: App       ] Sending Battery: 119
+20:05.425	ID:11	[INFO: App       ] Received DATA 'Battery: 246, Temperature: 6360' from fd00::212:7407:7:707
+20:05.425	ID:11	
+20:12.447	ID:1	
+20:12.447	ID:1	Energest:
+20:12.455	ID:1	     Active:     3s, LPM1:  1208s, LPM4:     0s, Total Time:  1211s
+20:12.455	ID:1	
+20:12.458	ID:1	     RX:  1211s, TX:     0s
+20:12.463	ID:1	     Energy Used:   48085050uW
+20:12.463	ID:1	
+20:12.472	ID:1	Simulation_Data:     3  1208     0  1211     0   48085050
+20:13.559	ID:2	
+20:13.559	ID:2	Energest:
+20:13.567	ID:2	     Active:     3s, LPM1:  1209s, LPM4:     0s, Total Time:  1213s
+20:13.567	ID:2	
+20:13.570	ID:2	     RX:  1212s, TX:     0s
+20:13.575	ID:2	     Energy Used:   48124755uW
+20:13.575	ID:2	
+20:13.584	ID:2	Simulation_Data:     3  1209     0  1212     0   48124755
+20:24.176	ID:10	
+20:24.176	ID:10	Energest:
+20:24.184	ID:10	     Active:     2s, LPM1:  1220s, LPM4:     0s, Total Time:  1223s
+20:24.184	ID:10	
+20:24.187	ID:10	     RX:  1223s, TX:     0s
+20:24.192	ID:10	     Energy Used:   48560520uW
+20:24.192	ID:10	
+20:24.201	ID:10	Simulation_Data:     2  1220     0  1223     0   48560520
+20:24.745	ID:3	
+20:24.746	ID:3	Energest:
+20:24.753	ID:3	     Active:     2s, LPM1:  1221s, LPM4:     0s, Total Time:  1223s
+20:24.754	ID:3	
+20:24.757	ID:3	     RX:  1223s, TX:     0s
+20:24.761	ID:3	     Energy Used:   48560745uW
+20:24.761	ID:3	
+20:24.771	ID:3	Simulation_Data:     2  1221     0  1223     0   48560745
+20:36.835	ID:4	
+20:36.836	ID:4	Energest:
+20:36.843	ID:4	     Active:     2s, LPM1:  1233s, LPM4:     0s, Total Time:  1236s
+20:36.843	ID:4	
+20:36.847	ID:4	     RX:  1236s, TX:     0s
+20:36.851	ID:4	     Energy Used:   49076685uW
+20:36.851	ID:4	
+20:36.861	ID:4	Simulation_Data:     2  1233     0  1236     0   49076685
+20:37.882	ID:9	
+20:37.883	ID:9	Energest:
+20:37.891	ID:9	     Active:     2s, LPM1:  1234s, LPM4:     0s, Total Time:  1236s
+20:37.891	ID:9	
+20:37.894	ID:9	     RX:  1236s, TX:     0s
+20:37.899	ID:9	     Energy Used:   49076910uW
+20:37.899	ID:9	
+20:37.908	ID:9	Simulation_Data:     2  1234     0  1236     0   49076910
+20:54.223	ID:8	
+20:54.224	ID:8	Energest:
+20:54.232	ID:8	     Active:     2s, LPM1:  1251s, LPM4:     0s, Total Time:  1253s
+20:54.232	ID:8	
+20:54.235	ID:8	     RX:  1253s, TX:     0s
+20:54.239	ID:8	     Energy Used:   49751895uW
+20:54.240	ID:8	
+20:54.249	ID:8	Simulation_Data:     2  1251     0  1253     0   49751895
+20:55.155	ID:5	
+20:55.155	ID:5	Energest:
+20:55.163	ID:5	     Active:     2s, LPM1:  1251s, LPM4:     0s, Total Time:  1254s
+20:55.163	ID:5	
+20:55.166	ID:5	     RX:  1254s, TX:     0s
+20:55.171	ID:5	     Energy Used:   49791375uW
+20:55.171	ID:5	
+20:55.180	ID:5	Simulation_Data:     2  1251     0  1254     0   49791375
+21:09.964	ID:6	
+21:09.964	ID:6	Energest:
+21:09.972	ID:6	     Active:     2s, LPM1:  1267s, LPM4:     0s, Total Time:  1269s
+21:09.972	ID:6	
+21:09.975	ID:6	     RX:  1269s, TX:     0s
+21:09.980	ID:6	     Energy Used:   50387175uW
+21:09.980	ID:6	
+21:09.989	ID:6	Simulation_Data:     2  1267     0  1269     0   50387175
+21:11.920	ID:7	
+21:11.920	ID:7	Energest:
+21:11.928	ID:7	     Active:     2s, LPM1:  1269s, LPM4:     0s, Total Time:  1271s
+21:11.928	ID:7	
+21:11.931	ID:7	     RX:  1271s, TX:     0s
+21:11.936	ID:7	     Energy Used:   50466585uW
+21:11.936	ID:7	
+21:11.945	ID:7	Simulation_Data:     2  1269     0  1271     0   50466585
+23:32.470	ID:1	
+23:32.471	ID:1	Energest:
+23:32.478	ID:1	     Active:     3s, LPM1:  1408s, LPM4:     0s, Total Time:  1411s
+23:32.479	ID:1	
+23:32.482	ID:1	     RX:  1411s, TX:     0s
+23:32.486	ID:1	     Energy Used:   56026050uW
+23:32.486	ID:1	
+23:32.496	ID:1	Simulation_Data:     3  1408     0  1411     0   56026050
+23:33.582	ID:2	
+23:33.583	ID:2	Energest:
+23:33.590	ID:2	     Active:     3s, LPM1:  1409s, LPM4:     0s, Total Time:  1413s
+23:33.590	ID:2	
+23:33.594	ID:2	     RX:  1412s, TX:     0s
+23:33.598	ID:2	     Energy Used:   56065755uW
+23:33.598	ID:2	
+23:33.608	ID:2	Simulation_Data:     3  1409     0  1412     0   56065755
+23:36.846	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+23:36.864	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+23:36.867	ID:1	[INFO: App       ] Sending Battery: 95
+23:36.933	ID:11	[INFO: App       ] Received DATA 'Battery: 174, Temperature: 6360' from fd00::212:7401:1:101
+23:36.933	ID:11	
+23:44.199	ID:10	
+23:44.200	ID:10	Energest:
+23:44.207	ID:10	     Active:     2s, LPM1:  1420s, LPM4:     0s, Total Time:  1423s
+23:44.208	ID:10	
+23:44.211	ID:10	     RX:  1423s, TX:     0s
+23:44.215	ID:10	     Energy Used:   56501520uW
+23:44.215	ID:10	
+23:44.225	ID:10	Simulation_Data:     2  1420     0  1423     0   56501520
+23:44.346	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+23:44.364	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+23:44.367	ID:2	[INFO: App       ] Sending Battery: 162
+23:44.428	ID:11	[INFO: App       ] Received DATA 'Battery: 60, Temperature: 6360' from fd00::212:7402:2:202
+23:44.428	ID:11	
+23:44.769	ID:3	
+23:44.769	ID:3	Energest:
+23:44.777	ID:3	     Active:     2s, LPM1:  1420s, LPM4:     0s, Total Time:  1423s
+23:44.777	ID:3	
+23:44.780	ID:3	     RX:  1423s, TX:     0s
+23:44.785	ID:3	     Energy Used:   56501520uW
+23:44.785	ID:3	
+23:44.794	ID:3	Simulation_Data:     2  1420     0  1423     0   56501520
+23:50.018	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+23:50.085	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+23:50.089	ID:10	[INFO: App       ] Sending Battery: 146
+23:50.191	ID:11	[INFO: App       ] Received DATA 'Battery: 162, Temperature: 6360' from fd00::212:740a:a:a0a
+23:50.191	ID:11	
+23:56.858	ID:4	
+23:56.859	ID:4	Energest:
+23:56.867	ID:4	     Active:     2s, LPM1:  1433s, LPM4:     0s, Total Time:  1436s
+23:56.867	ID:4	
+23:56.870	ID:4	     RX:  1436s, TX:     0s
+23:56.874	ID:4	     Energy Used:   57017685uW
+23:56.874	ID:4	
+23:56.884	ID:4	Simulation_Data:     2  1433     0  1436     0   57017685
+23:57.736	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+23:57.798	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+23:57.802	ID:3	[INFO: App       ] Sending Battery: 250
+23:57.906	ID:9	
+23:57.907	ID:9	Energest:
+23:57.914	ID:9	     Active:     2s, LPM1:  1434s, LPM4:     0s, Total Time:  1436s
+23:57.914	ID:9	
+23:57.918	ID:9	     RX:  1436s, TX:     0s
+23:57.919	ID:11	[INFO: App       ] Received DATA 'Battery: 40, Temperature: 6360' from fd00::212:7403:3:303
+23:57.919	ID:11	
+23:57.922	ID:9	     Energy Used:   57017910uW
+23:57.922	ID:9	
+23:57.932	ID:9	Simulation_Data:     2  1434     0  1436     0   57017910
+24:08.377	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+24:08.532	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+24:08.536	ID:4	[INFO: App       ] Sending Battery: 70
+24:08.662	ID:11	[INFO: App       ] Received DATA 'Battery: 132, Temperature: 6360' from fd00::212:7404:4:404
+24:08.662	ID:11	
+24:14.247	ID:8	
+24:14.247	ID:8	Energest:
+24:14.255	ID:8	     Active:     2s, LPM1:  1451s, LPM4:     0s, Total Time:  1453s
+24:14.255	ID:8	
+24:14.258	ID:8	     RX:  1453s, TX:     0s
+24:14.263	ID:8	     Energy Used:   57692895uW
+24:14.263	ID:8	
+24:14.272	ID:8	Simulation_Data:     2  1451     0  1453     0   57692895
+24:14.666	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+24:14.791	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+24:14.795	ID:9	[INFO: App       ] Sending Battery: 204
+24:14.956	ID:11	[INFO: App       ] Received DATA 'Battery: 45, Temperature: 6360' from fd00::212:7409:9:909
+24:14.956	ID:11	
+24:15.178	ID:5	
+24:15.179	ID:5	Energest:
+24:15.186	ID:5	     Active:     2s, LPM1:  1451s, LPM4:     0s, Total Time:  1454s
+24:15.186	ID:5	
+24:15.190	ID:5	     RX:  1454s, TX:     0s
+24:15.194	ID:5	     Energy Used:   57732375uW
+24:15.194	ID:5	
+24:15.204	ID:5	Simulation_Data:     2  1451     0  1454     0   57732375
+24:21.189	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+24:21.227	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+24:21.230	ID:8	[INFO: App       ] Sending Battery: 32
+24:21.295	ID:11	[INFO: App       ] Received DATA 'Battery: 209, Temperature: 6360' from fd00::212:7408:8:808
+24:21.295	ID:11	
+24:28.322	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+24:28.360	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+24:28.363	ID:5	[INFO: App       ] Sending Battery: 119
+24:28.446	ID:11	[INFO: App       ] Received DATA 'Battery: 132, Temperature: 6360' from fd00::212:7405:5:505
+24:28.446	ID:11	
+24:29.987	ID:6	
+24:29.988	ID:6	Energest:
+24:29.995	ID:6	     Active:     2s, LPM1:  1467s, LPM4:     0s, Total Time:  1469s
+24:29.995	ID:6	
+24:29.999	ID:6	     RX:  1469s, TX:     0s
+24:30.003	ID:6	     Energy Used:   58328175uW
+24:30.003	ID:6	
+24:30.013	ID:6	Simulation_Data:     2  1467     0  1469     0   58328175
+24:31.943	ID:7	
+24:31.944	ID:7	Energest:
+24:31.951	ID:7	     Active:     2s, LPM1:  1468s, LPM4:     0s, Total Time:  1471s
+24:31.951	ID:7	
+24:31.955	ID:7	     RX:  1471s, TX:     0s
+24:31.959	ID:7	     Energy Used:   58407360uW
+24:31.959	ID:7	
+24:31.969	ID:7	Simulation_Data:     2  1468     0  1471     0   58407360
+24:41.439	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+24:41.500	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+24:41.504	ID:6	[INFO: App       ] Sending Battery: 65
+24:41.575	ID:11	[INFO: App       ] Received DATA 'Battery: 164, Temperature: 6360' from fd00::212:7406:6:606
+24:41.575	ID:11	
+24:50.924	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+24:50.977	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+24:50.980	ID:7	[INFO: App       ] Sending Battery: 82
+24:51.070	ID:11	[INFO: App       ] Received DATA 'Battery: 35, Temperature: 6360' from fd00::212:7407:7:707
+24:51.070	ID:11	
+26:52.494	ID:1	
+26:52.494	ID:1	Energest:
+26:52.502	ID:1	     Active:     3s, LPM1:  1608s, LPM4:     0s, Total Time:  1611s
+26:52.502	ID:1	
+26:52.505	ID:1	     RX:  1611s, TX:     0s
+26:52.510	ID:1	     Energy Used:   63967050uW
+26:52.510	ID:1	
+26:52.519	ID:1	Simulation_Data:     3  1608     0  1611     0   63967050
+26:53.605	ID:2	
+26:53.606	ID:2	Energest:
+26:53.614	ID:2	     Active:     3s, LPM1:  1609s, LPM4:     0s, Total Time:  1613s
+26:53.614	ID:2	
+26:53.617	ID:2	     RX:  1612s, TX:     0s
+26:53.622	ID:2	     Energy Used:   64006755uW
+26:53.622	ID:2	
+26:53.631	ID:2	Simulation_Data:     3  1609     0  1612     0   64006755
+27:04.223	ID:10	
+27:04.223	ID:10	Energest:
+27:04.231	ID:10	     Active:     2s, LPM1:  1620s, LPM4:     0s, Total Time:  1623s
+27:04.231	ID:10	
+27:04.234	ID:10	     RX:  1623s, TX:     0s
+27:04.239	ID:10	     Energy Used:   64442520uW
+27:04.239	ID:10	
+27:04.248	ID:10	Simulation_Data:     2  1620     0  1623     0   64442520
+27:04.792	ID:3	
+27:04.793	ID:3	Energest:
+27:04.800	ID:3	     Active:     2s, LPM1:  1620s, LPM4:     0s, Total Time:  1623s
+27:04.800	ID:3	
+27:04.804	ID:3	     RX:  1623s, TX:     0s
+27:04.808	ID:3	     Energy Used:   64442520uW
+27:04.808	ID:3	
+27:04.818	ID:3	Simulation_Data:     2  1620     0  1623     0   64442520
+27:16.882	ID:4	
+27:16.882	ID:4	Energest:
+27:16.890	ID:4	     Active:     2s, LPM1:  1633s, LPM4:     0s, Total Time:  1636s
+27:16.890	ID:4	
+27:16.893	ID:4	     RX:  1636s, TX:     0s
+27:16.898	ID:4	     Energy Used:   64958685uW
+27:16.898	ID:4	
+27:16.907	ID:4	Simulation_Data:     2  1633     0  1636     0   64958685
+27:17.929	ID:9	
+27:17.930	ID:9	Energest:
+27:17.938	ID:9	     Active:     2s, LPM1:  1634s, LPM4:     0s, Total Time:  1636s
+27:17.938	ID:9	
+27:17.941	ID:9	     RX:  1636s, TX:     0s
+27:17.945	ID:9	     Energy Used:   64958910uW
+27:17.946	ID:9	
+27:17.955	ID:9	Simulation_Data:     2  1634     0  1636     0   64958910
+27:34.270	ID:8	
+27:34.271	ID:8	Energest:
+27:34.278	ID:8	     Active:     2s, LPM1:  1651s, LPM4:     0s, Total Time:  1653s
+27:34.278	ID:8	
+27:34.282	ID:8	     RX:  1653s, TX:     0s
+27:34.286	ID:8	     Energy Used:   65633895uW
+27:34.286	ID:8	
+27:34.296	ID:8	Simulation_Data:     2  1651     0  1653     0   65633895
+27:35.202	ID:5	
+27:35.202	ID:5	Energest:
+27:35.210	ID:5	     Active:     2s, LPM1:  1651s, LPM4:     0s, Total Time:  1654s
+27:35.210	ID:5	
+27:35.213	ID:5	     RX:  1654s, TX:     0s
+27:35.218	ID:5	     Energy Used:   65673375uW
+27:35.218	ID:5	
+27:35.227	ID:5	Simulation_Data:     2  1651     0  1654     0   65673375
+27:50.011	ID:6	
+27:50.011	ID:6	Energest:
+27:50.019	ID:6	     Active:     2s, LPM1:  1667s, LPM4:     0s, Total Time:  1669s
+27:50.019	ID:6	
+27:50.022	ID:6	     RX:  1669s, TX:     0s
+27:50.027	ID:6	     Energy Used:   66269175uW
+27:50.027	ID:6	
+27:50.036	ID:6	Simulation_Data:     2  1667     0  1669     0   66269175
+27:51.966	ID:7	
+27:51.967	ID:7	Energest:
+27:51.975	ID:7	     Active:     2s, LPM1:  1668s, LPM4:     0s, Total Time:  1671s
+27:51.975	ID:7	
+27:51.978	ID:7	     RX:  1671s, TX:     0s
+27:51.983	ID:7	     Energy Used:   66348360uW
+27:51.983	ID:7	
+27:51.992	ID:7	Simulation_Data:     2  1668     0  1671     0   66348360
+28:20.729	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+28:20.766	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+28:20.769	ID:1	[INFO: App       ] Sending Battery: 74
+28:20.847	ID:11	[INFO: App       ] Received DATA 'Battery: 169, Temperature: 6360' from fd00::212:7401:1:101
+28:20.847	ID:11	
+28:30.713	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+28:30.731	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+28:30.735	ID:2	[INFO: App       ] Sending Battery: 182
+28:30.810	ID:11	[INFO: App       ] Received DATA 'Battery: 122, Temperature: 6360' from fd00::212:7402:2:202
+28:30.810	ID:11	
+28:45.244	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+28:45.280	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+28:45.284	ID:10	[INFO: App       ] Sending Battery: 233
+28:45.394	ID:11	[INFO: App       ] Received DATA 'Battery: 249, Temperature: 6360' from fd00::212:740a:a:a0a
+28:45.394	ID:11	
+28:57.197	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+28:57.238	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+28:57.241	ID:3	[INFO: App       ] Sending Battery: 214
+28:57.349	ID:11	[INFO: App       ] Received DATA 'Battery: 112, Temperature: 6360' from fd00::212:7403:3:303
+28:57.349	ID:11	
+29:02.666	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+29:02.767	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+29:02.770	ID:4	[INFO: App       ] Sending Battery: 147
+29:02.876	ID:11	[INFO: App       ] Received DATA 'Battery: 209, Temperature: 6360' from fd00::212:7404:4:404
+29:02.876	ID:11	
+29:14.846	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+29:14.940	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+29:14.943	ID:9	[INFO: App       ] Sending Battery: 198
+29:15.058	ID:11	[INFO: App       ] Received DATA 'Battery: 53, Temperature: 6360' from fd00::212:7409:9:909
+29:15.058	ID:11	
+29:20.119	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+29:20.141	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+29:20.145	ID:8	[INFO: App       ] Sending Battery: 194
+29:20.193	ID:11	[INFO: App       ] Received DATA 'Battery: 122, Temperature: 6360' from fd00::212:7408:8:808
+29:20.193	ID:11	
+29:28.002	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+29:28.024	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+29:28.027	ID:5	[INFO: App       ] Sending Battery: 57
+29:28.087	ID:11	[INFO: App       ] Received DATA 'Battery: 70, Temperature: 6360' from fd00::212:7405:5:505
+29:28.087	ID:11	
+29:41.127	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+29:41.157	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+29:41.160	ID:6	[INFO: App       ] Sending Battery: 115
+29:41.208	ID:11	[INFO: App       ] Received DATA 'Battery: 214, Temperature: 6360' from fd00::212:7406:6:606
+29:41.208	ID:11	
+29:47.432	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+29:47.461	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+29:47.465	ID:7	[INFO: App       ] Sending Battery: 199
+29:47.531	ID:11	[INFO: App       ] Received DATA 'Battery: 194, Temperature: 6360' from fd00::212:7407:7:707
+29:47.531	ID:11	
+30:12.517	ID:1	
+30:12.518	ID:1	Energest:
+30:12.525	ID:1	     Active:     4s, LPM1:  1807s, LPM4:     0s, Total Time:  1811s
+30:12.525	ID:1	
+30:12.529	ID:1	     RX:  1811s, TX:     0s
+30:12.533	ID:1	     Energy Used:   71908815uW
+30:12.533	ID:1	
+30:12.543	ID:1	Simulation_Data:     4  1807     0  1811     0   71908815
+30:13.629	ID:2	
+30:13.630	ID:2	Energest:
+30:13.637	ID:2	     Active:     4s, LPM1:  1809s, LPM4:     0s, Total Time:  1813s
+30:13.637	ID:2	
+30:13.641	ID:2	     RX:  1812s, TX:     0s
+30:13.645	ID:2	     Energy Used:   71948745uW
+30:13.645	ID:2	
+30:13.655	ID:2	Simulation_Data:     4  1809     0  1812     0   71948745
+30:24.246	ID:10	
+30:24.247	ID:10	Energest:
+30:24.254	ID:10	     Active:     3s, LPM1:  1820s, LPM4:     0s, Total Time:  1823s
+30:24.254	ID:10	
+30:24.258	ID:10	     RX:  1823s, TX:     0s
+30:24.262	ID:10	     Energy Used:   72384510uW
+30:24.262	ID:10	
+30:24.272	ID:10	Simulation_Data:     3  1820     0  1823     0   72384510
+30:24.816	ID:3	
+30:24.816	ID:3	Energest:
+30:24.824	ID:3	     Active:     3s, LPM1:  1820s, LPM4:     0s, Total Time:  1823s
+30:24.824	ID:3	
+30:24.827	ID:3	     RX:  1823s, TX:     0s
+30:24.832	ID:3	     Energy Used:   72384510uW
+30:24.832	ID:3	
+30:24.841	ID:3	Simulation_Data:     3  1820     0  1823     0   72384510
+30:36.905	ID:4	
+30:36.906	ID:4	Energest:
+30:36.913	ID:4	     Active:     2s, LPM1:  1833s, LPM4:     0s, Total Time:  1836s
+30:36.913	ID:4	
+30:36.917	ID:4	     RX:  1836s, TX:     0s
+30:36.921	ID:4	     Energy Used:   72899685uW
+30:36.921	ID:4	
+30:36.931	ID:4	Simulation_Data:     2  1833     0  1836     0   72899685
+30:37.953	ID:9	
+30:37.953	ID:9	Energest:
+30:37.961	ID:9	     Active:     2s, LPM1:  1834s, LPM4:     0s, Total Time:  1836s
+30:37.961	ID:9	
+30:37.964	ID:9	     RX:  1836s, TX:     0s
+30:37.969	ID:9	     Energy Used:   72899910uW
+30:37.969	ID:9	
+30:37.979	ID:9	Simulation_Data:     2  1834     0  1836     0   72899910
+30:54.294	ID:8	
+30:54.294	ID:8	Energest:
+30:54.302	ID:8	     Active:     2s, LPM1:  1851s, LPM4:     0s, Total Time:  1853s
+30:54.302	ID:8	
+30:54.305	ID:8	     RX:  1853s, TX:     0s
+30:54.310	ID:8	     Energy Used:   73574895uW
+30:54.310	ID:8	
+30:54.319	ID:8	Simulation_Data:     2  1851     0  1853     0   73574895
+30:55.225	ID:5	
+30:55.226	ID:5	Energest:
+30:55.233	ID:5	     Active:     2s, LPM1:  1851s, LPM4:     0s, Total Time:  1854s
+30:55.233	ID:5	
+30:55.237	ID:5	     RX:  1854s, TX:     0s
+30:55.241	ID:5	     Energy Used:   73614375uW
+30:55.241	ID:5	
+30:55.251	ID:5	Simulation_Data:     2  1851     0  1854     0   73614375
+31:10.034	ID:6	
+31:10.035	ID:6	Energest:
+31:10.042	ID:6	     Active:     2s, LPM1:  1866s, LPM4:     0s, Total Time:  1869s
+31:10.042	ID:6	
+31:10.046	ID:6	     RX:  1869s, TX:     0s
+31:10.050	ID:6	     Energy Used:   74209950uW
+31:10.050	ID:6	
+31:10.060	ID:6	Simulation_Data:     2  1866     0  1869     0   74209950
+31:11.990	ID:7	
+31:11.991	ID:7	Energest:
+31:11.998	ID:7	     Active:     2s, LPM1:  1868s, LPM4:     0s, Total Time:  1871s
+31:11.998	ID:7	
+31:12.001	ID:7	     RX:  1871s, TX:     0s
+31:12.006	ID:7	     Energy Used:   74289360uW
+31:12.006	ID:7	
+31:12.015	ID:7	Simulation_Data:     2  1868     0  1871     0   74289360
+33:16.846	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+33:16.907	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+33:16.910	ID:1	[INFO: App       ] Sending Battery: 174
+33:16.968	ID:11	[INFO: App       ] Received DATA 'Battery: 234, Temperature: 6360' from fd00::212:7401:1:101
+33:16.968	ID:11	
+33:27.494	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+33:27.512	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+33:27.516	ID:2	[INFO: App       ] Sending Battery: 132
+33:27.599	ID:11	[INFO: App       ] Received DATA 'Battery: 30, Temperature: 6360' from fd00::212:7402:2:202
+33:27.599	ID:11	
+33:32.541	ID:1	
+33:32.541	ID:1	Energest:
+33:32.549	ID:1	     Active:     4s, LPM1:  2007s, LPM4:     0s, Total Time:  2011s
+33:32.549	ID:1	
+33:32.552	ID:1	     RX:  2011s, TX:     0s
+33:32.557	ID:1	     Energy Used:   79849815uW
+33:32.557	ID:1	
+33:32.566	ID:1	Simulation_Data:     4  2007     0  2011     0   79849815
+33:33.652	ID:2	
+33:33.653	ID:2	Energest:
+33:33.661	ID:2	     Active:     4s, LPM1:  2008s, LPM4:     0s, Total Time:  2013s
+33:33.661	ID:2	
+33:33.664	ID:2	     RX:  2012s, TX:     0s
+33:33.668	ID:2	     Energy Used:   79889520uW
+33:33.668	ID:2	
+33:33.678	ID:2	Simulation_Data:     4  2008     0  2012     0   79889520
+33:39.752	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+33:39.858	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+33:39.862	ID:10	[INFO: App       ] Sending Battery: 141
+33:39.949	ID:11	[INFO: App       ] Received DATA 'Battery: 157, Temperature: 6360' from fd00::212:740a:a:a0a
+33:39.949	ID:11	
+33:44.270	ID:10	
+33:44.270	ID:10	Energest:
+33:44.278	ID:10	     Active:     3s, LPM1:  2019s, LPM4:     0s, Total Time:  2023s
+33:44.278	ID:10	
+33:44.281	ID:10	     RX:  2023s, TX:     0s
+33:44.286	ID:10	     Energy Used:   80325285uW
+33:44.286	ID:10	
+33:44.295	ID:10	Simulation_Data:     3  2019     0  2023     0   80325285
+33:44.839	ID:3	
+33:44.840	ID:3	Energest:
+33:44.847	ID:3	     Active:     3s, LPM1:  2020s, LPM4:     0s, Total Time:  2023s
+33:44.847	ID:3	
+33:44.851	ID:3	     RX:  2023s, TX:     0s
+33:44.855	ID:3	     Energy Used:   80325510uW
+33:44.855	ID:3	
+33:44.865	ID:3	Simulation_Data:     3  2020     0  2023     0   80325510
+33:50.994	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+33:51.087	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+33:51.091	ID:3	[INFO: App       ] Sending Battery: 230
+33:51.148	ID:11	[INFO: App       ] Received DATA 'Battery: 20, Temperature: 6360' from fd00::212:7403:3:303
+33:51.148	ID:11	
+33:56.929	ID:4	
+33:56.929	ID:4	Energest:
+33:56.937	ID:4	     Active:     3s, LPM1:  2033s, LPM4:     0s, Total Time:  2036s
+33:56.937	ID:4	
+33:56.940	ID:4	     RX:  2036s, TX:     0s
+33:56.945	ID:4	     Energy Used:   80841675uW
+33:56.945	ID:4	
+33:56.954	ID:4	Simulation_Data:     3  2033     0  2036     0   80841675
+33:57.596	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+33:57.759	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+33:57.762	ID:4	[INFO: App       ] Sending Battery: 137
+33:57.852	ID:11	[INFO: App       ] Received DATA 'Battery: 199, Temperature: 6360' from fd00::212:7404:4:404
+33:57.852	ID:11	
+33:57.976	ID:9	
+33:57.977	ID:9	Energest:
+33:57.984	ID:9	     Active:     3s, LPM1:  2033s, LPM4:     0s, Total Time:  2037s
+33:57.985	ID:9	
+33:57.988	ID:9	     RX:  2036s, TX:     0s
+33:57.992	ID:9	     Energy Used:   80841675uW
+33:57.992	ID:9	
+33:58.002	ID:9	Simulation_Data:     3  2033     0  2036     0   80841675
+34:02.932	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+34:03.007	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+34:03.010	ID:9	[INFO: App       ] Sending Battery: 48
+34:03.144	ID:11	[INFO: App       ] Received DATA 'Battery: 20, Temperature: 6360' from fd00::212:7409:9:909
+34:03.144	ID:11	
+34:14.317	ID:8	
+34:14.318	ID:8	Energest:
+34:14.325	ID:8	     Active:     3s, LPM1:  2050s, LPM4:     0s, Total Time:  2053s
+34:14.325	ID:8	
+34:14.329	ID:8	     RX:  2053s, TX:     0s
+34:14.333	ID:8	     Energy Used:   81516660uW
+34:14.333	ID:8	
+34:14.343	ID:8	Simulation_Data:     3  2050     0  2053     0   81516660
+34:15.248	ID:5	
+34:15.249	ID:5	Energest:
+34:15.257	ID:5	     Active:     2s, LPM1:  2051s, LPM4:     0s, Total Time:  2054s
+34:15.257	ID:5	
+34:15.260	ID:5	     RX:  2054s, TX:     0s
+34:15.265	ID:5	     Energy Used:   81555375uW
+34:15.265	ID:5	
+34:15.274	ID:5	Simulation_Data:     2  2051     0  2054     0   81555375
+34:17.072	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+34:17.110	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+34:17.114	ID:8	[INFO: App       ] Sending Battery: 146
+34:17.171	ID:11	[INFO: App       ] Received DATA 'Battery: 102, Temperature: 6360' from fd00::212:7408:8:808
+34:17.171	ID:11	
+34:24.010	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+34:24.047	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+34:24.050	ID:5	[INFO: App       ] Sending Battery: 3
+34:24.125	ID:11	[INFO: App       ] Received DATA 'Battery: 72, Temperature: 6360' from fd00::212:7405:5:505
+34:24.125	ID:11	
+34:30.057	ID:6	
+34:30.058	ID:6	Energest:
+34:30.066	ID:6	     Active:     3s, LPM1:  2066s, LPM4:     0s, Total Time:  2069s
+34:30.066	ID:6	
+34:30.069	ID:6	     RX:  2069s, TX:     0s
+34:30.074	ID:6	     Energy Used:   82151940uW
+34:30.074	ID:6	
+34:30.083	ID:6	Simulation_Data:     3  2066     0  2069     0   82151940
+34:32.013	ID:7	
+34:32.014	ID:7	Energest:
+34:32.022	ID:7	     Active:     3s, LPM1:  2068s, LPM4:     0s, Total Time:  2071s
+34:32.022	ID:7	
+34:32.025	ID:7	     RX:  2071s, TX:     0s
+34:32.029	ID:7	     Energy Used:   82231350uW
+34:32.029	ID:7	
+34:32.039	ID:7	Simulation_Data:     3  2068     0  2071     0   82231350
+34:34.619	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+34:34.672	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+34:34.676	ID:6	[INFO: App       ] Sending Battery: 175
+34:34.763	ID:11	[INFO: App       ] Received DATA 'Battery: 60, Temperature: 6360' from fd00::212:7406:6:606
+34:34.763	ID:11	
+34:42.783	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+34:42.805	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+34:42.809	ID:7	[INFO: App       ] Sending Battery: 122
+34:42.859	ID:11	[INFO: App       ] Received DATA 'Battery: 159, Temperature: 6360' from fd00::212:7407:7:707
+34:42.859	ID:11	
+36:52.564	ID:1	
+36:52.565	ID:1	Energest:
+36:52.572	ID:1	     Active:     4s, LPM1:  2207s, LPM4:     0s, Total Time:  2211s
+36:52.572	ID:1	
+36:52.576	ID:1	     RX:  2211s, TX:     0s
+36:52.580	ID:1	     Energy Used:   87790815uW
+36:52.580	ID:1	
+36:52.590	ID:1	Simulation_Data:     4  2207     0  2211     0   87790815
+36:53.676	ID:2	
+36:53.676	ID:2	Energest:
+36:53.684	ID:2	     Active:     4s, LPM1:  2208s, LPM4:     0s, Total Time:  2213s
+36:53.684	ID:2	
+36:53.687	ID:2	     RX:  2212s, TX:     0s
+36:53.692	ID:2	     Energy Used:   87830520uW
+36:53.692	ID:2	
+36:53.701	ID:2	Simulation_Data:     4  2208     0  2212     0   87830520
+37:04.293	ID:10	
+37:04.294	ID:10	Energest:
+37:04.301	ID:10	     Active:     3s, LPM1:  2219s, LPM4:     0s, Total Time:  2223s
+37:04.301	ID:10	
+37:04.305	ID:10	     RX:  2223s, TX:     0s
+37:04.309	ID:10	     Energy Used:   88266285uW
+37:04.309	ID:10	
+37:04.319	ID:10	Simulation_Data:     3  2219     0  2223     0   88266285
+37:04.862	ID:3	
+37:04.863	ID:3	Energest:
+37:04.871	ID:3	     Active:     3s, LPM1:  2219s, LPM4:     0s, Total Time:  2223s
+37:04.871	ID:3	
+37:04.874	ID:3	     RX:  2223s, TX:     0s
+37:04.879	ID:3	     Energy Used:   88266285uW
+37:04.879	ID:3	
+37:04.888	ID:3	Simulation_Data:     3  2219     0  2223     0   88266285
+37:16.952	ID:4	
+37:16.953	ID:4	Energest:
+37:16.960	ID:4	     Active:     3s, LPM1:  2232s, LPM4:     0s, Total Time:  2236s
+37:16.960	ID:4	
+37:16.964	ID:4	     RX:  2236s, TX:     0s
+37:16.968	ID:4	     Energy Used:   88782450uW
+37:16.968	ID:4	
+37:16.978	ID:4	Simulation_Data:     3  2232     0  2236     0   88782450
+37:18.000	ID:9	
+37:18.000	ID:9	Energest:
+37:18.008	ID:9	     Active:     3s, LPM1:  2233s, LPM4:     0s, Total Time:  2237s
+37:18.008	ID:9	
+37:18.011	ID:9	     RX:  2236s, TX:     0s
+37:18.016	ID:9	     Energy Used:   88782675uW
+37:18.016	ID:9	
+37:18.025	ID:9	Simulation_Data:     3  2233     0  2236     0   88782675
+37:34.341	ID:8	
+37:34.341	ID:8	Energest:
+37:34.349	ID:8	     Active:     3s, LPM1:  2250s, LPM4:     0s, Total Time:  2254s
+37:34.349	ID:8	
+37:34.352	ID:8	     RX:  2253s, TX:     0s
+37:34.357	ID:8	     Energy Used:   89457660uW
+37:34.357	ID:8	
+37:34.366	ID:8	Simulation_Data:     3  2250     0  2253     0   89457660
+37:35.272	ID:5	
+37:35.273	ID:5	Energest:
+37:35.280	ID:5	     Active:     3s, LPM1:  2251s, LPM4:     0s, Total Time:  2254s
+37:35.280	ID:5	
+37:35.284	ID:5	     RX:  2254s, TX:     0s
+37:35.288	ID:5	     Energy Used:   89497365uW
+37:35.288	ID:5	
+37:35.298	ID:5	Simulation_Data:     3  2251     0  2254     0   89497365
+37:50.081	ID:6	
+37:50.082	ID:6	Energest:
+37:50.089	ID:6	     Active:     3s, LPM1:  2266s, LPM4:     0s, Total Time:  2269s
+37:50.089	ID:6	
+37:50.093	ID:6	     RX:  2269s, TX:     0s
+37:50.097	ID:6	     Energy Used:   90092940uW
+37:50.097	ID:6	
+37:50.107	ID:6	Simulation_Data:     3  2266     0  2269     0   90092940
+37:52.037	ID:7	
+37:52.037	ID:7	Energest:
+37:52.045	ID:7	     Active:     3s, LPM1:  2268s, LPM4:     0s, Total Time:  2271s
+37:52.045	ID:7	
+37:52.048	ID:7	     RX:  2271s, TX:     0s
+37:52.053	ID:7	     Energy Used:   90172350uW
+37:52.053	ID:7	
+37:52.062	ID:7	Simulation_Data:     3  2268     0  2271     0   90172350
+38:17.979	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+38:17.997	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+38:18.001	ID:1	[INFO: App       ] Sending Battery: 246
+38:18.057	ID:11	[INFO: App       ] Received DATA 'Battery: 97, Temperature: 6360' from fd00::212:7401:1:101
+38:18.058	ID:11	
+38:22.994	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+38:23.047	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+38:23.051	ID:2	[INFO: App       ] Sending Battery: 213
+38:23.099	ID:11	[INFO: App       ] Received DATA 'Battery: 60, Temperature: 6360' from fd00::212:7402:2:202
+38:23.099	ID:11	
+38:31.807	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+38:31.882	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+38:31.885	ID:10	[INFO: App       ] Sending Battery: 74
+38:31.995	ID:11	[INFO: App       ] Received DATA 'Battery: 90, Temperature: 6360' from fd00::212:740a:a:a0a
+38:31.995	ID:11	
+38:43.291	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+38:43.353	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+38:43.357	ID:3	[INFO: App       ] Sending Battery: 205
+38:43.435	ID:11	[INFO: App       ] Received DATA 'Battery: 251, Temperature: 6360' from fd00::212:7403:3:303
+38:43.435	ID:11	
+38:53.322	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+38:53.399	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+38:53.403	ID:4	[INFO: App       ] Sending Battery: 128
+38:53.544	ID:11	[INFO: App       ] Received DATA 'Battery: 169, Temperature: 6360' from fd00::212:7404:4:404
+38:53.544	ID:11	
+39:00.775	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+39:00.916	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+39:00.919	ID:9	[INFO: App       ] Sending Battery: 14
+39:01.034	ID:11	[INFO: App       ] Received DATA 'Battery: 97, Temperature: 6360' from fd00::212:7409:9:909
+39:01.034	ID:11	
+39:10.127	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+39:10.148	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+39:10.151	ID:8	[INFO: App       ] Sending Battery: 69
+39:10.209	ID:11	[INFO: App       ] Received DATA 'Battery: 8, Temperature: 6360' from fd00::212:7408:8:808
+39:10.209	ID:11	
+39:22.213	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+39:22.243	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+39:22.246	ID:5	[INFO: App       ] Sending Battery: 232
+39:22.296	ID:11	[INFO: App       ] Received DATA 'Battery: 10, Temperature: 6360' from fd00::212:7405:5:505
+39:22.296	ID:11	
+39:33.408	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+39:33.430	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+39:33.434	ID:6	[INFO: App       ] Sending Battery: 38
+39:33.497	ID:11	[INFO: App       ] Received DATA 'Battery: 214, Temperature: 6360' from fd00::212:7406:6:606
+39:33.497	ID:11	
+39:47.096	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+39:47.118	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+39:47.121	ID:7	[INFO: App       ] Sending Battery: 116
+39:47.195	ID:11	[INFO: App       ] Received DATA 'Battery: 132, Temperature: 6360' from fd00::212:7407:7:707
+39:47.195	ID:11	
+40:12.587	ID:1	
+40:12.588	ID:1	Energest:
+40:12.596	ID:1	     Active:     4s, LPM1:  2407s, LPM4:     0s, Total Time:  2411s
+40:12.596	ID:1	
+40:12.599	ID:1	     RX:  2411s, TX:     0s
+40:12.604	ID:1	     Energy Used:   95731815uW
+40:12.604	ID:1	
+40:12.613	ID:1	Simulation_Data:     4  2407     0  2411     0   95731815
+40:13.699	ID:2	
+40:13.700	ID:2	Energest:
+40:13.707	ID:2	     Active:     4s, LPM1:  2408s, LPM4:     0s, Total Time:  2413s
+40:13.707	ID:2	
+40:13.711	ID:2	     RX:  2412s, TX:     0s
+40:13.715	ID:2	     Energy Used:   95771520uW
+40:13.715	ID:2	
+40:13.725	ID:2	Simulation_Data:     4  2408     0  2412     0   95771520
+40:24.316	ID:10	
+40:24.317	ID:10	Energest:
+40:24.325	ID:10	     Active:     3s, LPM1:  2419s, LPM4:     0s, Total Time:  2423s
+40:24.325	ID:10	
+40:24.328	ID:10	     RX:  2423s, TX:     0s
+40:24.333	ID:10	     Energy Used:   96207285uW
+40:24.333	ID:10	
+40:24.342	ID:10	Simulation_Data:     3  2419     0  2423     0   96207285
+40:24.886	ID:3	
+40:24.886	ID:3	Energest:
+40:24.894	ID:3	     Active:     3s, LPM1:  2419s, LPM4:     0s, Total Time:  2423s
+40:24.894	ID:3	
+40:24.897	ID:3	     RX:  2423s, TX:     0s
+40:24.902	ID:3	     Energy Used:   96207285uW
+40:24.902	ID:3	
+40:24.911	ID:3	Simulation_Data:     3  2419     0  2423     0   96207285
+40:36.975	ID:4	
+40:36.976	ID:4	Energest:
+40:36.984	ID:4	     Active:     3s, LPM1:  2432s, LPM4:     0s, Total Time:  2436s
+40:36.984	ID:4	
+40:36.987	ID:4	     RX:  2436s, TX:     0s
+40:36.992	ID:4	     Energy Used:   96723450uW
+40:36.992	ID:4	
+40:37.001	ID:4	Simulation_Data:     3  2432     0  2436     0   96723450
+40:38.023	ID:9	
+40:38.024	ID:9	Energest:
+40:38.031	ID:9	     Active:     3s, LPM1:  2433s, LPM4:     0s, Total Time:  2437s
+40:38.031	ID:9	
+40:38.035	ID:9	     RX:  2436s, TX:     0s
+40:38.039	ID:9	     Energy Used:   96723675uW
+40:38.039	ID:9	
+40:38.049	ID:9	Simulation_Data:     3  2433     0  2436     0   96723675
+40:54.364	ID:8	
+40:54.365	ID:8	Energest:
+40:54.372	ID:8	     Active:     3s, LPM1:  2450s, LPM4:     0s, Total Time:  2454s
+40:54.372	ID:8	
+40:54.376	ID:8	     RX:  2453s, TX:     0s
+40:54.380	ID:8	     Energy Used:   97398660uW
+40:54.380	ID:8	
+40:54.390	ID:8	Simulation_Data:     3  2450     0  2453     0   97398660
+40:55.295	ID:5	
+40:55.296	ID:5	Energest:
+40:55.304	ID:5	     Active:     3s, LPM1:  2450s, LPM4:     0s, Total Time:  2454s
+40:55.304	ID:5	
+40:55.307	ID:5	     RX:  2454s, TX:     0s
+40:55.311	ID:5	     Energy Used:   97438140uW
+40:55.312	ID:5	
+40:55.321	ID:5	Simulation_Data:     3  2450     0  2454     0   97438140
+41:10.104	ID:6	
+41:10.105	ID:6	Energest:
+41:10.113	ID:6	     Active:     3s, LPM1:  2466s, LPM4:     0s, Total Time:  2469s
+41:10.113	ID:6	
+41:10.116	ID:6	     RX:  2469s, TX:     0s
+41:10.120	ID:6	     Energy Used:   98033940uW
+41:10.121	ID:6	
+41:10.130	ID:6	Simulation_Data:     3  2466     0  2469     0   98033940
+41:12.060	ID:7	
+41:12.061	ID:7	Energest:
+41:12.068	ID:7	     Active:     3s, LPM1:  2467s, LPM4:     0s, Total Time:  2471s
+41:12.068	ID:7	
+41:12.072	ID:7	     RX:  2471s, TX:     0s
+41:12.076	ID:7	     Energy Used:   98113125uW
+41:12.076	ID:7	
+41:12.086	ID:7	Simulation_Data:     3  2467     0  2471     0   98113125
+43:13.994	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+43:14.047	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+43:14.051	ID:1	[INFO: App       ] Sending Battery: 75
+43:14.101	ID:11	[INFO: App       ] Received DATA 'Battery: 5, Temperature: 6360' from fd00::212:7401:1:101
+43:14.101	ID:11	
+43:28.619	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+43:28.657	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+43:28.660	ID:2	[INFO: App       ] Sending Battery: 153
+43:28.740	ID:11	[INFO: App       ] Received DATA 'Battery: 249, Temperature: 6360' from fd00::212:7402:2:202
+43:28.740	ID:11	
+43:32.611	ID:1	
+43:32.612	ID:1	Energest:
+43:32.619	ID:1	     Active:     5s, LPM1:  2606s, LPM4:     0s, Total Time:  2611s
+43:32.619	ID:1	
+43:32.623	ID:1	     RX:  2611s, TX:     0s
+43:32.627	ID:1	     Energy Used:  103673580uW
+43:32.627	ID:1	
+43:32.637	ID:1	Simulation_Data:     5  2606     0  2611     0  103673580
+43:33.723	ID:2	
+43:33.723	ID:2	Energest:
+43:33.731	ID:2	     Active:     5s, LPM1:  2608s, LPM4:     0s, Total Time:  2613s
+43:33.731	ID:2	
+43:33.734	ID:2	     RX:  2612s, TX:     0s
+43:33.739	ID:2	     Energy Used:  103713510uW
+43:33.739	ID:2	
+43:33.749	ID:2	Simulation_Data:     5  2608     0  2612     0  103713510
+43:42.416	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+43:42.483	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+43:42.487	ID:10	[INFO: App       ] Sending Battery: 136
+43:42.589	ID:11	[INFO: App       ] Received DATA 'Battery: 152, Temperature: 6360' from fd00::212:740a:a:a0a
+43:42.589	ID:11	
+43:44.340	ID:10	
+43:44.341	ID:10	Energest:
+43:44.348	ID:10	     Active:     4s, LPM1:  2619s, LPM4:     0s, Total Time:  2623s
+43:44.348	ID:10	
+43:44.351	ID:10	     RX:  2623s, TX:     0s
+43:44.356	ID:10	     Energy Used:  104149275uW
+43:44.356	ID:10	
+43:44.366	ID:10	Simulation_Data:     4  2619     0  2623     0  104149275
+43:44.909	ID:3	
+43:44.910	ID:3	Energest:
+43:44.917	ID:3	     Active:     4s, LPM1:  2619s, LPM4:     0s, Total Time:  2623s
+43:44.918	ID:3	
+43:44.921	ID:3	     RX:  2623s, TX:     0s
+43:44.926	ID:3	     Energy Used:  104149275uW
+43:44.926	ID:3	
+43:44.936	ID:3	Simulation_Data:     4  2619     0  2623     0  104149275
+43:51.260	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+43:51.322	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+43:51.325	ID:3	[INFO: App       ] Sending Battery: 153
+43:51.399	ID:11	[INFO: App       ] Received DATA 'Battery: 199, Temperature: 6360' from fd00::212:7403:3:303
+43:51.399	ID:11	
+43:56.999	ID:4	
+43:57.000	ID:4	Energest:
+43:57.007	ID:4	     Active:     3s, LPM1:  2632s, LPM4:     0s, Total Time:  2636s
+43:57.007	ID:4	
+43:57.011	ID:4	     RX:  2636s, TX:     0s
+43:57.015	ID:4	     Energy Used:  104664450uW
+43:57.015	ID:4	
+43:57.025	ID:4	Simulation_Data:     3  2632     0  2636     0  104664450
+43:58.047	ID:9	
+43:58.047	ID:9	Energest:
+43:58.055	ID:9	     Active:     3s, LPM1:  2633s, LPM4:     0s, Total Time:  2637s
+43:58.055	ID:9	
+43:58.058	ID:9	     RX:  2636s, TX:     0s
+43:58.063	ID:9	     Energy Used:  104664675uW
+43:58.063	ID:9	
+43:58.073	ID:9	Simulation_Data:     3  2633     0  2636     0  104664675
+44:04.025	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+44:04.149	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+44:04.153	ID:4	[INFO: App       ] Sending Battery: 33
+44:04.279	ID:11	[INFO: App       ] Received DATA 'Battery: 102, Temperature: 6360' from fd00::212:7404:4:404
+44:04.279	ID:11	
+44:10.939	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+44:10.969	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+44:10.973	ID:9	[INFO: App       ] Sending Battery: 221
+44:11.064	ID:11	[INFO: App       ] Received DATA 'Battery: 224, Temperature: 6360' from fd00::212:7409:9:909
+44:11.064	ID:11	
+44:14.387	ID:8	
+44:14.388	ID:8	Energest:
+44:14.396	ID:8	     Active:     3s, LPM1:  2650s, LPM4:     0s, Total Time:  2654s
+44:14.396	ID:8	
+44:14.399	ID:8	     RX:  2653s, TX:     0s
+44:14.404	ID:8	     Energy Used:  105339660uW
+44:14.404	ID:8	
+44:14.414	ID:8	Simulation_Data:     3  2650     0  2653     0  105339660
+44:15.319	ID:5	
+44:15.319	ID:5	Energest:
+44:15.327	ID:5	     Active:     3s, LPM1:  2650s, LPM4:     0s, Total Time:  2654s
+44:15.327	ID:5	
+44:15.330	ID:5	     RX:  2654s, TX:     0s
+44:15.335	ID:5	     Energy Used:  105379140uW
+44:15.335	ID:5	
+44:15.345	ID:5	Simulation_Data:     3  2650     0  2654     0  105379140
+44:24.697	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+44:24.718	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+44:24.722	ID:8	[INFO: App       ] Sending Battery: 101
+44:24.804	ID:11	[INFO: App       ] Received DATA 'Battery: 75, Temperature: 6360' from fd00::212:7408:8:808
+44:24.804	ID:11	
+44:30.128	ID:6	
+44:30.128	ID:6	Energest:
+44:30.136	ID:6	     Active:     3s, LPM1:  2666s, LPM4:     0s, Total Time:  2669s
+44:30.136	ID:6	
+44:30.139	ID:6	     RX:  2669s, TX:     0s
+44:30.144	ID:6	     Energy Used:  105974940uW
+44:30.144	ID:6	
+44:30.154	ID:6	Simulation_Data:     3  2666     0  2669     0  105974940
+44:32.084	ID:7	
+44:32.084	ID:7	Energest:
+44:32.092	ID:7	     Active:     3s, LPM1:  2667s, LPM4:     0s, Total Time:  2671s
+44:32.092	ID:7	
+44:32.095	ID:7	     RX:  2671s, TX:     0s
+44:32.100	ID:7	     Energy Used:  106054125uW
+44:32.100	ID:7	
+44:32.110	ID:7	Simulation_Data:     3  2667     0  2671     0  106054125
+44:35.439	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+44:35.485	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+44:35.488	ID:5	[INFO: App       ] Sending Battery: 5
+44:35.579	ID:11	[INFO: App       ] Received DATA 'Battery: 60, Temperature: 6360' from fd00::212:7405:5:505
+44:35.579	ID:11	
+44:47.541	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+44:47.602	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+44:47.606	ID:6	[INFO: App       ] Sending Battery: 104
+44:47.661	ID:11	[INFO: App       ] Received DATA 'Battery: 224, Temperature: 6360' from fd00::212:7406:6:606
+44:47.661	ID:11	
+45:02.385	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+45:02.438	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+45:02.442	ID:7	[INFO: App       ] Sending Battery: 236
+45:02.523	ID:11	[INFO: App       ] Received DATA 'Battery: 224, Temperature: 6360' from fd00::212:7407:7:707
+45:02.524	ID:11	
+46:52.634	ID:1	
+46:52.635	ID:1	Energest:
+46:52.643	ID:1	     Active:     5s, LPM1:  2806s, LPM4:     0s, Total Time:  2811s
+46:52.643	ID:1	
+46:52.646	ID:1	     RX:  2811s, TX:     0s
+46:52.651	ID:1	     Energy Used:  111614580uW
+46:52.651	ID:1	
+46:52.661	ID:1	Simulation_Data:     5  2806     0  2811     0  111614580
+46:53.746	ID:2	
+46:53.747	ID:2	Energest:
+46:53.754	ID:2	     Active:     5s, LPM1:  2807s, LPM4:     0s, Total Time:  2813s
+46:53.754	ID:2	
+46:53.758	ID:2	     RX:  2812s, TX:     0s
+46:53.762	ID:2	     Energy Used:  111654285uW
+46:53.763	ID:2	
+46:53.772	ID:2	Simulation_Data:     5  2807     0  2812     0  111654285
+47:04.363	ID:10	
+47:04.364	ID:10	Energest:
+47:04.372	ID:10	     Active:     4s, LPM1:  2819s, LPM4:     0s, Total Time:  2823s
+47:04.372	ID:10	
+47:04.375	ID:10	     RX:  2823s, TX:     0s
+47:04.380	ID:10	     Energy Used:  112090275uW
+47:04.380	ID:10	
+47:04.390	ID:10	Simulation_Data:     4  2819     0  2823     0  112090275
+47:04.933	ID:3	
+47:04.933	ID:3	Energest:
+47:04.941	ID:3	     Active:     4s, LPM1:  2819s, LPM4:     0s, Total Time:  2823s
+47:04.941	ID:3	
+47:04.944	ID:3	     RX:  2823s, TX:     0s
+47:04.949	ID:3	     Energy Used:  112090275uW
+47:04.949	ID:3	
+47:04.959	ID:3	Simulation_Data:     4  2819     0  2823     0  112090275
+47:17.022	ID:4	
+47:17.023	ID:4	Energest:
+47:17.031	ID:4	     Active:     4s, LPM1:  2832s, LPM4:     0s, Total Time:  2836s
+47:17.031	ID:4	
+47:17.034	ID:4	     RX:  2836s, TX:     0s
+47:17.039	ID:4	     Energy Used:  112606440uW
+47:17.039	ID:4	
+47:17.049	ID:4	Simulation_Data:     4  2832     0  2836     0  112606440
+47:18.070	ID:9	
+47:18.071	ID:9	Energest:
+47:18.078	ID:9	     Active:     4s, LPM1:  2832s, LPM4:     0s, Total Time:  2837s
+47:18.078	ID:9	
+47:18.082	ID:9	     RX:  2836s, TX:     0s
+47:18.086	ID:9	     Energy Used:  112606440uW
+47:18.086	ID:9	
+47:18.096	ID:9	Simulation_Data:     4  2832     0  2836     0  112606440
+47:34.411	ID:8	
+47:34.412	ID:8	Energest:
+47:34.419	ID:8	     Active:     3s, LPM1:  2850s, LPM4:     0s, Total Time:  2854s
+47:34.419	ID:8	
+47:34.422	ID:8	     RX:  2853s, TX:     0s
+47:34.427	ID:8	     Energy Used:  113280660uW
+47:34.427	ID:8	
+47:34.437	ID:8	Simulation_Data:     3  2850     0  2853     0  113280660
+47:35.342	ID:5	
+47:35.343	ID:5	Energest:
+47:35.350	ID:5	     Active:     3s, LPM1:  2850s, LPM4:     0s, Total Time:  2854s
+47:35.351	ID:5	
+47:35.354	ID:5	     RX:  2854s, TX:     0s
+47:35.359	ID:5	     Energy Used:  113320140uW
+47:35.359	ID:5	
+47:35.368	ID:5	Simulation_Data:     3  2850     0  2854     0  113320140
+47:50.151	ID:6	
+47:50.152	ID:6	Energest:
+47:50.159	ID:6	     Active:     3s, LPM1:  2865s, LPM4:     0s, Total Time:  2869s
+47:50.160	ID:6	
+47:50.163	ID:6	     RX:  2869s, TX:     0s
+47:50.168	ID:6	     Energy Used:  113915715uW
+47:50.168	ID:6	
+47:50.178	ID:6	Simulation_Data:     3  2865     0  2869     0  113915715
+47:52.107	ID:7	
+47:52.108	ID:7	Energest:
+47:52.115	ID:7	     Active:     3s, LPM1:  2867s, LPM4:     0s, Total Time:  2871s
+47:52.115	ID:7	
+47:52.119	ID:7	     RX:  2871s, TX:     0s
+47:52.123	ID:7	     Energy Used:  113995125uW
+47:52.124	ID:7	
+47:52.133	ID:7	Simulation_Data:     3  2867     0  2871     0  113995125
+48:32.455	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+48:32.500	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+48:32.504	ID:1	[INFO: App       ] Sending Battery: 134
+48:32.557	ID:11	[INFO: App       ] Received DATA 'Battery: 194, Temperature: 6360' from fd00::212:7401:1:101
+48:32.557	ID:11	
+48:44.588	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+48:44.641	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+48:44.644	ID:2	[INFO: App       ] Sending Battery: 22
+48:44.709	ID:11	[INFO: App       ] Received DATA 'Battery: 97, Temperature: 6360' from fd00::212:7402:2:202
+48:44.709	ID:11	
+48:56.705	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+48:56.780	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+48:56.784	ID:10	[INFO: App       ] Sending Battery: 111
+48:56.894	ID:11	[INFO: App       ] Received DATA 'Battery: 120, Temperature: 6360' from fd00::212:740a:a:a0a
+48:56.894	ID:11	
+49:09.182	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+49:09.252	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+49:09.255	ID:3	[INFO: App       ] Sending Battery: 169
+49:09.357	ID:11	[INFO: App       ] Received DATA 'Battery: 229, Temperature: 6360' from fd00::212:7403:3:303
+49:09.357	ID:11	
+49:19.502	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+49:19.563	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+49:19.567	ID:4	[INFO: App       ] Sending Battery: 194
+49:19.634	ID:11	[INFO: App       ] Received DATA 'Battery: 102, Temperature: 6360' from fd00::212:7404:4:404
+49:19.634	ID:11	
+49:25.307	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+49:25.328	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+49:25.331	ID:9	[INFO: App       ] Sending Battery: 43
+49:25.400	ID:11	[INFO: App       ] Received DATA 'Battery: 50, Temperature: 6360' from fd00::212:7409:9:909
+49:25.400	ID:11	
+49:34.971	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+49:34.998	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+49:35.001	ID:8	[INFO: App       ] Sending Battery: 62
+49:35.062	ID:11	[INFO: App       ] Received DATA 'Battery: 219, Temperature: 6360' from fd00::212:7408:8:808
+49:35.062	ID:11	
+49:45.869	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+49:45.891	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+49:45.895	ID:5	[INFO: App       ] Sending Battery: 163
+49:45.946	ID:11	[INFO: App       ] Received DATA 'Battery: 169, Temperature: 6360' from fd00::212:7405:5:505
+49:45.946	ID:11	
+49:55.361	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+49:55.384	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+49:55.387	ID:6	[INFO: App       ] Sending Battery: 187
+49:55.434	ID:11	[INFO: App       ] Received DATA 'Battery: 107, Temperature: 6360' from fd00::212:7406:6:606
+49:55.434	ID:11	
+50:02.221	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+50:02.274	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+50:02.277	ID:7	[INFO: App       ] Sending Battery: 242
+50:02.335	ID:11	[INFO: App       ] Received DATA 'Battery: 209, Temperature: 6360' from fd00::212:7407:7:707
+50:02.336	ID:11	
+50:12.658	ID:1	
+50:12.658	ID:1	Energest:
+50:12.666	ID:1	     Active:     5s, LPM1:  3006s, LPM4:     0s, Total Time:  3012s
+50:12.666	ID:1	
+50:12.669	ID:1	     RX:  3011s, TX:     0s
+50:12.674	ID:1	     Energy Used:  119555580uW
+50:12.674	ID:1	
+50:12.684	ID:1	Simulation_Data:     5  3006     0  3011     0  119555580
+50:13.769	ID:2	
+50:13.770	ID:2	Energest:
+50:13.778	ID:2	     Active:     5s, LPM1:  3007s, LPM4:     0s, Total Time:  3013s
+50:13.778	ID:2	
+50:13.781	ID:2	     RX:  3012s, TX:     0s
+50:13.786	ID:2	     Energy Used:  119595285uW
+50:13.786	ID:2	
+50:13.796	ID:2	Simulation_Data:     5  3007     0  3012     0  119595285
+50:24.387	ID:10	
+50:24.387	ID:10	Energest:
+50:24.395	ID:10	     Active:     4s, LPM1:  3018s, LPM4:     0s, Total Time:  3023s
+50:24.395	ID:10	
+50:24.398	ID:10	     RX:  3023s, TX:     0s
+50:24.403	ID:10	     Energy Used:  120031050uW
+50:24.403	ID:10	
+50:24.413	ID:10	Simulation_Data:     4  3018     0  3023     0  120031050
+50:24.956	ID:3	
+50:24.957	ID:3	Energest:
+50:24.964	ID:3	     Active:     4s, LPM1:  3019s, LPM4:     0s, Total Time:  3023s
+50:24.964	ID:3	
+50:24.968	ID:3	     RX:  3023s, TX:     0s
+50:24.973	ID:3	     Energy Used:  120031275uW
+50:24.973	ID:3	
+50:24.982	ID:3	Simulation_Data:     4  3019     0  3023     0  120031275
+50:37.046	ID:4	
+50:37.046	ID:4	Energest:
+50:37.054	ID:4	     Active:     4s, LPM1:  3032s, LPM4:     0s, Total Time:  3036s
+50:37.054	ID:4	
+50:37.057	ID:4	     RX:  3036s, TX:     0s
+50:37.062	ID:4	     Energy Used:  120547440uW
+50:37.062	ID:4	
+50:37.072	ID:4	Simulation_Data:     4  3032     0  3036     0  120547440
+50:38.093	ID:9	
+50:38.094	ID:9	Energest:
+50:38.102	ID:9	     Active:     4s, LPM1:  3032s, LPM4:     0s, Total Time:  3037s
+50:38.102	ID:9	
+50:38.105	ID:9	     RX:  3036s, TX:     0s
+50:38.110	ID:9	     Energy Used:  120547440uW
+50:38.110	ID:9	
+50:38.120	ID:9	Simulation_Data:     4  3032     0  3036     0  120547440
+50:54.434	ID:8	
+50:54.435	ID:8	Energest:
+50:54.443	ID:8	     Active:     4s, LPM1:  3049s, LPM4:     0s, Total Time:  3054s
+50:54.443	ID:8	
+50:54.446	ID:8	     RX:  3053s, TX:     0s
+50:54.451	ID:8	     Energy Used:  121222425uW
+50:54.451	ID:8	
+50:54.461	ID:8	Simulation_Data:     4  3049     0  3053     0  121222425
+50:55.366	ID:5	
+50:55.366	ID:5	Energest:
+50:55.374	ID:5	     Active:     4s, LPM1:  3050s, LPM4:     0s, Total Time:  3054s
+50:55.374	ID:5	
+50:55.377	ID:5	     RX:  3054s, TX:     0s
+50:55.382	ID:5	     Energy Used:  121262130uW
+50:55.382	ID:5	
+50:55.392	ID:5	Simulation_Data:     4  3050     0  3054     0  121262130
+51:10.175	ID:6	
+51:10.175	ID:6	Energest:
+51:10.183	ID:6	     Active:     4s, LPM1:  3065s, LPM4:     0s, Total Time:  3069s
+51:10.183	ID:6	
+51:10.186	ID:6	     RX:  3069s, TX:     0s
+51:10.191	ID:6	     Energy Used:  121857705uW
+51:10.191	ID:6	
+51:10.201	ID:6	Simulation_Data:     4  3065     0  3069     0  121857705
+51:12.130	ID:7	
+51:12.131	ID:7	Energest:
+51:12.139	ID:7	     Active:     4s, LPM1:  3067s, LPM4:     0s, Total Time:  3071s
+51:12.139	ID:7	
+51:12.142	ID:7	     RX:  3071s, TX:     0s
+51:12.147	ID:7	     Energy Used:  121937115uW
+51:12.147	ID:7	
+51:12.157	ID:7	Simulation_Data:     4  3067     0  3071     0  121937115
+53:31.385	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+53:31.403	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+53:31.407	ID:1	[INFO: App       ] Sending Battery: 231
+53:31.464	ID:11	[INFO: App       ] Received DATA 'Battery: 75, Temperature: 6360' from fd00::212:7401:1:101
+53:31.464	ID:11	
+53:32.681	ID:1	
+53:32.682	ID:1	Energest:
+53:32.689	ID:1	     Active:     5s, LPM1:  3206s, LPM4:     0s, Total Time:  3212s
+53:32.689	ID:1	
+53:32.693	ID:1	     RX:  3211s, TX:     0s
+53:32.698	ID:1	     Energy Used:  127496580uW
+53:32.698	ID:1	
+53:32.707	ID:1	Simulation_Data:     5  3206     0  3211     0  127496580
+53:33.793	ID:2	
+53:33.794	ID:2	Energest:
+53:33.801	ID:2	     Active:     5s, LPM1:  3207s, LPM4:     0s, Total Time:  3213s
+53:33.801	ID:2	
+53:33.805	ID:2	     RX:  3212s, TX:     0s
+53:33.809	ID:2	     Energy Used:  127536285uW
+53:33.809	ID:2	
+53:33.819	ID:2	Simulation_Data:     5  3207     0  3212     0  127536285
+53:40.791	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+53:40.829	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+53:40.832	ID:2	[INFO: App       ] Sending Battery: 127
+53:40.888	ID:11	[INFO: App       ] Received DATA 'Battery: 244, Temperature: 6360' from fd00::212:7402:2:202
+53:40.888	ID:11	
+53:44.410	ID:10	
+53:44.411	ID:10	Energest:
+53:44.418	ID:10	     Active:     4s, LPM1:  3218s, LPM4:     0s, Total Time:  3223s
+53:44.418	ID:10	
+53:44.422	ID:10	     RX:  3223s, TX:     0s
+53:44.427	ID:10	     Energy Used:  127972050uW
+53:44.427	ID:10	
+53:44.436	ID:10	Simulation_Data:     4  3218     0  3223     0  127972050
+53:44.980	ID:3	
+53:44.980	ID:3	Energest:
+53:44.988	ID:3	     Active:     4s, LPM1:  3219s, LPM4:     0s, Total Time:  3223s
+53:44.988	ID:3	
+53:44.991	ID:3	     RX:  3223s, TX:     0s
+53:44.996	ID:3	     Energy Used:  127972275uW
+53:44.996	ID:3	
+53:45.006	ID:3	Simulation_Data:     4  3219     0  3223     0  127972275
+53:54.619	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+53:54.686	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+53:54.690	ID:10	[INFO: App       ] Sending Battery: 209
+53:54.783	ID:11	[INFO: App       ] Received DATA 'Battery: 197, Temperature: 6360' from fd00::212:740a:a:a0a
+53:54.783	ID:11	
+53:57.069	ID:4	
+53:57.070	ID:4	Energest:
+53:57.077	ID:4	     Active:     4s, LPM1:  3231s, LPM4:     0s, Total Time:  3236s
+53:57.078	ID:4	
+53:57.081	ID:4	     RX:  3236s, TX:     0s
+53:57.086	ID:4	     Energy Used:  128488215uW
+53:57.086	ID:4	
+53:57.095	ID:4	Simulation_Data:     4  3231     0  3236     0  128488215
+53:58.117	ID:9	
+53:58.118	ID:9	Energest:
+53:58.125	ID:9	     Active:     4s, LPM1:  3232s, LPM4:     0s, Total Time:  3237s
+53:58.125	ID:9	
+53:58.128	ID:9	     RX:  3236s, TX:     0s
+53:58.133	ID:9	     Energy Used:  128488440uW
+53:58.133	ID:9	
+53:58.143	ID:9	Simulation_Data:     4  3232     0  3236     0  128488440
+54:02.744	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+54:02.798	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+54:02.802	ID:3	[INFO: App       ] Sending Battery: 86
+54:02.880	ID:11	[INFO: App       ] Received DATA 'Battery: 132, Temperature: 6360' from fd00::212:7403:3:303
+54:02.880	ID:11	
+54:11.705	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+54:11.758	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+54:11.762	ID:4	[INFO: App       ] Sending Battery: 118
+54:11.837	ID:11	[INFO: App       ] Received DATA 'Battery: 82, Temperature: 6360' from fd00::212:7404:4:404
+54:11.837	ID:11	
+54:14.458	ID:8	
+54:14.458	ID:8	Energest:
+54:14.466	ID:8	     Active:     4s, LPM1:  3249s, LPM4:     0s, Total Time:  3254s
+54:14.466	ID:8	
+54:14.469	ID:8	     RX:  3253s, TX:     0s
+54:14.474	ID:8	     Energy Used:  129163425uW
+54:14.474	ID:8	
+54:14.484	ID:8	Simulation_Data:     4  3249     0  3253     0  129163425
+54:15.389	ID:5	
+54:15.390	ID:5	Energest:
+54:15.397	ID:5	     Active:     4s, LPM1:  3250s, LPM4:     0s, Total Time:  3254s
+54:15.397	ID:5	
+54:15.401	ID:5	     RX:  3254s, TX:     0s
+54:15.406	ID:5	     Energy Used:  129203130uW
+54:15.406	ID:5	
+54:15.415	ID:5	Simulation_Data:     4  3250     0  3254     0  129203130
+54:20.775	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+54:20.837	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+54:20.840	ID:9	[INFO: App       ] Sending Battery: 129
+54:20.924	ID:11	[INFO: App       ] Received DATA 'Battery: 174, Temperature: 6360' from fd00::212:7409:9:909
+54:20.924	ID:11	
+54:30.198	ID:6	
+54:30.199	ID:6	Energest:
+54:30.206	ID:6	     Active:     4s, LPM1:  3265s, LPM4:     0s, Total Time:  3269s
+54:30.206	ID:6	
+54:30.210	ID:6	     RX:  3269s, TX:     0s
+54:30.215	ID:6	     Energy Used:  129798705uW
+54:30.215	ID:6	
+54:30.224	ID:6	Simulation_Data:     4  3265     0  3269     0  129798705
+54:32.154	ID:7	
+54:32.155	ID:7	Energest:
+54:32.162	ID:7	     Active:     4s, LPM1:  3267s, LPM4:     0s, Total Time:  3271s
+54:32.162	ID:7	
+54:32.166	ID:7	     RX:  3271s, TX:     0s
+54:32.170	ID:7	     Energy Used:  129878115uW
+54:32.170	ID:7	
+54:32.180	ID:7	Simulation_Data:     4  3267     0  3271     0  129878115
+54:33.330	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+54:33.358	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+54:33.361	ID:8	[INFO: App       ] Sending Battery: 47
+54:33.436	ID:11	[INFO: App       ] Received DATA 'Battery: 60, Temperature: 6360' from fd00::212:7408:8:808
+54:33.436	ID:11	
+54:43.744	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+54:43.782	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+54:43.785	ID:5	[INFO: App       ] Sending Battery: 159
+54:43.837	ID:11	[INFO: App       ] Received DATA 'Battery: 214, Temperature: 6360' from fd00::212:7405:5:505
+54:43.837	ID:11	
+54:51.393	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+54:51.422	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+54:51.426	ID:6	[INFO: App       ] Sending Battery: 235
+54:51.489	ID:11	[INFO: App       ] Received DATA 'Battery: 127, Temperature: 6360' from fd00::212:7406:6:606
+54:51.490	ID:11	
+55:00.658	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+55:00.680	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+55:00.684	ID:7	[INFO: App       ] Sending Battery: 95
+55:00.747	ID:11	[INFO: App       ] Received DATA 'Battery: 132, Temperature: 6360' from fd00::212:7407:7:707
+55:00.747	ID:11	
+56:52.705	ID:1	
+56:52.705	ID:1	Energest:
+56:52.713	ID:1	     Active:     6s, LPM1:  3406s, LPM4:     0s, Total Time:  3412s
+56:52.713	ID:1	
+56:52.716	ID:1	     RX:  3411s, TX:     0s
+56:52.721	ID:1	     Energy Used:  135438570uW
+56:52.721	ID:1	
+56:52.731	ID:1	Simulation_Data:     6  3406     0  3411     0  135438570
+56:53.816	ID:2	
+56:53.817	ID:2	Energest:
+56:53.825	ID:2	     Active:     6s, LPM1:  3407s, LPM4:     0s, Total Time:  3413s
+56:53.825	ID:2	
+56:53.828	ID:2	     RX:  3413s, TX:     0s
+56:53.833	ID:2	     Energy Used:  135517755uW
+56:53.833	ID:2	
+56:53.843	ID:2	Simulation_Data:     6  3407     0  3413     0  135517755
+57:04.434	ID:10	
+57:04.434	ID:10	Energest:
+57:04.442	ID:10	     Active:     5s, LPM1:  3418s, LPM4:     0s, Total Time:  3423s
+57:04.442	ID:10	
+57:04.445	ID:10	     RX:  3423s, TX:     0s
+57:04.450	ID:10	     Energy Used:  135914040uW
+57:04.450	ID:10	
+57:04.460	ID:10	Simulation_Data:     5  3418     0  3423     0  135914040
+57:05.003	ID:3	
+57:05.004	ID:3	Energest:
+57:05.011	ID:3	     Active:     5s, LPM1:  3418s, LPM4:     0s, Total Time:  3423s
+57:05.011	ID:3	
+57:05.015	ID:3	     RX:  3423s, TX:     0s
+57:05.019	ID:3	     Energy Used:  135914040uW
+57:05.020	ID:3	
+57:05.029	ID:3	Simulation_Data:     5  3418     0  3423     0  135914040
+57:17.093	ID:4	
+57:17.093	ID:4	Energest:
+57:17.101	ID:4	     Active:     4s, LPM1:  3431s, LPM4:     0s, Total Time:  3436s
+57:17.101	ID:4	
+57:17.104	ID:4	     RX:  3436s, TX:     0s
+57:17.109	ID:4	     Energy Used:  136429215uW
+57:17.109	ID:4	
+57:17.119	ID:4	Simulation_Data:     4  3431     0  3436     0  136429215
+57:18.140	ID:9	
+57:18.141	ID:9	Energest:
+57:18.149	ID:9	     Active:     4s, LPM1:  3432s, LPM4:     0s, Total Time:  3437s
+57:18.149	ID:9	
+57:18.152	ID:9	     RX:  3436s, TX:     0s
+57:18.157	ID:9	     Energy Used:  136429440uW
+57:18.157	ID:9	
+57:18.167	ID:9	Simulation_Data:     4  3432     0  3436     0  136429440
+57:34.481	ID:8	
+57:34.482	ID:8	Energest:
+57:34.489	ID:8	     Active:     4s, LPM1:  3449s, LPM4:     0s, Total Time:  3454s
+57:34.489	ID:8	
+57:34.493	ID:8	     RX:  3453s, TX:     0s
+57:34.498	ID:8	     Energy Used:  137104425uW
+57:34.498	ID:8	
+57:34.507	ID:8	Simulation_Data:     4  3449     0  3453     0  137104425
+57:35.413	ID:5	
+57:35.413	ID:5	Energest:
+57:35.421	ID:5	     Active:     4s, LPM1:  3449s, LPM4:     0s, Total Time:  3454s
+57:35.421	ID:5	
+57:35.424	ID:5	     RX:  3454s, TX:     0s
+57:35.429	ID:5	     Energy Used:  137143905uW
+57:35.429	ID:5	
+57:35.439	ID:5	Simulation_Data:     4  3449     0  3454     0  137143905
+57:50.222	ID:6	
+57:50.222	ID:6	Energest:
+57:50.230	ID:6	     Active:     4s, LPM1:  3465s, LPM4:     0s, Total Time:  3469s
+57:50.230	ID:6	
+57:50.233	ID:6	     RX:  3469s, TX:     0s
+57:50.238	ID:6	     Energy Used:  137739705uW
+57:50.238	ID:6	
+57:50.248	ID:6	Simulation_Data:     4  3465     0  3469     0  137739705
+57:52.177	ID:7	
+57:52.178	ID:7	Energest:
+57:52.186	ID:7	     Active:     4s, LPM1:  3466s, LPM4:     0s, Total Time:  3471s
+57:52.186	ID:7	
+57:52.189	ID:7	     RX:  3471s, TX:     0s
+57:52.194	ID:7	     Energy Used:  137818890uW
+57:52.194	ID:7	
+57:52.204	ID:7	Simulation_Data:     4  3466     0  3471     0  137818890
+58:33.260	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+58:33.305	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+58:33.309	ID:1	[INFO: App       ] Sending Battery: 147
+58:33.370	ID:11	[INFO: App       ] Received DATA 'Battery: 214, Temperature: 6360' from fd00::212:7401:1:101
+58:33.370	ID:11	
+58:38.869	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+58:38.922	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+58:38.926	ID:2	[INFO: App       ] Sending Battery: 34
+58:38.974	ID:11	[INFO: App       ] Received DATA 'Battery: 137, Temperature: 6360' from fd00::212:7402:2:202
+58:38.974	ID:11	
+58:46.025	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+58:46.140	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+58:46.143	ID:10	[INFO: App       ] Sending Battery: 45
+58:46.229	ID:11	[INFO: App       ] Received DATA 'Battery: 33, Temperature: 6360' from fd00::212:740a:a:a0a
+58:46.230	ID:11	
+58:51.603	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+58:51.665	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+58:51.669	ID:3	[INFO: App       ] Sending Battery: 167
+58:51.740	ID:11	[INFO: App       ] Received DATA 'Battery: 199, Temperature: 6360' from fd00::212:7403:3:303
+58:51.740	ID:11	
+58:57.478	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+58:57.501	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+58:57.504	ID:4	[INFO: App       ] Sending Battery: 120
+58:57.555	ID:11	[INFO: App       ] Received DATA 'Battery: 70, Temperature: 6360' from fd00::212:7404:4:404
+58:57.555	ID:11	
+59:06.525	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+59:06.563	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+59:06.567	ID:9	[INFO: App       ] Sending Battery: 120
+59:06.651	ID:11	[INFO: App       ] Received DATA 'Battery: 137, Temperature: 6360' from fd00::212:7409:9:909
+59:06.651	ID:11	
+59:14.346	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+59:14.399	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+59:14.403	ID:8	[INFO: App       ] Sending Battery: 115
+59:14.483	ID:11	[INFO: App       ] Received DATA 'Battery: 50, Temperature: 6360' from fd00::212:7408:8:808
+59:14.483	ID:11	
+59:19.650	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+59:19.672	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+59:19.676	ID:5	[INFO: App       ] Sending Battery: 19
+59:19.727	ID:11	[INFO: App       ] Received DATA 'Battery: 60, Temperature: 6360' from fd00::212:7405:5:505
+59:19.727	ID:11	
+59:32.814	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+59:32.875	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+59:32.879	ID:6	[INFO: App       ] Sending Battery: 100
+59:32.966	ID:11	[INFO: App       ] Received DATA 'Battery: 199, Temperature: 6360' from fd00::212:7406:6:606
+59:32.966	ID:11	
+59:41.221	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+59:41.243	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+59:41.246	ID:7	[INFO: App       ] Sending Battery: 159
+59:41.320	ID:11	[INFO: App       ] Received DATA 'Battery: 189, Temperature: 6360' from fd00::212:7407:7:707
+59:41.320	ID:11	
+1:00:12.728	ID:1	
+1:00:12.729	ID:1	Energest:
+1:00:12.736	ID:1	     Active:     6s, LPM1:  3605s, LPM4:     0s, Total Time:  3612s
+1:00:12.736	ID:1	
+1:00:12.740	ID:1	     RX:  3611s, TX:     0s
+1:00:12.745	ID:1	     Energy Used:  143379345uW
+1:00:12.745	ID:1	
+1:00:12.754	ID:1	Simulation_Data:     6  3605     0  3611     0  143379345
+1:00:13.840	ID:2	
+1:00:13.840	ID:2	Energest:
+1:00:13.848	ID:2	     Active:     6s, LPM1:  3606s, LPM4:     0s, Total Time:  3613s
+1:00:13.848	ID:2	
+1:00:13.851	ID:2	     RX:  3613s, TX:     0s
+1:00:13.856	ID:2	     Energy Used:  143458530uW
+1:00:13.856	ID:2	
+1:00:13.866	ID:2	Simulation_Data:     6  3606     0  3613     0  143458530
+1:00:24.457	ID:10	
+1:00:24.458	ID:10	Energest:
+1:00:24.465	ID:10	     Active:     5s, LPM1:  3618s, LPM4:     0s, Total Time:  3623s
+1:00:24.465	ID:10	
+1:00:24.469	ID:10	     RX:  3623s, TX:     0s
+1:00:24.473	ID:10	     Energy Used:  143855040uW
+1:00:24.474	ID:10	
+1:00:24.483	ID:10	Simulation_Data:     5  3618     0  3623     0  143855040
+1:00:25.026	ID:3	
+1:00:25.027	ID:3	Energest:
+1:00:25.035	ID:3	     Active:     5s, LPM1:  3618s, LPM4:     0s, Total Time:  3623s
+1:00:25.035	ID:3	
+1:00:25.038	ID:3	     RX:  3623s, TX:     0s
+1:00:25.043	ID:3	     Energy Used:  143855040uW
+1:00:25.043	ID:3	
+1:00:25.053	ID:3	Simulation_Data:     5  3618     0  3623     0  143855040
+1:00:37.116	ID:4	
+1:00:37.117	ID:4	Energest:
+1:00:37.124	ID:4	     Active:     5s, LPM1:  3631s, LPM4:     0s, Total Time:  3636s
+1:00:37.124	ID:4	
+1:00:37.128	ID:4	     RX:  3636s, TX:     0s
+1:00:37.133	ID:4	     Energy Used:  144371205uW
+1:00:37.133	ID:4	
+1:00:37.142	ID:4	Simulation_Data:     5  3631     0  3636     0  144371205
+1:00:38.164	ID:9	
+1:00:38.164	ID:9	Energest:
+1:00:38.172	ID:9	     Active:     5s, LPM1:  3632s, LPM4:     0s, Total Time:  3637s
+1:00:38.172	ID:9	
+1:00:38.175	ID:9	     RX:  3636s, TX:     0s
+1:00:38.180	ID:9	     Energy Used:  144371430uW
+1:00:38.180	ID:9	
+1:00:38.190	ID:9	Simulation_Data:     5  3632     0  3636     0  144371430
+1:00:54.505	ID:8	
+1:00:54.505	ID:8	Energest:
+1:00:54.513	ID:8	     Active:     4s, LPM1:  3649s, LPM4:     0s, Total Time:  3654s
+1:00:54.513	ID:8	
+1:00:54.516	ID:8	     RX:  3653s, TX:     0s
+1:00:54.521	ID:8	     Energy Used:  145045425uW
+1:00:54.521	ID:8	
+1:00:54.531	ID:8	Simulation_Data:     4  3649     0  3653     0  145045425
+1:00:55.436	ID:5	
+1:00:55.437	ID:5	Energest:
+1:00:55.444	ID:5	     Active:     4s, LPM1:  3649s, LPM4:     0s, Total Time:  3654s
+1:00:55.444	ID:5	
+1:00:55.448	ID:5	     RX:  3654s, TX:     0s
+1:00:55.452	ID:5	     Energy Used:  145084905uW
+1:00:55.452	ID:5	
+1:00:55.462	ID:5	Simulation_Data:     4  3649     0  3654     0  145084905
+1:01:10.245	ID:6	
+1:01:10.246	ID:6	Energest:
+1:01:10.253	ID:6	     Active:     4s, LPM1:  3664s, LPM4:     0s, Total Time:  3669s
+1:01:10.253	ID:6	
+1:01:10.257	ID:6	     RX:  3669s, TX:     0s
+1:01:10.261	ID:6	     Energy Used:  145680480uW
+1:01:10.261	ID:6	
+1:01:10.271	ID:6	Simulation_Data:     4  3664     0  3669     0  145680480
+1:01:12.201	ID:7	
+1:01:12.201	ID:7	Energest:
+1:01:12.209	ID:7	     Active:     4s, LPM1:  3666s, LPM4:     0s, Total Time:  3671s
+1:01:12.209	ID:7	
+1:01:12.212	ID:7	     RX:  3671s, TX:     0s
+1:01:12.217	ID:7	     Energy Used:  145759890uW
+1:01:12.217	ID:7	
+1:01:12.227	ID:7	Simulation_Data:     4  3666     0  3671     0  145759890
+1:03:09.682	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+1:03:09.712	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:03:09.715	ID:1	[INFO: App       ] Sending Battery: 99
+1:03:09.785	ID:11	[INFO: App       ] Received DATA 'Battery: 194, Temperature: 6360' from fd00::212:7401:1:101
+1:03:09.785	ID:11	
+1:03:19.650	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+1:03:19.680	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:03:19.683	ID:2	[INFO: App       ] Sending Battery: 16
+1:03:19.764	ID:11	[INFO: App       ] Received DATA 'Battery: 147, Temperature: 6360' from fd00::212:7402:2:202
+1:03:19.764	ID:11	
+1:03:26.541	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+1:03:26.589	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:03:26.592	ID:10	[INFO: App       ] Sending Battery: 13
+1:03:26.683	ID:11	[INFO: App       ] Received DATA 'Battery: 157, Temperature: 6360' from fd00::212:740a:a:a0a
+1:03:26.683	ID:11	
+1:03:32.751	ID:1	
+1:03:32.752	ID:1	Energest:
+1:03:32.760	ID:1	     Active:     6s, LPM1:  3805s, LPM4:     0s, Total Time:  3812s
+1:03:32.760	ID:1	
+1:03:32.763	ID:1	     RX:  3811s, TX:     0s
+1:03:32.768	ID:1	     Energy Used:  151320345uW
+1:03:32.768	ID:1	
+1:03:32.778	ID:1	Simulation_Data:     6  3805     0  3811     0  151320345
+1:03:33.863	ID:2	
+1:03:33.864	ID:2	Energest:
+1:03:33.871	ID:2	     Active:     6s, LPM1:  3806s, LPM4:     0s, Total Time:  3813s
+1:03:33.872	ID:2	
+1:03:33.875	ID:2	     RX:  3813s, TX:     0s
+1:03:33.880	ID:2	     Energy Used:  151399530uW
+1:03:33.880	ID:2	
+1:03:33.890	ID:2	Simulation_Data:     6  3806     0  3813     0  151399530
+1:03:40.229	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+1:03:40.337	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:03:40.340	ID:3	[INFO: App       ] Sending Battery: 4
+1:03:40.435	ID:11	[INFO: App       ] Received DATA 'Battery: 50, Temperature: 6360' from fd00::212:7403:3:303
+1:03:40.435	ID:11	
+1:03:44.480	ID:10	
+1:03:44.481	ID:10	Energest:
+1:03:44.489	ID:10	     Active:     5s, LPM1:  3818s, LPM4:     0s, Total Time:  3823s
+1:03:44.489	ID:10	
+1:03:44.492	ID:10	     RX:  3823s, TX:     0s
+1:03:44.497	ID:10	     Energy Used:  151796040uW
+1:03:44.497	ID:10	
+1:03:44.507	ID:10	Simulation_Data:     5  3818     0  3823     0  151796040
+1:03:45.050	ID:3	
+1:03:45.051	ID:3	Energest:
+1:03:45.058	ID:3	     Active:     5s, LPM1:  3818s, LPM4:     0s, Total Time:  3823s
+1:03:45.058	ID:3	
+1:03:45.062	ID:3	     RX:  3823s, TX:     0s
+1:03:45.066	ID:3	     Energy Used:  151796040uW
+1:03:45.066	ID:3	
+1:03:45.076	ID:3	Simulation_Data:     5  3818     0  3823     0  151796040
+1:03:47.588	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+1:03:47.633	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:03:47.637	ID:4	[INFO: App       ] Sending Battery: 90
+1:03:47.688	ID:11	[INFO: App       ] Received DATA 'Battery: 40, Temperature: 6360' from fd00::212:7404:4:404
+1:03:47.688	ID:11	
+1:03:57.140	ID:4	
+1:03:57.140	ID:4	Energest:
+1:03:57.148	ID:4	     Active:     5s, LPM1:  3831s, LPM4:     0s, Total Time:  3836s
+1:03:57.148	ID:4	
+1:03:57.151	ID:4	     RX:  3836s, TX:     0s
+1:03:57.156	ID:4	     Energy Used:  152312205uW
+1:03:57.156	ID:4	
+1:03:57.166	ID:4	Simulation_Data:     5  3831     0  3836     0  152312205
+1:03:58.187	ID:9	
+1:03:58.188	ID:9	Energest:
+1:03:58.195	ID:9	     Active:     5s, LPM1:  3831s, LPM4:     0s, Total Time:  3837s
+1:03:58.195	ID:9	
+1:03:58.199	ID:9	     RX:  3836s, TX:     0s
+1:03:58.204	ID:9	     Energy Used:  152312205uW
+1:03:58.204	ID:9	
+1:03:58.213	ID:9	Simulation_Data:     5  3831     0  3836     0  152312205
+1:03:58.494	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+1:03:58.555	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:03:58.558	ID:9	[INFO: App       ] Sending Battery: 3
+1:03:58.619	ID:11	[INFO: App       ] Received DATA 'Battery: 20, Temperature: 6360' from fd00::212:7409:9:909
+1:03:58.619	ID:11	
+1:04:11.822	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+1:04:11.875	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:04:11.879	ID:8	[INFO: App       ] Sending Battery: 78
+1:04:11.936	ID:11	[INFO: App       ] Received DATA 'Battery: 20, Temperature: 6360' from fd00::212:7408:8:808
+1:04:11.936	ID:11	
+1:04:14.528	ID:8	
+1:04:14.529	ID:8	Energest:
+1:04:14.536	ID:8	     Active:     5s, LPM1:  3848s, LPM4:     0s, Total Time:  3854s
+1:04:14.536	ID:8	
+1:04:14.540	ID:8	     RX:  3853s, TX:     0s
+1:04:14.544	ID:8	     Energy Used:  152987190uW
+1:04:14.544	ID:8	
+1:04:14.554	ID:8	Simulation_Data:     5  3848     0  3853     0  152987190
+1:04:15.459	ID:5	
+1:04:15.460	ID:5	Energest:
+1:04:15.468	ID:5	     Active:     5s, LPM1:  3849s, LPM4:     0s, Total Time:  3854s
+1:04:15.468	ID:5	
+1:04:15.471	ID:5	     RX:  3854s, TX:     0s
+1:04:15.476	ID:5	     Energy Used:  153026895uW
+1:04:15.476	ID:5	
+1:04:15.486	ID:5	Simulation_Data:     5  3849     0  3854     0  153026895
+1:04:20.549	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+1:04:20.579	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:04:20.582	ID:5	[INFO: App       ] Sending Battery: 182
+1:04:20.642	ID:11	[INFO: App       ] Received DATA 'Battery: 251, Temperature: 6360' from fd00::212:7405:5:505
+1:04:20.642	ID:11	
+1:04:29.010	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+1:04:29.032	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:04:29.035	ID:6	[INFO: App       ] Sending Battery: 71
+1:04:29.082	ID:11	[INFO: App       ] Received DATA 'Battery: 40, Temperature: 6360' from fd00::212:7406:6:606
+1:04:29.082	ID:11	
+1:04:30.268	ID:6	
+1:04:30.269	ID:6	Energest:
+1:04:30.277	ID:6	     Active:     5s, LPM1:  3864s, LPM4:     0s, Total Time:  3869s
+1:04:30.277	ID:6	
+1:04:30.280	ID:6	     RX:  3869s, TX:     0s
+1:04:30.285	ID:6	     Energy Used:  153622470uW
+1:04:30.285	ID:6	
+1:04:30.295	ID:6	Simulation_Data:     5  3864     0  3869     0  153622470
+1:04:32.224	ID:7	
+1:04:32.225	ID:7	Energest:
+1:04:32.232	ID:7	     Active:     5s, LPM1:  3866s, LPM4:     0s, Total Time:  3871s
+1:04:32.232	ID:7	
+1:04:32.236	ID:7	     RX:  3871s, TX:     0s
+1:04:32.241	ID:7	     Energy Used:  153701880uW
+1:04:32.241	ID:7	
+1:04:32.250	ID:7	Simulation_Data:     5  3866     0  3871     0  153701880
+1:04:35.588	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+1:04:35.641	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:04:35.645	ID:7	[INFO: App       ] Sending Battery: 160
+1:04:35.719	ID:11	[INFO: App       ] Received DATA 'Battery: 169, Temperature: 6360' from fd00::212:7407:7:707
+1:04:35.719	ID:11	
+1:06:52.775	ID:1	
+1:06:52.776	ID:1	Energest:
+1:06:52.783	ID:1	     Active:     6s, LPM1:  4005s, LPM4:     0s, Total Time:  4012s
+1:06:52.783	ID:1	
+1:06:52.787	ID:1	     RX:  4011s, TX:     0s
+1:06:52.791	ID:1	     Energy Used:  159261345uW
+1:06:52.791	ID:1	
+1:06:52.801	ID:1	Simulation_Data:     6  4005     0  4011     0  159261345
+1:06:53.887	ID:2	
+1:06:53.887	ID:2	Energest:
+1:06:53.895	ID:2	     Active:     6s, LPM1:  4006s, LPM4:     0s, Total Time:  4013s
+1:06:53.895	ID:2	
+1:06:53.898	ID:2	     RX:  4013s, TX:     0s
+1:06:53.903	ID:2	     Energy Used:  159340530uW
+1:06:53.903	ID:2	
+1:06:53.913	ID:2	Simulation_Data:     6  4006     0  4013     0  159340530
+1:07:04.504	ID:10	
+1:07:04.505	ID:10	Energest:
+1:07:04.512	ID:10	     Active:     5s, LPM1:  4017s, LPM4:     0s, Total Time:  4023s
+1:07:04.512	ID:10	
+1:07:04.516	ID:10	     RX:  4023s, TX:     0s
+1:07:04.520	ID:10	     Energy Used:  159736815uW
+1:07:04.520	ID:10	
+1:07:04.530	ID:10	Simulation_Data:     5  4017     0  4023     0  159736815
+1:07:05.073	ID:3	
+1:07:05.074	ID:3	Energest:
+1:07:05.082	ID:3	     Active:     5s, LPM1:  4018s, LPM4:     0s, Total Time:  4023s
+1:07:05.082	ID:3	
+1:07:05.085	ID:3	     RX:  4023s, TX:     0s
+1:07:05.090	ID:3	     Energy Used:  159737040uW
+1:07:05.090	ID:3	
+1:07:05.100	ID:3	Simulation_Data:     5  4018     0  4023     0  159737040
+1:07:17.163	ID:4	
+1:07:17.164	ID:4	Energest:
+1:07:17.171	ID:4	     Active:     5s, LPM1:  4030s, LPM4:     0s, Total Time:  4036s
+1:07:17.171	ID:4	
+1:07:17.175	ID:4	     RX:  4036s, TX:     0s
+1:07:17.179	ID:4	     Energy Used:  160252980uW
+1:07:17.179	ID:4	
+1:07:17.189	ID:4	Simulation_Data:     5  4030     0  4036     0  160252980
+1:07:18.211	ID:9	
+1:07:18.211	ID:9	Energest:
+1:07:18.219	ID:9	     Active:     5s, LPM1:  4031s, LPM4:     0s, Total Time:  4037s
+1:07:18.219	ID:9	
+1:07:18.222	ID:9	     RX:  4036s, TX:     0s
+1:07:18.227	ID:9	     Energy Used:  160253205uW
+1:07:18.227	ID:9	
+1:07:18.237	ID:9	Simulation_Data:     5  4031     0  4036     0  160253205
+1:07:34.551	ID:8	
+1:07:34.552	ID:8	Energest:
+1:07:34.560	ID:8	     Active:     5s, LPM1:  4048s, LPM4:     0s, Total Time:  4054s
+1:07:34.560	ID:8	
+1:07:34.563	ID:8	     RX:  4053s, TX:     0s
+1:07:34.568	ID:8	     Energy Used:  160928190uW
+1:07:34.568	ID:8	
+1:07:34.578	ID:8	Simulation_Data:     5  4048     0  4053     0  160928190
+1:07:35.483	ID:5	
+1:07:35.484	ID:5	Energest:
+1:07:35.491	ID:5	     Active:     5s, LPM1:  4049s, LPM4:     0s, Total Time:  4054s
+1:07:35.491	ID:5	
+1:07:35.495	ID:5	     RX:  4054s, TX:     0s
+1:07:35.499	ID:5	     Energy Used:  160967895uW
+1:07:35.499	ID:5	
+1:07:35.509	ID:5	Simulation_Data:     5  4049     0  4054     0  160967895
+1:07:50.292	ID:6	
+1:07:50.293	ID:6	Energest:
+1:07:50.300	ID:6	     Active:     5s, LPM1:  4064s, LPM4:     0s, Total Time:  4069s
+1:07:50.300	ID:6	
+1:07:50.303	ID:6	     RX:  4069s, TX:     0s
+1:07:50.308	ID:6	     Energy Used:  161563470uW
+1:07:50.308	ID:6	
+1:07:50.318	ID:6	Simulation_Data:     5  4064     0  4069     0  161563470
+1:07:52.248	ID:7	
+1:07:52.248	ID:7	Energest:
+1:07:52.256	ID:7	     Active:     5s, LPM1:  4066s, LPM4:     0s, Total Time:  4071s
+1:07:52.256	ID:7	
+1:07:52.259	ID:7	     RX:  4071s, TX:     0s
+1:07:52.264	ID:7	     Energy Used:  161642880uW
+1:07:52.264	ID:7	
+1:07:52.274	ID:7	Simulation_Data:     5  4066     0  4071     0  161642880
+1:08:10.205	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+1:08:10.251	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:08:10.254	ID:1	[INFO: App       ] Sending Battery: 55
+1:08:10.299	ID:11	[INFO: App       ] Received DATA 'Battery: 241, Temperature: 6360' from fd00::212:7401:1:101
+1:08:10.299	ID:11	
+1:08:17.947	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+1:08:17.977	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:08:17.980	ID:2	[INFO: App       ] Sending Battery: 34
+1:08:18.027	ID:11	[INFO: App       ] Received DATA 'Battery: 137, Temperature: 6360' from fd00::212:7402:2:202
+1:08:18.028	ID:11	
+1:08:23.049	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+1:08:23.108	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:08:23.112	ID:10	[INFO: App       ] Sending Battery: 122
+1:08:23.191	ID:11	[INFO: App       ] Received DATA 'Battery: 110, Temperature: 6360' from fd00::212:740a:a:a0a
+1:08:23.191	ID:11	
+1:08:34.885	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+1:08:34.970	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:08:34.974	ID:3	[INFO: App       ] Sending Battery: 152
+1:08:35.052	ID:11	[INFO: App       ] Received DATA 'Battery: 184, Temperature: 6360' from fd00::212:7403:3:303
+1:08:35.052	ID:11	
+1:08:41.830	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+1:08:41.860	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:08:41.863	ID:4	[INFO: App       ] Sending Battery: 23
+1:08:41.923	ID:11	[INFO: App       ] Received DATA 'Battery: 229, Temperature: 6360' from fd00::212:7404:4:404
+1:08:41.923	ID:11	
+1:08:51.260	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+1:08:51.281	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:08:51.284	ID:9	[INFO: App       ] Sending Battery: 138
+1:08:51.354	ID:11	[INFO: App       ] Received DATA 'Battery: 159, Temperature: 6360' from fd00::212:7409:9:909
+1:08:51.354	ID:11	
+1:09:01.549	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+1:09:01.610	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:09:01.614	ID:8	[INFO: App       ] Sending Battery: 226
+1:09:01.671	ID:11	[INFO: App       ] Received DATA 'Battery: 189, Temperature: 6360' from fd00::212:7408:8:808
+1:09:01.671	ID:11	
+1:09:08.205	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+1:09:08.227	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:09:08.231	ID:5	[INFO: App       ] Sending Battery: 172
+1:09:08.282	ID:11	[INFO: App       ] Received DATA 'Battery: 234, Temperature: 6360' from fd00::212:7405:5:505
+1:09:08.282	ID:11	
+1:09:17.283	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+1:09:17.313	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:09:17.316	ID:6	[INFO: App       ] Sending Battery: 86
+1:09:17.380	ID:11	[INFO: App       ] Received DATA 'Battery: 234, Temperature: 6360' from fd00::212:7406:6:606
+1:09:17.380	ID:11	
+1:09:26.666	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+1:09:26.696	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:09:26.699	ID:7	[INFO: App       ] Sending Battery: 202
+1:09:26.766	ID:11	[INFO: App       ] Received DATA 'Battery: 204, Temperature: 6360' from fd00::212:7407:7:707
+1:09:26.766	ID:11	
+1:10:12.798	ID:1	
+1:10:12.799	ID:1	Energest:
+1:10:12.807	ID:1	     Active:     7s, LPM1:  4204s, LPM4:     0s, Total Time:  4212s
+1:10:12.807	ID:1	
+1:10:12.810	ID:1	     RX:  4211s, TX:     0s
+1:10:12.815	ID:1	     Energy Used:  167203110uW
+1:10:12.815	ID:1	
+1:10:12.825	ID:1	Simulation_Data:     7  4204     0  4211     0  167203110
+1:10:13.910	ID:2	
+1:10:13.911	ID:2	Energest:
+1:10:13.918	ID:2	     Active:     7s, LPM1:  4206s, LPM4:     0s, Total Time:  4213s
+1:10:13.918	ID:2	
+1:10:13.922	ID:2	     RX:  4213s, TX:     0s
+1:10:13.927	ID:2	     Energy Used:  167282520uW
+1:10:13.927	ID:2	
+1:10:13.936	ID:2	Simulation_Data:     7  4206     0  4213     0  167282520
+1:10:24.527	ID:10	
+1:10:24.528	ID:10	Energest:
+1:10:24.536	ID:10	     Active:     6s, LPM1:  4217s, LPM4:     0s, Total Time:  4223s
+1:10:24.536	ID:10	
+1:10:24.539	ID:10	     RX:  4223s, TX:     0s
+1:10:24.544	ID:10	     Energy Used:  167678805uW
+1:10:24.544	ID:10	
+1:10:24.554	ID:10	Simulation_Data:     6  4217     0  4223     0  167678805
+1:10:25.097	ID:3	
+1:10:25.097	ID:3	Energest:
+1:10:25.105	ID:3	     Active:     6s, LPM1:  4217s, LPM4:     0s, Total Time:  4223s
+1:10:25.105	ID:3	
+1:10:25.108	ID:3	     RX:  4223s, TX:     0s
+1:10:25.113	ID:3	     Energy Used:  167678805uW
+1:10:25.113	ID:3	
+1:10:25.123	ID:3	Simulation_Data:     6  4217     0  4223     0  167678805
+1:10:37.186	ID:4	
+1:10:37.187	ID:4	Energest:
+1:10:37.195	ID:4	     Active:     5s, LPM1:  4230s, LPM4:     0s, Total Time:  4236s
+1:10:37.195	ID:4	
+1:10:37.198	ID:4	     RX:  4236s, TX:     0s
+1:10:37.203	ID:4	     Energy Used:  168193980uW
+1:10:37.203	ID:4	
+1:10:37.213	ID:4	Simulation_Data:     5  4230     0  4236     0  168193980
+1:10:38.234	ID:9	
+1:10:38.235	ID:9	Energest:
+1:10:38.242	ID:9	     Active:     5s, LPM1:  4231s, LPM4:     0s, Total Time:  4237s
+1:10:38.242	ID:9	
+1:10:38.246	ID:9	     RX:  4237s, TX:     0s
+1:10:38.250	ID:9	     Energy Used:  168233685uW
+1:10:38.251	ID:9	
+1:10:38.260	ID:9	Simulation_Data:     5  4231     0  4237     0  168233685
+1:10:54.575	ID:8	
+1:10:54.576	ID:8	Energest:
+1:10:54.583	ID:8	     Active:     5s, LPM1:  4248s, LPM4:     0s, Total Time:  4254s
+1:10:54.583	ID:8	
+1:10:54.587	ID:8	     RX:  4254s, TX:     0s
+1:10:54.591	ID:8	     Energy Used:  168908670uW
+1:10:54.591	ID:8	
+1:10:54.601	ID:8	Simulation_Data:     5  4248     0  4254     0  168908670
+1:10:55.506	ID:5	
+1:10:55.507	ID:5	Energest:
+1:10:55.515	ID:5	     Active:     5s, LPM1:  4248s, LPM4:     0s, Total Time:  4254s
+1:10:55.515	ID:5	
+1:10:55.518	ID:5	     RX:  4254s, TX:     0s
+1:10:55.523	ID:5	     Energy Used:  168908670uW
+1:10:55.523	ID:5	
+1:10:55.533	ID:5	Simulation_Data:     5  4248     0  4254     0  168908670
+1:11:10.315	ID:6	
+1:11:10.316	ID:6	Energest:
+1:11:10.324	ID:6	     Active:     5s, LPM1:  4264s, LPM4:     0s, Total Time:  4269s
+1:11:10.324	ID:6	
+1:11:10.327	ID:6	     RX:  4269s, TX:     0s
+1:11:10.332	ID:6	     Energy Used:  169504470uW
+1:11:10.332	ID:6	
+1:11:10.342	ID:6	Simulation_Data:     5  4264     0  4269     0  169504470
+1:11:12.271	ID:7	
+1:11:12.272	ID:7	Energest:
+1:11:12.279	ID:7	     Active:     5s, LPM1:  4265s, LPM4:     0s, Total Time:  4271s
+1:11:12.279	ID:7	
+1:11:12.283	ID:7	     RX:  4271s, TX:     0s
+1:11:12.288	ID:7	     Energy Used:  169583655uW
+1:11:12.288	ID:7	
+1:11:12.297	ID:7	Simulation_Data:     5  4265     0  4271     0  169583655
+1:12:55.424	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7401:1:101
+1:12:55.446	ID:1	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:12:55.449	ID:1	[INFO: App       ] Sending Battery: 101
+1:12:55.511	ID:11	[INFO: App       ] Received DATA 'Battery: 189, Temperature: 6360' from fd00::212:7401:1:101
+1:12:55.511	ID:11	
+1:13:02.932	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7402:2:202
+1:13:02.969	ID:2	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:13:02.973	ID:2	[INFO: App       ] Sending Battery: 253
+1:13:03.020	ID:11	[INFO: App       ] Received DATA 'Battery: 107, Temperature: 6360' from fd00::212:7402:2:202
+1:13:03.021	ID:11	
+1:13:10.182	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:740a:a:a0a
+1:13:10.227	ID:10	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:13:10.231	ID:10	[INFO: App       ] Sending Battery: 129
+1:13:10.278	ID:11	[INFO: App       ] Received DATA 'Battery: 197, Temperature: 6360' from fd00::212:740a:a:a0a
+1:13:10.278	ID:11	
+1:13:21.604	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7403:3:303
+1:13:21.664	ID:3	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:13:21.667	ID:3	[INFO: App       ] Sending Battery: 2
+1:13:21.755	ID:11	[INFO: App       ] Received DATA 'Battery: 45, Temperature: 6360' from fd00::212:7403:3:303
+1:13:21.755	ID:11	
+1:13:32.822	ID:1	
+1:13:32.822	ID:1	Energest:
+1:13:32.830	ID:1	     Active:     7s, LPM1:  4404s, LPM4:     0s, Total Time:  4412s
+1:13:32.830	ID:1	
+1:13:32.833	ID:1	     RX:  4411s, TX:     0s
+1:13:32.838	ID:1	     Energy Used:  175144110uW
+1:13:32.838	ID:1	
+1:13:32.848	ID:1	Simulation_Data:     7  4404     0  4411     0  175144110
+1:13:33.934	ID:2	
+1:13:33.934	ID:2	Energest:
+1:13:33.942	ID:2	     Active:     7s, LPM1:  4405s, LPM4:     0s, Total Time:  4413s
+1:13:33.942	ID:2	
+1:13:33.945	ID:2	     RX:  4413s, TX:     0s
+1:13:33.950	ID:2	     Energy Used:  175223295uW
+1:13:33.950	ID:2	
+1:13:33.960	ID:2	Simulation_Data:     7  4405     0  4413     0  175223295
+1:13:35.072	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7404:4:404
+1:13:35.094	ID:4	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:13:35.097	ID:4	[INFO: App       ] Sending Battery: 43
+1:13:35.181	ID:11	[INFO: App       ] Received DATA 'Battery: 102, Temperature: 6360' from fd00::212:7404:4:404
+1:13:35.181	ID:11	
+1:13:44.551	ID:10	
+1:13:44.551	ID:10	Energest:
+1:13:44.559	ID:10	     Active:     6s, LPM1:  4417s, LPM4:     0s, Total Time:  4423s
+1:13:44.559	ID:10	
+1:13:44.562	ID:10	     RX:  4423s, TX:     0s
+1:13:44.567	ID:10	     Energy Used:  175619805uW
+1:13:44.567	ID:10	
+1:13:44.577	ID:10	Simulation_Data:     6  4417     0  4423     0  175619805
+1:13:45.120	ID:3	
+1:13:45.121	ID:3	Energest:
+1:13:45.128	ID:3	     Active:     6s, LPM1:  4417s, LPM4:     0s, Total Time:  4423s
+1:13:45.129	ID:3	
+1:13:45.132	ID:3	     RX:  4423s, TX:     0s
+1:13:45.137	ID:3	     Energy Used:  175619805uW
+1:13:45.137	ID:3	
+1:13:45.146	ID:3	Simulation_Data:     6  4417     0  4423     0  175619805
+1:13:49.463	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7409:9:909
+1:13:49.484	ID:9	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:13:49.487	ID:9	[INFO: App       ] Sending Battery: 241
+1:13:49.549	ID:11	[INFO: App       ] Received DATA 'Battery: 234, Temperature: 6360' from fd00::212:7409:9:909
+1:13:49.549	ID:11	
+1:13:56.650	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7408:8:808
+1:13:56.688	ID:8	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:13:56.691	ID:8	[INFO: App       ] Sending Battery: 8
+1:13:56.740	ID:11	[INFO: App       ] Received DATA 'Battery: 199, Temperature: 6360' from fd00::212:7408:8:808
+1:13:56.740	ID:11	
+1:13:57.210	ID:4	
+1:13:57.211	ID:4	Energest:
+1:13:57.218	ID:4	     Active:     6s, LPM1:  4430s, LPM4:     0s, Total Time:  4436s
+1:13:57.218	ID:4	
+1:13:57.222	ID:4	     RX:  4436s, TX:     0s
+1:13:57.226	ID:4	     Energy Used:  176135970uW
+1:13:57.226	ID:4	
+1:13:57.236	ID:4	Simulation_Data:     6  4430     0  4436     0  176135970
+1:13:58.257	ID:9	
+1:13:58.258	ID:9	Energest:
+1:13:58.266	ID:9	     Active:     6s, LPM1:  4431s, LPM4:     0s, Total Time:  4437s
+1:13:58.266	ID:9	
+1:13:58.269	ID:9	     RX:  4437s, TX:     0s
+1:13:58.274	ID:9	     Energy Used:  176175675uW
+1:13:58.274	ID:9	
+1:13:58.284	ID:9	Simulation_Data:     6  4431     0  4437     0  176175675
+1:14:11.510	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7405:5:505
+1:14:11.539	ID:5	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:14:11.543	ID:5	[INFO: App       ] Sending Battery: 246
+1:14:11.626	ID:11	[INFO: App       ] Received DATA 'Battery: 10, Temperature: 6360' from fd00::212:7405:5:505
+1:14:11.626	ID:11	
+1:14:14.598	ID:8	
+1:14:14.599	ID:8	Energest:
+1:14:14.607	ID:8	     Active:     5s, LPM1:  4448s, LPM4:     0s, Total Time:  4454s
+1:14:14.607	ID:8	
+1:14:14.610	ID:8	     RX:  4454s, TX:     0s
+1:14:14.615	ID:8	     Energy Used:  176849670uW
+1:14:14.615	ID:8	
+1:14:14.625	ID:8	Simulation_Data:     5  4448     0  4454     0  176849670
+1:14:15.530	ID:5	
+1:14:15.530	ID:5	Energest:
+1:14:15.538	ID:5	     Active:     5s, LPM1:  4448s, LPM4:     0s, Total Time:  4454s
+1:14:15.538	ID:5	
+1:14:15.541	ID:5	     RX:  4454s, TX:     0s
+1:14:15.546	ID:5	     Energy Used:  176849670uW
+1:14:15.546	ID:5	
+1:14:15.556	ID:5	Simulation_Data:     5  4448     0  4454     0  176849670
+1:14:23.393	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7406:6:606
+1:14:23.415	ID:6	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:14:23.419	ID:6	[INFO: App       ] Sending Battery: 170
+1:14:23.474	ID:11	[INFO: App       ] Received DATA 'Battery: 132, Temperature: 6360' from fd00::212:7406:6:606
+1:14:23.474	ID:11	
+1:14:30.339	ID:6	
+1:14:30.339	ID:6	Energest:
+1:14:30.347	ID:6	     Active:     5s, LPM1:  4463s, LPM4:     0s, Total Time:  4469s
+1:14:30.347	ID:6	
+1:14:30.350	ID:6	     RX:  4469s, TX:     0s
+1:14:30.355	ID:6	     Energy Used:  177445245uW
+1:14:30.355	ID:6	
+1:14:30.365	ID:6	Simulation_Data:     5  4463     0  4469     0  177445245
+1:14:31.268	ID:11	[INFO: App       ] Sending 'REQ' to fd00::212:7407:7:707
+1:14:31.290	ID:7	[INFO: App       ] Received 'REQ' from fd00::212:740b:b:b0b
+1:14:31.293	ID:7	[INFO: App       ] Sending Battery: 148
+1:14:31.352	ID:11	[INFO: App       ] Received DATA 'Battery: 164, Temperature: 6360' from fd00::212:7407:7:707
+1:14:31.352	ID:11	
+1:14:32.295	ID:7	
+1:14:32.295	ID:7	Energest:
+1:14:32.303	ID:7	     Active:     5s, LPM1:  4465s, LPM4:     0s, Total Time:  4471s
+1:14:32.303	ID:7	
+1:14:32.306	ID:7	     RX:  4471s, TX:     0s
+1:14:32.311	ID:7	     Energy Used:  177524655uW
+1:14:32.311	ID:7	
+1:14:32.321	ID:7	Simulation_Data:     5  4465     0  4471     0  177524655

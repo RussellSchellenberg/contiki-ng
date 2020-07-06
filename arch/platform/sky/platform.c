@@ -231,6 +231,7 @@ platform_idle(void)
     int energest_type = ENERGEST_TYPE_DEEP_LPM;
     
     if(msp430_lpm4_required){
+      //printf("lpm4\n");
       ENERGEST_SWITCH(ENERGEST_TYPE_CPU, energest_type);
       _BIS_SR(GIE | LPM4_bits);
     }
@@ -238,8 +239,10 @@ platform_idle(void)
       energest_type = ENERGEST_TYPE_LPM;
       ENERGEST_SWITCH(ENERGEST_TYPE_CPU, energest_type);
       if (msp430_dco_required) { /* check if the DCO needs to be on - if so - only LPM 1 */
+        //printf("lpm1\n");
         _BIS_SR(GIE | CPUOFF); /* LPM1 sleep for DMA to work!. */
       } else {
+        //printf("lpm3\n");
         _BIS_SR(GIE | SCG0 | SCG1 | CPUOFF);  /* LPM3 sleep. This
               statement will block
               until the CPU is
@@ -249,6 +252,7 @@ platform_idle(void)
       }
     }
     watchdog_start();
+    //printf("cpu\n");
     ENERGEST_SWITCH(energest_type, ENERGEST_TYPE_CPU);
   }
 }

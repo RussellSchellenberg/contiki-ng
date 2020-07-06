@@ -1,0 +1,1498 @@
+Jul 05 20:02:41 make IHEXFILE=udp-server.ihex sky-reset sky-upload
+Jul 05 20:02:41 make[1]: Entering directory '/home/bulldog/work/contiki-ng/Bulldog/rpl-udp'
+Jul 05 20:02:41 make -k -j 20 sky-reset-sequence
+Jul 05 20:02:41 make[2]: Entering directory '/home/bulldog/work/contiki-ng/Bulldog/rpl-udp'
+Jul 05 20:02:41 ../../tools/sky/msp430-bsl-linux --telosb -c /dev/ttyUSB0 -r
+Jul 05 20:02:41 Done
+Jul 05 20:02:41 make[2]: Leaving directory '/home/bulldog/work/contiki-ng/Bulldog/rpl-udp'
+Jul 05 20:02:41 make -j 20 sky-upload-sequence
+Jul 05 20:02:41 make[2]: Entering directory '/home/bulldog/work/contiki-ng/Bulldog/rpl-udp'
+Jul 05 20:02:41 +++++ Erasing /dev/ttyUSB0
+Jul 05 20:02:44 +++++ Programming /dev/ttyUSB0
+Jul 05 20:03:45 +++++ Resetting /dev/ttyUSB0
+Jul 05 20:03:45 Done
+Jul 05 20:03:45 make[2]: Leaving directory '/home/bulldog/work/contiki-ng/Bulldog/rpl-udp'
+Jul 05 20:03:45 make[1]: Leaving directory '/home/bulldog/work/contiki-ng/Bulldog/rpl-udp'
+Jul 05 20:03:45 rlwrap ../../tools/serial-io/serialdump -b115200 /dev/ttyUSB0
+Jul 05 20:03:46 [INFO: Main      ] Starting Contiki-NG-release/v4.4-71-g3f2d0669c
+Jul 05 20:03:46 [INFO: Main      ] - Routing: RPL Lite
+Jul 05 20:03:46 [INFO: Main      ] - Net: sicslowpan
+Jul 05 20:03:46 [INFO: Main      ] - MAC: CSMA
+Jul 05 20:03:46 [INFO: Main      ] - 802.15.4 PANID: 0xabcd
+Jul 05 20:03:46 [INFO: Main      ] - 802.15.4 Default channel: 26
+Jul 05 20:03:46 [INFO: Main      ] Node ID: 50322
+Jul 05 20:03:46 [INFO: Main      ] Link-layer address: 0012.7400.1a6c.c492
+Jul 05 20:03:46 [INFO: Main      ] Tentative link-local IPv6 address: fe80::212:7400:1a6c:c492
+Jul 05 20:03:46 [INFO: Sky       ] CC2420 CCA threshold -45
+Jul 05 20:04:05 [INFO: App       ] Received 'SYN' from fd00::212:7400:13e3:79ff
+Jul 05 20:04:05 
+Jul 05 20:04:23 [INFO: App       ] Received 'SYN' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:04:23 
+Jul 05 20:07:08 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:07:18 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:07:27 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:07:27 [INFO: App       ] Received DATA 'Battery: 2263, Temperature: 6468' from fd00::212:7400:13e3:79ff
+Jul 05 20:07:27 
+Jul 05 20:07:34 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:07:42 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:07:55 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:07:56 [INFO: App       ] Received DATA 'Battery: 2253, Temperature: 6586' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:07:56 
+Jul 05 20:11:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:11:25 [INFO: App       ] Received DATA 'Battery: 2263, Temperature: 6464' from fd00::212:7400:13e3:79ff
+Jul 05 20:11:25 
+Jul 05 20:11:32 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:11:32 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6577' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:11:32 
+Jul 05 20:15:07 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:15:07 [INFO: App       ] Received DATA 'Battery: 2259, Temperature: 6479' from fd00::212:7400:13e3:79ff
+Jul 05 20:15:07 
+Jul 05 20:15:17 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:15:17 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6574' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:15:17 
+Jul 05 20:18:48 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:18:49 [INFO: App       ] Received DATA 'Battery: 2263, Temperature: 6489' from fd00::212:7400:13e3:79ff
+Jul 05 20:18:49 
+Jul 05 20:18:58 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:18:59 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6572' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:18:59 
+Jul 05 20:22:30 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:22:31 [INFO: App       ] Received DATA 'Battery: 2261, Temperature: 6480' from fd00::212:7400:13e3:79ff
+Jul 05 20:22:31 
+Jul 05 20:22:43 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:22:44 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6556' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:22:44 
+Jul 05 20:26:14 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:26:15 [INFO: App       ] Received DATA 'Battery: 2259, Temperature: 6513' from fd00::212:7400:13e3:79ff
+Jul 05 20:26:15 
+Jul 05 20:26:29 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:26:29 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6582' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:26:29 
+Jul 05 20:29:56 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:29:56 [INFO: App       ] Received DATA 'Battery: 2259, Temperature: 6496' from fd00::212:7400:13e3:79ff
+Jul 05 20:29:56 
+Jul 05 20:30:03 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:30:04 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6550' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:30:04 
+Jul 05 20:33:33 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:33:33 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6522' from fd00::212:7400:13e3:79ff
+Jul 05 20:33:33 
+Jul 05 20:33:46 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:33:46 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6578' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:33:46 
+Jul 05 20:37:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:37:12 [INFO: App       ] Received DATA 'Battery: 2259, Temperature: 6500' from fd00::212:7400:13e3:79ff
+Jul 05 20:37:12 
+Jul 05 20:37:22 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:37:22 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6548' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:37:22 
+Jul 05 20:40:49 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:40:49 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6533' from fd00::212:7400:13e3:79ff
+Jul 05 20:40:49 
+Jul 05 20:40:59 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:40:59 [INFO: App       ] Received DATA 'Battery: 2245, Temperature: 6571' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:40:59 
+Jul 05 20:44:32 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:44:32 [INFO: App       ] Received DATA 'Battery: 2259, Temperature: 6460' from fd00::212:7400:13e3:79ff
+Jul 05 20:44:32 
+Jul 05 20:44:40 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:44:41 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6541' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:44:41 
+Jul 05 20:48:08 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:48:08 [INFO: App       ] Received DATA 'Battery: 2259, Temperature: 6475' from fd00::212:7400:13e3:79ff
+Jul 05 20:48:08 
+Jul 05 20:48:19 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:48:20 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6568' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:48:20 
+Jul 05 20:51:54 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:51:54 [INFO: App       ] Received DATA 'Battery: 2259, Temperature: 6450' from fd00::212:7400:13e3:79ff
+Jul 05 20:51:54 
+Jul 05 20:52:01 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:52:02 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6530' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:52:02 
+Jul 05 20:55:28 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:55:28 [INFO: App       ] Received DATA 'Battery: 2259, Temperature: 6489' from fd00::212:7400:13e3:79ff
+Jul 05 20:55:28 
+Jul 05 20:55:35 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:55:36 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6560' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:55:36 
+Jul 05 20:59:03 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 20:59:04 [INFO: App       ] Received DATA 'Battery: 2259, Temperature: 6470' from fd00::212:7400:13e3:79ff
+Jul 05 20:59:04 
+Jul 05 20:59:17 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 20:59:18 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6536' from fd00::212:7400:1a6c:d6ed
+Jul 05 20:59:18 
+Jul 05 21:02:43 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:02:44 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6502' from fd00::212:7400:13e3:79ff
+Jul 05 21:02:44 
+Jul 05 21:02:58 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:02:58 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6566' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:02:58 
+Jul 05 21:06:29 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:06:29 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6487' from fd00::212:7400:13e3:79ff
+Jul 05 21:06:29 
+Jul 05 21:06:38 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:06:39 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6541' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:06:39 
+Jul 05 21:10:10 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:10:11 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6517' from fd00::212:7400:13e3:79ff
+Jul 05 21:10:11 
+Jul 05 21:10:18 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:10:19 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6568' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:10:19 
+Jul 05 21:13:51 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:13:51 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6509' from fd00::212:7400:13e3:79ff
+Jul 05 21:13:51 
+Jul 05 21:13:56 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:13:57 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6548' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:13:57 
+Jul 05 21:17:27 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:17:28 [INFO: App       ] Received DATA 'Battery: 2253, Temperature: 6524' from fd00::212:7400:13e3:79ff
+Jul 05 21:17:28 
+Jul 05 21:17:34 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:17:34 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6559' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:17:34 
+Jul 05 21:20:59 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:21:00 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6457' from fd00::212:7400:13e3:79ff
+Jul 05 21:21:00 
+Jul 05 21:21:10 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:21:10 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6543' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:21:10 
+Jul 05 21:24:39 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:24:40 [INFO: App       ] Received DATA 'Battery: 2259, Temperature: 6465' from fd00::212:7400:13e3:79ff
+Jul 05 21:24:40 
+Jul 05 21:24:45 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:24:45 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6561' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:24:45 
+Jul 05 21:28:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:28:12 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6456' from fd00::212:7400:13e3:79ff
+Jul 05 21:28:12 
+Jul 05 21:28:21 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:28:22 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6547' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:28:22 
+Jul 05 21:31:49 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:31:49 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6484' from fd00::212:7400:13e3:79ff
+Jul 05 21:31:49 
+Jul 05 21:31:57 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:31:58 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6560' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:31:58 
+Jul 05 21:35:23 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:35:23 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6466' from fd00::212:7400:13e3:79ff
+Jul 05 21:35:23 
+Jul 05 21:35:31 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:35:32 [INFO: App       ] Received DATA 'Battery: 2237, Temperature: 6542' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:35:32 
+Jul 05 21:39:01 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:39:02 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6491' from fd00::212:7400:13e3:79ff
+Jul 05 21:39:02 
+Jul 05 21:39:13 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:39:14 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6569' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:39:14 
+Jul 05 21:42:48 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:42:49 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6503' from fd00::212:7400:13e3:79ff
+Jul 05 21:42:49 
+Jul 05 21:43:01 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:43:01 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6574' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:43:01 
+Jul 05 21:46:29 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:46:29 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6526' from fd00::212:7400:13e3:79ff
+Jul 05 21:46:29 
+Jul 05 21:46:35 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:46:36 [INFO: App       ] Received DATA 'Battery: 2237, Temperature: 6590' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:46:36 
+Jul 05 21:50:10 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:50:10 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6521' from fd00::212:7400:13e3:79ff
+Jul 05 21:50:10 
+Jul 05 21:50:20 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:50:20 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6575' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:50:20 
+Jul 05 21:53:56 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:53:56 [INFO: App       ] Received DATA 'Battery: 2253, Temperature: 6532' from fd00::212:7400:13e3:79ff
+Jul 05 21:53:56 
+Jul 05 21:54:06 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:54:06 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6581' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:54:06 
+Jul 05 21:57:39 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 21:57:39 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6536' from fd00::212:7400:13e3:79ff
+Jul 05 21:57:39 
+Jul 05 21:57:48 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 21:57:48 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6575' from fd00::212:7400:1a6c:d6ed
+Jul 05 21:57:48 
+Jul 05 22:01:23 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:01:24 [INFO: App       ] Received DATA 'Battery: 2253, Temperature: 6501' from fd00::212:7400:13e3:79ff
+Jul 05 22:01:24 
+Jul 05 22:01:31 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:01:31 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6569' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:01:31 
+Jul 05 22:05:01 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:05:02 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6482' from fd00::212:7400:13e3:79ff
+Jul 05 22:05:02 
+Jul 05 22:05:11 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:05:12 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6571' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:05:12 
+Jul 05 22:08:39 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:08:39 [INFO: App       ] Received DATA 'Battery: 2255, Temperature: 6501' from fd00::212:7400:13e3:79ff
+Jul 05 22:08:39 
+Jul 05 22:08:50 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:08:50 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6591' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:08:50 
+Jul 05 22:12:16 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:12:17 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6495' from fd00::212:7400:13e3:79ff
+Jul 05 22:12:17 
+Jul 05 22:12:30 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:12:31 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6578' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:12:31 
+Jul 05 22:15:58 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:15:59 [INFO: App       ] Received DATA 'Battery: 2253, Temperature: 6515' from fd00::212:7400:13e3:79ff
+Jul 05 22:15:59 
+Jul 05 22:16:03 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:16:04 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6587' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:16:04 
+Jul 05 22:19:36 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:19:37 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6521' from fd00::212:7400:13e3:79ff
+Jul 05 22:19:37 
+Jul 05 22:19:43 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:19:43 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6588' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:19:43 
+Jul 05 22:23:10 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:23:10 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6528' from fd00::212:7400:13e3:79ff
+Jul 05 22:23:10 
+Jul 05 22:23:15 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:23:15 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6588' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:23:15 
+Jul 05 22:26:41 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:26:41 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6534' from fd00::212:7400:13e3:79ff
+Jul 05 22:26:41 
+Jul 05 22:26:47 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:26:47 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6590' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:26:47 
+Jul 05 22:30:13 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:30:14 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6542' from fd00::212:7400:13e3:79ff
+Jul 05 22:30:14 
+Jul 05 22:30:28 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:30:28 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6598' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:30:28 
+Jul 05 22:33:55 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:33:55 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6542' from fd00::212:7400:13e3:79ff
+Jul 05 22:33:55 
+Jul 05 22:34:00 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:34:00 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6592' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:34:00 
+Jul 05 22:37:27 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:37:28 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6540' from fd00::212:7400:13e3:79ff
+Jul 05 22:37:28 
+Jul 05 22:37:35 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:37:35 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6580' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:37:35 
+Jul 05 22:41:08 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:41:08 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6483' from fd00::212:7400:13e3:79ff
+Jul 05 22:41:08 
+Jul 05 22:41:21 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:41:21 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6585' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:41:21 
+Jul 05 22:44:50 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:44:51 [INFO: App       ] Received DATA 'Battery: 2253, Temperature: 6490' from fd00::212:7400:13e3:79ff
+Jul 05 22:44:51 
+Jul 05 22:44:56 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:44:57 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6593' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:44:57 
+Jul 05 22:48:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:48:24 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6488' from fd00::212:7400:13e3:79ff
+Jul 05 22:48:24 
+Jul 05 22:48:37 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:48:37 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6589' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:48:37 
+Jul 05 22:52:02 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:52:02 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6510' from fd00::212:7400:13e3:79ff
+Jul 05 22:52:02 
+Jul 05 22:52:11 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:52:11 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6602' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:52:11 
+Jul 05 22:55:40 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:55:40 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6503' from fd00::212:7400:13e3:79ff
+Jul 05 22:55:40 
+Jul 05 22:55:54 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:55:54 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6585' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:55:54 
+Jul 05 22:59:29 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 22:59:29 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6524' from fd00::212:7400:13e3:79ff
+Jul 05 22:59:29 
+Jul 05 22:59:36 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 22:59:37 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6594' from fd00::212:7400:1a6c:d6ed
+Jul 05 22:59:37 
+Jul 05 23:03:10 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:03:11 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6528' from fd00::212:7400:13e3:79ff
+Jul 05 23:03:11 
+Jul 05 23:03:22 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:03:22 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6590' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:03:22 
+Jul 05 23:06:56 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:06:57 [INFO: App       ] Received DATA 'Battery: 2249, Temperature: 6544' from fd00::212:7400:13e3:79ff
+Jul 05 23:06:57 
+Jul 05 23:07:05 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:07:05 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6601' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:07:05 
+Jul 05 23:10:38 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:10:38 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6542' from fd00::212:7400:13e3:79ff
+Jul 05 23:10:38 
+Jul 05 23:10:48 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:10:48 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6591' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:10:48 
+Jul 05 23:14:21 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:14:21 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6550' from fd00::212:7400:13e3:79ff
+Jul 05 23:14:21 
+Jul 05 23:14:27 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:14:27 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6595' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:14:27 
+Jul 05 23:17:54 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:17:55 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6500' from fd00::212:7400:13e3:79ff
+Jul 05 23:17:55 
+Jul 05 23:18:02 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:18:02 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6596' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:18:02 
+Jul 05 23:21:37 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:21:37 [INFO: App       ] Received DATA 'Battery: 2251, Temperature: 6484' from fd00::212:7400:13e3:79ff
+Jul 05 23:21:37 
+Jul 05 23:21:45 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:21:45 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6577' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:21:45 
+Jul 05 23:25:16 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:25:16 [INFO: App       ] Received DATA 'Battery: 2249, Temperature: 6502' from fd00::212:7400:13e3:79ff
+Jul 05 23:25:16 
+Jul 05 23:25:27 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:25:27 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6594' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:25:27 
+Jul 05 23:29:00 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:29:00 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6501' from fd00::212:7400:13e3:79ff
+Jul 05 23:29:00 
+Jul 05 23:29:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:29:12 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6570' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:29:12 
+Jul 05 23:32:46 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:32:46 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6507' from fd00::212:7400:13e3:79ff
+Jul 05 23:32:46 
+Jul 05 23:32:53 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:32:54 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6572' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:32:54 
+Jul 05 23:36:27 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:36:28 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6526' from fd00::212:7400:13e3:79ff
+Jul 05 23:36:28 
+Jul 05 23:36:38 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:36:39 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6590' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:36:39 
+Jul 05 23:40:13 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:40:13 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6552' from fd00::212:7400:13e3:79ff
+Jul 05 23:40:13 
+Jul 05 23:40:23 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:40:23 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6609' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:40:23 
+Jul 05 23:43:55 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:43:56 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6567' from fd00::212:7400:13e3:79ff
+Jul 05 23:43:56 
+Jul 05 23:44:05 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:44:06 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6619' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:44:06 
+Jul 05 23:47:40 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:47:40 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6586' from fd00::212:7400:13e3:79ff
+Jul 05 23:47:40 
+Jul 05 23:47:47 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:47:47 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6631' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:47:47 
+Jul 05 23:51:18 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:51:19 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6541' from fd00::212:7400:13e3:79ff
+Jul 05 23:51:19 
+Jul 05 23:51:32 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:51:32 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6638' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:51:32 
+Jul 05 23:55:05 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:55:05 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6545' from fd00::212:7400:13e3:79ff
+Jul 05 23:55:05 
+Jul 05 23:55:16 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:55:16 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6648' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:55:16 
+Jul 05 23:58:42 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 05 23:58:42 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6567' from fd00::212:7400:13e3:79ff
+Jul 05 23:58:42 
+Jul 05 23:58:53 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 05 23:58:54 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6652' from fd00::212:7400:1a6c:d6ed
+Jul 05 23:58:54 
+Jul 06 00:02:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:02:24 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6573' from fd00::212:7400:13e3:79ff
+Jul 06 00:02:24 
+Jul 06 00:02:36 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:02:36 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6656' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:02:36 
+Jul 06 00:06:06 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:06:07 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6584' from fd00::212:7400:13e3:79ff
+Jul 06 00:06:07 
+Jul 06 00:06:16 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:06:16 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6664' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:06:16 
+Jul 06 00:09:46 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:09:47 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6598' from fd00::212:7400:13e3:79ff
+Jul 06 00:09:47 
+Jul 06 00:09:52 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:09:53 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6669' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:09:53 
+Jul 06 00:13:26 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:13:27 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6609' from fd00::212:7400:13e3:79ff
+Jul 06 00:13:27 
+Jul 06 00:13:35 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:13:35 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6672' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:13:35 
+Jul 06 00:17:06 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:17:07 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6620' from fd00::212:7400:13e3:79ff
+Jul 06 00:17:07 
+Jul 06 00:17:21 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:17:21 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6676' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:17:21 
+Jul 06 00:20:46 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:20:48 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6630' from fd00::212:7400:13e3:79ff
+Jul 06 00:20:48 
+Jul 06 00:21:00 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:21:00 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6682' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:21:00 
+Jul 06 00:24:31 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:24:31 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6581' from fd00::212:7400:13e3:79ff
+Jul 06 00:24:31 
+Jul 06 00:24:39 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:24:40 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6683' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:24:40 
+Jul 06 00:28:07 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:28:08 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6594' from fd00::212:7400:13e3:79ff
+Jul 06 00:28:08 
+Jul 06 00:28:19 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:28:19 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6688' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:28:19 
+Jul 06 00:31:47 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:31:48 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6599' from fd00::212:7400:13e3:79ff
+Jul 06 00:31:48 
+Jul 06 00:31:57 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:31:57 [INFO: App       ] Received DATA 'Battery: 2225, Temperature: 6690' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:31:57 
+Jul 06 00:35:23 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:35:25 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6599' from fd00::212:7400:13e3:79ff
+Jul 06 00:35:25 
+Jul 06 00:35:36 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:35:36 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6692' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:35:36 
+Jul 06 00:39:06 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:39:07 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6610' from fd00::212:7400:13e3:79ff
+Jul 06 00:39:07 
+Jul 06 00:39:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:39:12 [INFO: App       ] Received DATA 'Battery: 2225, Temperature: 6697' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:39:12 
+Jul 06 00:42:45 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:42:46 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6620' from fd00::212:7400:13e3:79ff
+Jul 06 00:42:46 
+Jul 06 00:42:51 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:42:51 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6700' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:42:51 
+Jul 06 00:46:22 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:46:23 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6630' from fd00::212:7400:13e3:79ff
+Jul 06 00:46:23 
+Jul 06 00:46:29 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:46:29 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6705' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:46:29 
+Jul 06 00:49:59 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:50:00 [INFO: App       ] Received DATA 'Battery: 2245, Temperature: 6640' from fd00::212:7400:13e3:79ff
+Jul 06 00:50:00 
+Jul 06 00:50:13 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:50:13 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6705' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:50:13 
+Jul 06 00:53:48 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:53:48 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6648' from fd00::212:7400:13e3:79ff
+Jul 06 00:53:48 
+Jul 06 00:53:57 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:53:57 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6706' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:53:57 
+Jul 06 00:57:31 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 00:57:32 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6659' from fd00::212:7400:13e3:79ff
+Jul 06 00:57:32 
+Jul 06 00:57:41 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 00:57:41 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6710' from fd00::212:7400:1a6c:d6ed
+Jul 06 00:57:41 
+Jul 06 01:01:14 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:01:14 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6611' from fd00::212:7400:13e3:79ff
+Jul 06 01:01:14 
+Jul 06 01:01:21 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:01:22 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6711' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:01:22 
+Jul 06 01:04:48 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:04:49 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6603' from fd00::212:7400:13e3:79ff
+Jul 06 01:04:49 
+Jul 06 01:04:56 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:04:57 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6712' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:04:57 
+Jul 06 01:08:22 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:08:23 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6606' from fd00::212:7400:13e3:79ff
+Jul 06 01:08:23 
+Jul 06 01:08:28 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:08:28 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6713' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:08:28 
+Jul 06 01:11:57 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:11:57 [INFO: App       ] Received DATA 'Battery: 2245, Temperature: 6652' from fd00::212:7400:13e3:79ff
+Jul 06 01:11:57 
+Jul 06 01:12:08 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:12:08 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6718' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:12:08 
+Jul 06 01:15:35 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:15:36 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6635' from fd00::212:7400:13e3:79ff
+Jul 06 01:15:36 
+Jul 06 01:15:44 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:15:44 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6716' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:15:44 
+Jul 06 01:19:16 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:19:16 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6639' from fd00::212:7400:13e3:79ff
+Jul 06 01:19:16 
+Jul 06 01:19:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:19:24 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6717' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:19:24 
+Jul 06 01:22:56 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:22:56 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6645' from fd00::212:7400:13e3:79ff
+Jul 06 01:22:56 
+Jul 06 01:23:09 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:23:10 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6722' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:23:10 
+Jul 06 01:26:38 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:26:40 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6654' from fd00::212:7400:13e3:79ff
+Jul 06 01:26:40 
+Jul 06 01:26:53 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:26:53 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6723' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:26:53 
+Jul 06 01:30:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:30:24 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6673' from fd00::212:7400:13e3:79ff
+Jul 06 01:30:24 
+Jul 06 01:30:31 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:30:31 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6725' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:30:31 
+Jul 06 01:34:01 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:34:02 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6675' from fd00::212:7400:13e3:79ff
+Jul 06 01:34:02 
+Jul 06 01:34:07 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:34:07 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6724' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:34:07 
+Jul 06 01:37:37 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:37:37 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6683' from fd00::212:7400:13e3:79ff
+Jul 06 01:37:37 
+Jul 06 01:37:43 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:37:44 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6726' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:37:44 
+Jul 06 01:41:15 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:41:16 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6630' from fd00::212:7400:13e3:79ff
+Jul 06 01:41:16 
+Jul 06 01:41:25 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:41:25 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6727' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:41:25 
+Jul 06 01:45:01 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:45:04 [INFO: App       ] Received DATA 'Battery: 2247, Temperature: 6625' from fd00::212:7400:13e3:79ff
+Jul 06 01:45:04 
+Jul 06 01:45:09 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:45:10 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6728' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:45:10 
+Jul 06 01:48:36 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:48:37 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6671' from fd00::212:7400:13e3:79ff
+Jul 06 01:48:37 
+Jul 06 01:48:45 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:48:45 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6729' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:48:45 
+Jul 06 01:52:17 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:52:18 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6650' from fd00::212:7400:13e3:79ff
+Jul 06 01:52:18 
+Jul 06 01:52:22 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:52:23 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6730' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:52:23 
+Jul 06 01:55:56 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:55:57 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6677' from fd00::212:7400:13e3:79ff
+Jul 06 01:55:57 
+Jul 06 01:56:10 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:56:11 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6731' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:56:11 
+Jul 06 01:59:45 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 01:59:47 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6671' from fd00::212:7400:13e3:79ff
+Jul 06 01:59:47 
+Jul 06 01:59:59 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 01:59:59 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6731' from fd00::212:7400:1a6c:d6ed
+Jul 06 01:59:59 
+Jul 06 02:03:27 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:03:28 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6684' from fd00::212:7400:13e3:79ff
+Jul 06 02:03:28 
+Jul 06 02:03:36 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:03:37 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6731' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:03:37 
+Jul 06 02:07:07 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:07:08 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6682' from fd00::212:7400:13e3:79ff
+Jul 06 02:07:08 
+Jul 06 02:07:18 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:07:18 [INFO: App       ] Received DATA 'Battery: 2221, Temperature: 6731' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:07:18 
+Jul 06 02:10:53 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:10:54 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6688' from fd00::212:7400:13e3:79ff
+Jul 06 02:10:54 
+Jul 06 02:11:07 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:11:07 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6732' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:11:07 
+Jul 06 02:14:37 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:14:37 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6634' from fd00::212:7400:13e3:79ff
+Jul 06 02:14:37 
+Jul 06 02:14:43 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:14:43 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6732' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:14:43 
+Jul 06 02:18:16 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:18:17 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6628' from fd00::212:7400:13e3:79ff
+Jul 06 02:18:17 
+Jul 06 02:18:23 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:18:23 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6733' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:18:23 
+Jul 06 02:21:57 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:21:57 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6633' from fd00::212:7400:13e3:79ff
+Jul 06 02:21:57 
+Jul 06 02:22:02 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:22:02 [INFO: App       ] Received DATA 'Battery: 2221, Temperature: 6733' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:22:02 
+Jul 06 02:25:34 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:25:35 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6651' from fd00::212:7400:13e3:79ff
+Jul 06 02:25:35 
+Jul 06 02:25:44 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:25:44 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6730' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:25:44 
+Jul 06 02:29:13 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:29:14 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6650' from fd00::212:7400:13e3:79ff
+Jul 06 02:29:14 
+Jul 06 02:29:18 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:29:18 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6729' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:29:18 
+Jul 06 02:32:45 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:32:45 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6657' from fd00::212:7400:13e3:79ff
+Jul 06 02:32:45 
+Jul 06 02:32:50 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:32:50 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6731' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:32:50 
+Jul 06 02:36:17 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:36:17 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6661' from fd00::212:7400:13e3:79ff
+Jul 06 02:36:17 
+Jul 06 02:36:27 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:36:27 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6731' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:36:27 
+Jul 06 02:39:53 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:39:53 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6666' from fd00::212:7400:13e3:79ff
+Jul 06 02:39:53 
+Jul 06 02:40:02 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:40:02 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6730' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:40:02 
+Jul 06 02:43:35 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:43:36 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6674' from fd00::212:7400:13e3:79ff
+Jul 06 02:43:36 
+Jul 06 02:43:48 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:43:48 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6730' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:43:48 
+Jul 06 02:47:13 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:47:14 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6678' from fd00::212:7400:13e3:79ff
+Jul 06 02:47:14 
+Jul 06 02:47:20 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:47:21 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6731' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:47:21 
+Jul 06 02:50:48 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:50:49 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6683' from fd00::212:7400:13e3:79ff
+Jul 06 02:50:49 
+Jul 06 02:51:03 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:51:03 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6732' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:51:03 
+Jul 06 02:54:35 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:54:35 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6652' from fd00::212:7400:13e3:79ff
+Jul 06 02:54:35 
+Jul 06 02:54:41 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:54:41 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6729' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:54:41 
+Jul 06 02:58:14 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 02:58:15 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6629' from fd00::212:7400:13e3:79ff
+Jul 06 02:58:15 
+Jul 06 02:58:19 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 02:58:19 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6730' from fd00::212:7400:1a6c:d6ed
+Jul 06 02:58:19 
+Jul 06 03:01:46 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:01:47 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6627' from fd00::212:7400:13e3:79ff
+Jul 06 03:01:47 
+Jul 06 03:01:52 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:01:53 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6729' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:01:53 
+Jul 06 03:05:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:05:24 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6635' from fd00::212:7400:13e3:79ff
+Jul 06 03:05:24 
+Jul 06 03:05:34 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:05:35 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6730' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:05:35 
+Jul 06 03:09:03 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:09:04 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6641' from fd00::212:7400:13e3:79ff
+Jul 06 03:09:04 
+Jul 06 03:09:16 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:09:16 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6729' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:09:16 
+Jul 06 03:12:50 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:12:51 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6650' from fd00::212:7400:13e3:79ff
+Jul 06 03:12:51 
+Jul 06 03:12:57 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:12:57 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6728' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:12:57 
+Jul 06 03:16:23 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:16:34 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:16:45 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:16:58 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:17:06 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:17:17 [INFO: App       ] Sink unresponsive: fd00::212:7400:13e3:79ff
+Jul 06 03:17:17 
+Jul 06 03:17:17 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:17:17 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6727' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:17:17 
+Jul 06 03:20:48 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:20:48 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6666' from fd00::212:7400:13e3:79ff
+Jul 06 03:20:48 
+Jul 06 03:20:53 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:20:54 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6728' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:20:54 
+Jul 06 03:24:28 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:24:28 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6619' from fd00::212:7400:13e3:79ff
+Jul 06 03:24:28 
+Jul 06 03:24:36 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:24:36 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6725' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:24:36 
+Jul 06 03:28:10 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:28:11 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6610' from fd00::212:7400:13e3:79ff
+Jul 06 03:28:11 
+Jul 06 03:28:16 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:28:17 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6723' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:28:17 
+Jul 06 03:31:48 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:31:49 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6628' from fd00::212:7400:13e3:79ff
+Jul 06 03:31:49 
+Jul 06 03:31:59 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:31:59 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6722' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:31:59 
+Jul 06 03:35:32 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:35:33 [INFO: App       ] Received DATA 'Battery: 2243, Temperature: 6629' from fd00::212:7400:13e3:79ff
+Jul 06 03:35:33 
+Jul 06 03:35:43 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:35:43 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6721' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:35:43 
+Jul 06 03:39:15 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:39:16 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6634' from fd00::212:7400:13e3:79ff
+Jul 06 03:39:16 
+Jul 06 03:39:28 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:39:29 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6720' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:39:29 
+Jul 06 03:43:01 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:43:02 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6643' from fd00::212:7400:13e3:79ff
+Jul 06 03:43:02 
+Jul 06 03:43:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:43:12 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6718' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:43:12 
+Jul 06 03:46:43 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:46:44 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6652' from fd00::212:7400:13e3:79ff
+Jul 06 03:46:44 
+Jul 06 03:46:54 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:46:54 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6718' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:46:54 
+Jul 06 03:50:25 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:50:26 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6659' from fd00::212:7400:13e3:79ff
+Jul 06 03:50:26 
+Jul 06 03:50:38 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:50:38 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6716' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:50:38 
+Jul 06 03:54:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:54:12 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6664' from fd00::212:7400:13e3:79ff
+Jul 06 03:54:12 
+Jul 06 03:54:23 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:54:24 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6714' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:54:24 
+Jul 06 03:57:56 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 03:57:57 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6611' from fd00::212:7400:13e3:79ff
+Jul 06 03:57:57 
+Jul 06 03:58:11 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 03:58:11 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6712' from fd00::212:7400:1a6c:d6ed
+Jul 06 03:58:11 
+Jul 06 04:01:46 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:01:47 [INFO: App       ] Received DATA 'Battery: 2241, Temperature: 6610' from fd00::212:7400:13e3:79ff
+Jul 06 04:01:47 
+Jul 06 04:01:59 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:01:59 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6710' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:01:59 
+Jul 06 04:05:25 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:05:26 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6613' from fd00::212:7400:13e3:79ff
+Jul 06 04:05:26 
+Jul 06 04:05:40 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:05:40 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6708' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:05:40 
+Jul 06 04:09:14 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:09:15 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6622' from fd00::212:7400:13e3:79ff
+Jul 06 04:09:15 
+Jul 06 04:09:23 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:09:23 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6706' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:09:23 
+Jul 06 04:12:56 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:12:56 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6632' from fd00::212:7400:13e3:79ff
+Jul 06 04:12:56 
+Jul 06 04:13:09 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:13:09 [INFO: App       ] Received DATA 'Battery: 2211, Temperature: 6704' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:13:09 
+Jul 06 04:16:36 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:16:37 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6636' from fd00::212:7400:13e3:79ff
+Jul 06 04:16:37 
+Jul 06 04:16:50 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:16:50 [INFO: App       ] Received DATA 'Battery: 2211, Temperature: 6702' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:16:50 
+Jul 06 04:20:25 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:20:26 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6642' from fd00::212:7400:13e3:79ff
+Jul 06 04:20:26 
+Jul 06 04:20:39 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:20:39 [INFO: App       ] Received DATA 'Battery: 2211, Temperature: 6701' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:20:39 
+Jul 06 04:24:07 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:24:08 [INFO: App       ] Received DATA 'Battery: 2237, Temperature: 6648' from fd00::212:7400:13e3:79ff
+Jul 06 04:24:08 
+Jul 06 04:24:19 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:24:20 [INFO: App       ] Received DATA 'Battery: 2213, Temperature: 6698' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:24:20 
+Jul 06 04:27:49 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:27:50 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6594' from fd00::212:7400:13e3:79ff
+Jul 06 04:27:50 
+Jul 06 04:27:56 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:27:57 [INFO: App       ] Received DATA 'Battery: 2211, Temperature: 6696' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:27:57 
+Jul 06 04:31:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:31:24 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6584' from fd00::212:7400:13e3:79ff
+Jul 06 04:31:24 
+Jul 06 04:31:31 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:31:31 [INFO: App       ] Received DATA 'Battery: 2211, Temperature: 6695' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:31:31 
+Jul 06 04:35:06 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:35:06 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6588' from fd00::212:7400:13e3:79ff
+Jul 06 04:35:06 
+Jul 06 04:35:17 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:35:17 [INFO: App       ] Received DATA 'Battery: 2211, Temperature: 6694' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:35:17 
+Jul 06 04:38:42 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:38:43 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6593' from fd00::212:7400:13e3:79ff
+Jul 06 04:38:43 
+Jul 06 04:38:49 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:38:49 [INFO: App       ] Received DATA 'Battery: 2211, Temperature: 6691' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:38:49 
+Jul 06 04:42:22 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:42:23 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6610' from fd00::212:7400:13e3:79ff
+Jul 06 04:42:23 
+Jul 06 04:42:30 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:42:31 [INFO: App       ] Received DATA 'Battery: 2211, Temperature: 6690' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:42:31 
+Jul 06 04:45:57 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:45:57 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6609' from fd00::212:7400:13e3:79ff
+Jul 06 04:45:57 
+Jul 06 04:46:11 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:46:11 [INFO: App       ] Received DATA 'Battery: 2211, Temperature: 6688' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:46:11 
+Jul 06 04:49:41 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:49:42 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6612' from fd00::212:7400:13e3:79ff
+Jul 06 04:49:42 
+Jul 06 04:49:53 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:49:53 [INFO: App       ] Received DATA 'Battery: 2211, Temperature: 6684' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:49:53 
+Jul 06 04:53:20 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:53:21 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6618' from fd00::212:7400:13e3:79ff
+Jul 06 04:53:21 
+Jul 06 04:53:26 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:53:27 [INFO: App       ] Received DATA 'Battery: 2211, Temperature: 6684' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:53:27 
+Jul 06 04:56:58 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 04:56:59 [INFO: App       ] Received DATA 'Battery: 2237, Temperature: 6622' from fd00::212:7400:13e3:79ff
+Jul 06 04:56:59 
+Jul 06 04:57:06 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 04:57:07 [INFO: App       ] Received DATA 'Battery: 2209, Temperature: 6681' from fd00::212:7400:1a6c:d6ed
+Jul 06 04:57:07 
+Jul 06 05:00:32 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:00:33 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6624' from fd00::212:7400:13e3:79ff
+Jul 06 05:00:33 
+Jul 06 05:00:43 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:00:44 [INFO: App       ] Received DATA 'Battery: 2207, Temperature: 6678' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:00:44 
+Jul 06 05:04:10 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:04:11 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6630' from fd00::212:7400:13e3:79ff
+Jul 06 05:04:11 
+Jul 06 05:04:16 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:04:16 [INFO: App       ] Received DATA 'Battery: 2211, Temperature: 6676' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:04:16 
+Jul 06 05:07:50 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:07:51 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6574' from fd00::212:7400:13e3:79ff
+Jul 06 05:07:51 
+Jul 06 05:08:00 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:08:01 [INFO: App       ] Received DATA 'Battery: 2207, Temperature: 6675' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:08:01 
+Jul 06 05:11:27 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:11:28 [INFO: App       ] Received DATA 'Battery: 2237, Temperature: 6579' from fd00::212:7400:13e3:79ff
+Jul 06 05:11:28 
+Jul 06 05:11:34 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:11:34 [INFO: App       ] Received DATA 'Battery: 2209, Temperature: 6673' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:11:34 
+Jul 06 05:15:03 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:15:04 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6570' from fd00::212:7400:13e3:79ff
+Jul 06 05:15:04 
+Jul 06 05:15:09 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:15:10 [INFO: App       ] Received DATA 'Battery: 2207, Temperature: 6669' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:15:10 
+Jul 06 05:18:40 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:18:41 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6570' from fd00::212:7400:13e3:79ff
+Jul 06 05:18:41 
+Jul 06 05:18:46 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:18:46 [INFO: App       ] Received DATA 'Battery: 2207, Temperature: 6668' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:18:46 
+Jul 06 05:22:17 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:22:18 [INFO: App       ] Received DATA 'Battery: 2239, Temperature: 6576' from fd00::212:7400:13e3:79ff
+Jul 06 05:22:18 
+Jul 06 05:22:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:22:24 [INFO: App       ] Received DATA 'Battery: 2207, Temperature: 6664' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:22:24 
+Jul 06 05:25:56 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:25:58 [INFO: App       ] Received DATA 'Battery: 2237, Temperature: 6581' from fd00::212:7400:13e3:79ff
+Jul 06 05:25:58 
+Jul 06 05:26:05 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:26:05 [INFO: App       ] Received DATA 'Battery: 2209, Temperature: 6662' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:26:05 
+Jul 06 05:29:37 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:29:43 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:29:58 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:30:06 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:30:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:30:25 [INFO: App       ] Sink unresponsive: fd00::212:7400:13e3:79ff
+Jul 06 05:30:25 
+Jul 06 05:30:25 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:30:25 [INFO: App       ] Received DATA 'Battery: 2207, Temperature: 6659' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:30:25 
+Jul 06 05:34:00 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:34:00 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6594' from fd00::212:7400:13e3:79ff
+Jul 06 05:34:00 
+Jul 06 05:34:14 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:34:14 [INFO: App       ] Received DATA 'Battery: 2207, Temperature: 6654' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:34:14 
+Jul 06 05:37:43 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:37:45 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6606' from fd00::212:7400:13e3:79ff
+Jul 06 05:37:45 
+Jul 06 05:37:54 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:37:54 [INFO: App       ] Received DATA 'Battery: 2207, Temperature: 6656' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:37:54 
+Jul 06 05:41:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:41:24 [INFO: App       ] Received DATA 'Battery: 2233, Temperature: 6578' from fd00::212:7400:13e3:79ff
+Jul 06 05:41:24 
+Jul 06 05:41:31 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:41:32 [INFO: App       ] Received DATA 'Battery: 2207, Temperature: 6654' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:41:32 
+Jul 06 05:45:04 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:45:04 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6555' from fd00::212:7400:13e3:79ff
+Jul 06 05:45:04 
+Jul 06 05:45:15 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:45:15 [INFO: App       ] Received DATA 'Battery: 2207, Temperature: 6649' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:45:15 
+Jul 06 05:48:41 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:48:42 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6552' from fd00::212:7400:13e3:79ff
+Jul 06 05:48:42 
+Jul 06 05:48:56 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:48:56 [INFO: App       ] Received DATA 'Battery: 2207, Temperature: 6646' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:48:56 
+Jul 06 05:52:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:52:25 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6557' from fd00::212:7400:13e3:79ff
+Jul 06 05:52:25 
+Jul 06 05:52:39 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:52:40 [INFO: App       ] Received DATA 'Battery: 2207, Temperature: 6644' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:52:40 
+Jul 06 05:56:05 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:56:06 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6564' from fd00::212:7400:13e3:79ff
+Jul 06 05:56:06 
+Jul 06 05:56:16 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:56:16 [INFO: App       ] Received DATA 'Battery: 2207, Temperature: 6643' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:56:16 
+Jul 06 05:59:50 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 05:59:51 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6571' from fd00::212:7400:13e3:79ff
+Jul 06 05:59:51 
+Jul 06 05:59:57 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 05:59:57 [INFO: App       ] Received DATA 'Battery: 2203, Temperature: 6640' from fd00::212:7400:1a6c:d6ed
+Jul 06 05:59:57 
+Jul 06 06:03:27 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:03:27 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6574' from fd00::212:7400:13e3:79ff
+Jul 06 06:03:27 
+Jul 06 06:03:34 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:03:35 [INFO: App       ] Received DATA 'Battery: 2203, Temperature: 6636' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:03:35 
+Jul 06 06:07:06 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:07:07 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6578' from fd00::212:7400:13e3:79ff
+Jul 06 06:07:07 
+Jul 06 06:07:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:07:13 [INFO: App       ] Received DATA 'Battery: 2203, Temperature: 6636' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:07:13 
+Jul 06 06:10:44 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:10:45 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6585' from fd00::212:7400:13e3:79ff
+Jul 06 06:10:45 
+Jul 06 06:10:52 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:10:53 [INFO: App       ] Received DATA 'Battery: 2203, Temperature: 6632' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:10:53 
+Jul 06 06:14:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:14:24 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6527' from fd00::212:7400:13e3:79ff
+Jul 06 06:14:24 
+Jul 06 06:14:31 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:14:32 [INFO: App       ] Received DATA 'Battery: 2203, Temperature: 6631' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:14:32 
+Jul 06 06:18:05 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:18:05 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6515' from fd00::212:7400:13e3:79ff
+Jul 06 06:18:05 
+Jul 06 06:18:20 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:18:20 [INFO: App       ] Received DATA 'Battery: 2203, Temperature: 6628' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:18:20 
+Jul 06 06:21:55 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:21:55 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6521' from fd00::212:7400:13e3:79ff
+Jul 06 06:21:55 
+Jul 06 06:22:04 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:22:04 [INFO: App       ] Received DATA 'Battery: 2203, Temperature: 6626' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:22:04 
+Jul 06 06:25:30 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:25:31 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6528' from fd00::212:7400:13e3:79ff
+Jul 06 06:25:31 
+Jul 06 06:25:42 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:25:42 [INFO: App       ] Received DATA 'Battery: 2203, Temperature: 6623' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:25:42 
+Jul 06 06:29:14 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:29:15 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6535' from fd00::212:7400:13e3:79ff
+Jul 06 06:29:15 
+Jul 06 06:29:21 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:29:22 [INFO: App       ] Received DATA 'Battery: 2203, Temperature: 6621' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:29:22 
+Jul 06 06:32:50 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:32:50 [INFO: App       ] Received DATA 'Battery: 2233, Temperature: 6541' from fd00::212:7400:13e3:79ff
+Jul 06 06:32:50 
+Jul 06 06:32:58 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:32:58 [INFO: App       ] Received DATA 'Battery: 2203, Temperature: 6618' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:32:58 
+Jul 06 06:36:30 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:36:30 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6547' from fd00::212:7400:13e3:79ff
+Jul 06 06:36:30 
+Jul 06 06:36:37 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:36:37 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6616' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:36:37 
+Jul 06 06:40:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:40:12 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6552' from fd00::212:7400:13e3:79ff
+Jul 06 06:40:12 
+Jul 06 06:40:20 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:40:20 [INFO: App       ] Received DATA 'Battery: 2203, Temperature: 6614' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:40:20 
+Jul 06 06:43:48 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:43:48 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6557' from fd00::212:7400:13e3:79ff
+Jul 06 06:43:48 
+Jul 06 06:43:58 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:43:58 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6610' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:43:58 
+Jul 06 06:47:26 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:47:26 [INFO: App       ] Received DATA 'Battery: 2229, Temperature: 6562' from fd00::212:7400:13e3:79ff
+Jul 06 06:47:26 
+Jul 06 06:47:33 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:47:33 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6610' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:47:33 
+Jul 06 06:51:04 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:51:04 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6504' from fd00::212:7400:13e3:79ff
+Jul 06 06:51:04 
+Jul 06 06:51:19 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:51:19 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6609' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:51:19 
+Jul 06 06:54:52 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:54:53 [INFO: App       ] Received DATA 'Battery: 2235, Temperature: 6496' from fd00::212:7400:13e3:79ff
+Jul 06 06:54:53 
+Jul 06 06:54:59 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:54:59 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6606' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:54:59 
+Jul 06 06:58:32 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 06:58:33 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6513' from fd00::212:7400:13e3:79ff
+Jul 06 06:58:33 
+Jul 06 06:58:38 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 06:58:39 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6604' from fd00::212:7400:1a6c:d6ed
+Jul 06 06:58:39 
+Jul 06 07:02:05 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:02:05 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6508' from fd00::212:7400:13e3:79ff
+Jul 06 07:02:05 
+Jul 06 07:02:14 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:02:15 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6600' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:02:15 
+Jul 06 07:05:43 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:05:44 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6513' from fd00::212:7400:13e3:79ff
+Jul 06 07:05:44 
+Jul 06 07:05:57 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:05:57 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6601' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:05:57 
+Jul 06 07:09:29 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:09:29 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6522' from fd00::212:7400:13e3:79ff
+Jul 06 07:09:29 
+Jul 06 07:09:37 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:09:38 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6600' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:09:38 
+Jul 06 07:13:06 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:13:06 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6531' from fd00::212:7400:13e3:79ff
+Jul 06 07:13:06 
+Jul 06 07:13:17 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:13:18 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6604' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:13:18 
+Jul 06 07:16:48 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:16:49 [INFO: App       ] Received DATA 'Battery: 2229, Temperature: 6541' from fd00::212:7400:13e3:79ff
+Jul 06 07:16:49 
+Jul 06 07:17:03 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:17:03 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6602' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:17:03 
+Jul 06 07:20:31 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:20:32 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6553' from fd00::212:7400:13e3:79ff
+Jul 06 07:20:32 
+Jul 06 07:20:46 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:20:46 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6609' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:20:46 
+Jul 06 07:24:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:24:12 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6563' from fd00::212:7400:13e3:79ff
+Jul 06 07:24:12 
+Jul 06 07:24:20 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:24:20 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6607' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:24:20 
+Jul 06 07:27:46 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:27:46 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6513' from fd00::212:7400:13e3:79ff
+Jul 06 07:27:46 
+Jul 06 07:27:55 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:27:56 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6610' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:27:56 
+Jul 06 07:31:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:31:24 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6505' from fd00::212:7400:13e3:79ff
+Jul 06 07:31:24 
+Jul 06 07:31:32 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:31:32 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6613' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:31:32 
+Jul 06 07:35:06 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:35:06 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6508' from fd00::212:7400:13e3:79ff
+Jul 06 07:35:06 
+Jul 06 07:35:20 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:35:20 [INFO: App       ] Received DATA 'Battery: 2195, Temperature: 6615' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:35:20 
+Jul 06 07:38:50 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:38:50 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6525' from fd00::212:7400:13e3:79ff
+Jul 06 07:38:50 
+Jul 06 07:39:05 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:39:05 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6620' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:39:05 
+Jul 06 07:42:37 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:42:38 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6538' from fd00::212:7400:13e3:79ff
+Jul 06 07:42:38 
+Jul 06 07:42:44 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:42:44 [INFO: App       ] Received DATA 'Battery: 2195, Temperature: 6619' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:42:44 
+Jul 06 07:46:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:46:13 [INFO: App       ] Received DATA 'Battery: 2231, Temperature: 6544' from fd00::212:7400:13e3:79ff
+Jul 06 07:46:13 
+Jul 06 07:46:22 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:46:22 [INFO: App       ] Received DATA 'Battery: 2199, Temperature: 6620' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:46:22 
+Jul 06 07:49:53 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:49:53 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6550' from fd00::212:7400:13e3:79ff
+Jul 06 07:49:53 
+Jul 06 07:50:08 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:50:08 [INFO: App       ] Received DATA 'Battery: 2195, Temperature: 6618' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:50:08 
+Jul 06 07:53:39 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:53:39 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6560' from fd00::212:7400:13e3:79ff
+Jul 06 07:53:39 
+Jul 06 07:53:50 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:53:51 [INFO: App       ] Received DATA 'Battery: 2195, Temperature: 6619' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:53:51 
+Jul 06 07:57:16 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 07:57:17 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6568' from fd00::212:7400:13e3:79ff
+Jul 06 07:57:17 
+Jul 06 07:57:27 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 07:57:28 [INFO: App       ] Received DATA 'Battery: 2195, Temperature: 6619' from fd00::212:7400:1a6c:d6ed
+Jul 06 07:57:28 
+Jul 06 08:00:57 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:00:57 [INFO: App       ] Received DATA 'Battery: 2225, Temperature: 6578' from fd00::212:7400:13e3:79ff
+Jul 06 08:00:57 
+Jul 06 08:01:07 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:01:07 [INFO: App       ] Received DATA 'Battery: 2195, Temperature: 6621' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:01:07 
+Jul 06 08:04:42 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:04:43 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6526' from fd00::212:7400:13e3:79ff
+Jul 06 08:04:43 
+Jul 06 08:04:50 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:04:51 [INFO: App       ] Received DATA 'Battery: 2195, Temperature: 6625' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:04:51 
+Jul 06 08:08:25 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:08:25 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6523' from fd00::212:7400:13e3:79ff
+Jul 06 08:08:25 
+Jul 06 08:08:33 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:08:33 [INFO: App       ] Received DATA 'Battery: 2195, Temperature: 6623' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:08:33 
+Jul 06 08:12:08 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:12:08 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6532' from fd00::212:7400:13e3:79ff
+Jul 06 08:12:08 
+Jul 06 08:12:17 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:12:18 [INFO: App       ] Received DATA 'Battery: 2195, Temperature: 6621' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:12:18 
+Jul 06 08:15:49 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:15:49 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6537' from fd00::212:7400:13e3:79ff
+Jul 06 08:15:49 
+Jul 06 08:15:58 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:15:59 [INFO: App       ] Received DATA 'Battery: 2195, Temperature: 6617' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:15:59 
+Jul 06 08:19:30 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:19:31 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6544' from fd00::212:7400:13e3:79ff
+Jul 06 08:19:31 
+Jul 06 08:19:42 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:19:43 [INFO: App       ] Received DATA 'Battery: 2195, Temperature: 6619' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:19:43 
+Jul 06 08:23:08 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:23:09 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6560' from fd00::212:7400:13e3:79ff
+Jul 06 08:23:09 
+Jul 06 08:23:17 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:23:17 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6628' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:23:17 
+Jul 06 08:26:44 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:26:44 [INFO: App       ] Received DATA 'Battery: 2225, Temperature: 6566' from fd00::212:7400:13e3:79ff
+Jul 06 08:26:44 
+Jul 06 08:26:54 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:26:54 [INFO: App       ] Received DATA 'Battery: 2195, Temperature: 6626' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:26:54 
+Jul 06 08:30:28 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:30:28 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6579' from fd00::212:7400:13e3:79ff
+Jul 06 08:30:28 
+Jul 06 08:30:37 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:30:38 [INFO: App       ] Received DATA 'Battery: 2195, Temperature: 6632' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:30:38 
+Jul 06 08:34:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:34:13 [INFO: App       ] Received DATA 'Battery: 2225, Temperature: 6594' from fd00::212:7400:13e3:79ff
+Jul 06 08:34:13 
+Jul 06 08:34:23 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:34:23 [INFO: App       ] Received DATA 'Battery: 2195, Temperature: 6641' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:34:23 
+Jul 06 08:37:55 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:37:56 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6548' from fd00::212:7400:13e3:79ff
+Jul 06 08:37:56 
+Jul 06 08:38:01 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:38:01 [INFO: App       ] Received DATA 'Battery: 2194, Temperature: 6646' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:38:01 
+Jul 06 08:41:29 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:41:29 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6539' from fd00::212:7400:13e3:79ff
+Jul 06 08:41:29 
+Jul 06 08:41:43 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:41:43 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6653' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:41:43 
+Jul 06 08:45:15 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:45:15 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6558' from fd00::212:7400:13e3:79ff
+Jul 06 08:45:15 
+Jul 06 08:45:26 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:45:26 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6658' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:45:26 
+Jul 06 08:48:54 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:48:54 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6571' from fd00::212:7400:13e3:79ff
+Jul 06 08:48:54 
+Jul 06 08:49:07 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:49:07 [INFO: App       ] Received DATA 'Battery: 2193, Temperature: 6666' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:49:07 
+Jul 06 08:52:38 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:52:39 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6588' from fd00::212:7400:13e3:79ff
+Jul 06 08:52:39 
+Jul 06 08:52:49 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:52:49 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6670' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:52:49 
+Jul 06 08:56:17 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:56:18 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6603' from fd00::212:7400:13e3:79ff
+Jul 06 08:56:18 
+Jul 06 08:56:22 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 08:56:22 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6676' from fd00::212:7400:1a6c:d6ed
+Jul 06 08:56:22 
+Jul 06 08:59:53 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 08:59:53 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6607' from fd00::212:7400:13e3:79ff
+Jul 06 08:59:53 
+Jul 06 09:00:01 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:00:02 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6671' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:00:02 
+Jul 06 09:03:28 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:03:28 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6591' from fd00::212:7400:13e3:79ff
+Jul 06 09:03:28 
+Jul 06 09:03:36 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:03:36 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6641' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:03:36 
+Jul 06 09:07:09 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:07:09 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6595' from fd00::212:7400:13e3:79ff
+Jul 06 09:07:09 
+Jul 06 09:07:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:07:24 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6644' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:07:24 
+Jul 06 09:10:55 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:10:57 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6601' from fd00::212:7400:13e3:79ff
+Jul 06 09:10:57 
+Jul 06 09:11:08 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:11:09 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6637' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:11:09 
+Jul 06 09:14:34 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:14:35 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6538' from fd00::212:7400:13e3:79ff
+Jul 06 09:14:35 
+Jul 06 09:14:44 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:14:45 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6634' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:14:45 
+Jul 06 09:18:16 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:18:16 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6534' from fd00::212:7400:13e3:79ff
+Jul 06 09:18:16 
+Jul 06 09:18:22 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:18:23 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6632' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:18:23 
+Jul 06 09:21:50 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:21:50 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6556' from fd00::212:7400:13e3:79ff
+Jul 06 09:21:50 
+Jul 06 09:21:57 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:21:57 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6642' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:21:57 
+Jul 06 09:25:28 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:25:29 [INFO: App       ] Received DATA 'Battery: 2227, Temperature: 6552' from fd00::212:7400:13e3:79ff
+Jul 06 09:25:29 
+Jul 06 09:25:41 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:25:42 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6638' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:25:42 
+Jul 06 09:29:14 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:29:15 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6555' from fd00::212:7400:13e3:79ff
+Jul 06 09:29:15 
+Jul 06 09:29:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:29:24 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6638' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:29:24 
+Jul 06 09:32:55 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:32:56 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6574' from fd00::212:7400:13e3:79ff
+Jul 06 09:32:56 
+Jul 06 09:33:01 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:33:02 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6644' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:33:02 
+Jul 06 09:36:28 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:36:29 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6580' from fd00::212:7400:13e3:79ff
+Jul 06 09:36:29 
+Jul 06 09:36:34 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:36:34 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6643' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:36:34 
+Jul 06 09:40:08 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:40:09 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6593' from fd00::212:7400:13e3:79ff
+Jul 06 09:40:09 
+Jul 06 09:40:22 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:40:23 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6646' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:40:23 
+Jul 06 09:43:52 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:43:54 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6590' from fd00::212:7400:13e3:79ff
+Jul 06 09:43:54 
+Jul 06 09:44:05 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:44:06 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6643' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:44:06 
+Jul 06 09:47:40 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:47:50 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:47:59 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:48:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:48:24 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:48:33 [INFO: App       ] Sink unresponsive: fd00::212:7400:13e3:79ff
+Jul 06 09:48:33 
+Jul 06 09:48:33 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:48:34 [INFO: App       ] Received DATA 'Battery: 2191, Temperature: 6624' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:48:34 
+Jul 06 09:52:02 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:52:03 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6556' from fd00::212:7400:13e3:79ff
+Jul 06 09:52:03 
+Jul 06 09:52:17 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:52:17 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6640' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:52:17 
+Jul 06 09:55:51 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:55:52 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6560' from fd00::212:7400:13e3:79ff
+Jul 06 09:55:52 
+Jul 06 09:55:58 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:55:58 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6630' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:55:58 
+Jul 06 09:59:30 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 09:59:30 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6580' from fd00::212:7400:13e3:79ff
+Jul 06 09:59:30 
+Jul 06 09:59:40 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 09:59:40 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6649' from fd00::212:7400:1a6c:d6ed
+Jul 06 09:59:40 
+Jul 06 10:03:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:03:13 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6592' from fd00::212:7400:13e3:79ff
+Jul 06 10:03:13 
+Jul 06 10:03:19 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:03:19 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6653' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:03:19 
+Jul 06 10:06:48 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:06:48 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6583' from fd00::212:7400:13e3:79ff
+Jul 06 10:06:48 
+Jul 06 10:06:56 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:06:56 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6641' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:06:56 
+Jul 06 10:10:26 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:10:26 [INFO: App       ] Received DATA 'Battery: 2221, Temperature: 6589' from fd00::212:7400:13e3:79ff
+Jul 06 10:10:26 
+Jul 06 10:10:40 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:10:41 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6642' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:10:41 
+Jul 06 10:14:12 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:14:13 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6594' from fd00::212:7400:13e3:79ff
+Jul 06 10:14:13 
+Jul 06 10:14:27 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:14:27 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6634' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:14:27 
+Jul 06 10:17:53 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:17:53 [INFO: App       ] Received DATA 'Battery: 2225, Temperature: 6543' from fd00::212:7400:13e3:79ff
+Jul 06 10:17:53 
+Jul 06 10:18:04 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:18:04 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6640' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:18:04 
+Jul 06 10:21:35 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:21:36 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6549' from fd00::212:7400:13e3:79ff
+Jul 06 10:21:36 
+Jul 06 10:21:43 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:21:43 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6633' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:21:43 
+Jul 06 10:25:17 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:25:18 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6552' from fd00::212:7400:13e3:79ff
+Jul 06 10:25:18 
+Jul 06 10:25:26 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:25:26 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6646' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:25:26 
+Jul 06 10:28:54 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:28:55 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6564' from fd00::212:7400:13e3:79ff
+Jul 06 10:28:55 
+Jul 06 10:29:06 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:29:07 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6650' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:29:07 
+Jul 06 10:32:35 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:32:36 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6577' from fd00::212:7400:13e3:79ff
+Jul 06 10:32:36 
+Jul 06 10:32:49 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:32:49 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6656' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:32:49 
+Jul 06 10:36:21 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:36:21 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6540' from fd00::212:7400:13e3:79ff
+Jul 06 10:36:21 
+Jul 06 10:36:27 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:36:28 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6601' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:36:28 
+Jul 06 10:40:02 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:40:03 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6569' from fd00::212:7400:13e3:79ff
+Jul 06 10:40:03 
+Jul 06 10:40:14 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:40:15 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6626' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:40:15 
+Jul 06 10:43:50 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:43:50 [INFO: App       ] Received DATA 'Battery: 2219, Temperature: 6570' from fd00::212:7400:13e3:79ff
+Jul 06 10:43:50 
+Jul 06 10:44:05 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:44:05 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6610' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:44:05 
+Jul 06 10:47:31 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:47:32 [INFO: App       ] Received DATA 'Battery: 2215, Temperature: 6585' from fd00::212:7400:13e3:79ff
+Jul 06 10:47:32 
+Jul 06 10:47:39 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:47:39 [INFO: App       ] Received DATA 'Battery: 2183, Temperature: 6627' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:47:39 
+Jul 06 10:51:10 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:51:11 [INFO: App       ] Received DATA 'Battery: 2221, Temperature: 6552' from fd00::212:7400:13e3:79ff
+Jul 06 10:51:11 
+Jul 06 10:51:23 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:51:23 [INFO: App       ] Received DATA 'Battery: 2187, Temperature: 6635' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:51:23 
+Jul 06 10:54:54 [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+Jul 06 10:54:55 [INFO: App       ] Received DATA 'Battery: 2223, Temperature: 6536' from fd00::212:7400:13e3:79ff
+Jul 06 10:54:55 
+Jul 06 10:55:04 [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+Jul 06 10:55:04 [INFO: App       ] Received DATA 'Battery: 2186, Temperature: 6635' from fd00::212:7400:1a6c:d6ed
+Jul 06 10:55:04 

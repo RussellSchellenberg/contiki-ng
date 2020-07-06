@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "dev/sht11/sht11-sensor.h"
+#include "dev/cc2420/cc2420.h"
 
 // --- START Code Block for Simulation ---
 #include "sys/energest.h"
@@ -19,9 +20,19 @@
 #include "dev/msp430-lpm-override.h"
 extern int msp430_lpm4_required;
 
-volatile long start, end;
+#ifndef USE_SLEEP_SCHEDULE
+#define USE_SLEEP_SCHEDULE 1
+#endif
 
-unsigned long LSPC, DSPC;
+#ifndef IN_SIMULATION
+#define IN_SIMULATION 1
+#endif
+
+bool is_sleeping = false;
+
+#if IN_SIMULATION == 1
+
+unsigned long EnergyUsed;
 unsigned long voltage = 3.0; // Units = Volts
 unsigned long ActiveCurrent = 330;
 unsigned long LPM1Current = 75;
@@ -30,12 +41,18 @@ unsigned long ActiveTime = 0;
 unsigned long LPM1Time = 0;
 unsigned long LPM4Time = 0;
 unsigned long TotalTime = 0;
+unsigned long RXTime = 0;
+unsigned long TXTime = 0;
+
+#endif
 
 //#define ENERGEST_CONF_ON 1 // This was manually changed in the file for the Sim
 // --- END Code Block for Simulation ---
 
 #define LOG_MODULE "App"
 #define LOG_LEVEL LOG_LEVEL_INFO
+
+#define RPL_CONF_WITH_PROBING 1
 
 #define WITH_SERVER_REPLY  1
 #define UDP_CLIENT_PORT	8800
@@ -45,20 +62,58 @@ unsigned long TotalTime = 0;
 
 enum p_type{SYN, DATA};
 
-int get_temperature(){
-  return ((sht11_sensor.value(SHT11_SENSOR_TEMP)/10)-396)/10;
+static uint32_t get_temperature(){
+  return sht11_sensor.value(SHT11_SENSOR_TEMP);
 }
 
 static uint32_t get_battery(){
     return battery_sensor.value(0);
 }
 
+void sleep(){
+  is_sleeping = true;
+  #if USE_SLEEP_SCHEDULE == 1
+  NETSTACK_RADIO.set_value(RADIO_PARAM_POWER_MODE, RADIO_POWER_MODE_OFF);
+  #endif
+}
+
+void wake(){
+  is_sleeping = false;
+  #if USE_SLEEP_SCHEDULE == 1
+  NETSTACK_RADIO.set_value(RADIO_PARAM_POWER_MODE, RADIO_POWER_MODE_ON);
+  #endif
+}
+
+#if IN_SIMULATION == 1
+
 static unsigned long to_seconds(uint64_t time){ // Sim
   return (unsigned long)(time / ENERGEST_SECOND);
 }
 
+static void print_energest_info(){
+  // --- START Code Block for Simulation ---
+  /* Update all energest times. */
+  energest_flush();
+
+  ActiveTime = (to_seconds(energest_type_time(ENERGEST_TYPE_CPU)));
+  LPM1Time = (to_seconds(energest_type_time(ENERGEST_TYPE_LPM)));
+  RXTime = (to_seconds(energest_type_time(ENERGEST_TYPE_LISTEN)));
+  TXTime = (to_seconds(energest_type_time(ENERGEST_TYPE_TRANSMIT)));
+  LPM4Time = (to_seconds(energest_type_time(ENERGEST_TYPE_DEEP_LPM))); // Difference in time between going to sleep and waking up
+  TotalTime = (to_seconds(ENERGEST_GET_TOTAL_TIME()));
+
+  EnergyUsed = voltage *((ActiveTime * ActiveCurrent) + (LPM1Time * LPM1Current) + (LPM4Time / LPM4Current_DIV)) + (21*(18800*RXTime + 17400*TXTime))/10;
+  printf("\nEnergest:\n");
+  printf("     Active: %5lus, LPM1: %5lus, LPM4: %5lus, Total Time: %5lus\n\n", ActiveTime, LPM1Time, LPM4Time, TotalTime);
+  printf("     RX: %5lus, TX: %5lus\n", RXTime, TXTime);
+  printf("     Energy Used: %10luuW\n\n", EnergyUsed);
+  printf("Simulation_Data: %5lu %5lu %5lu %5lu %5lu %10lu\n", ActiveTime, LPM1Time, LPM4Time, RXTime, TXTime, EnergyUsed);
+}
+
+#endif
+
 static struct simple_udp_connection udp_conn;
-uint8_t p_data[32];
+uint8_t p_data[64];
 
 /*---------------------------------------------------------------------------*/
 PROCESS(udp_client_process, "UDP client");
@@ -83,91 +138,38 @@ udp_rx_callback(struct simple_udp_connection *c,
          const uint8_t *data,
          uint16_t datalen)
 {
-  
-  end = clock_seconds(); // For Deep sleep
-  watchdog_stop();
-  msp430_lpm4_required = 0;
-  ENERGEST_OFF(ENERGEST_TYPE_DEEP_LPM);
-  ENERGEST_SWITCH(ENERGEST_TYPE_CPU, ENERGEST_TYPE_LPM);
-  LPM1;
-  watchdog_start();
+  if(!is_sleeping){
+    static char str[64];
 
-  //P5OUT &= ~(1<<5);
-  //P5OUT |= (1<<4);
-  static char str[32];
+    LOG_INFO("Received '%.*s' from ", datalen, (char *) data);
+    LOG_INFO_6ADDR(sender_addr);
+    LOG_INFO_("\n");
+    LOG_INFO("Sending Battery: %lu\n", get_battery());
+    snprintf(str, sizeof(str), "Battery: %lu, Temperature: %lu", get_battery(), get_temperature());
+    simple_udp_sendto(&udp_conn, str, strlen(str), sender_addr);
 
-  LOG_INFO("Received '%.*s' from ", datalen, (char *) data);
-  LOG_INFO_6ADDR(sender_addr);
-  LOG_INFO_("\n");
-  LOG_INFO("Sending Battery: %lu\n", get_battery());
-  snprintf(str, sizeof(str), "%lu", get_battery());
-  simple_udp_sendto(&udp_conn, str, strlen(str), sender_addr);
-
-  // --- START Code Block for Simulation ---
-  /* Update all energest times. */
-  energest_flush();
-  printf("\nEnergest:\n");
-
-ActiveTime = (to_seconds(energest_type_time(ENERGEST_TYPE_CPU)));
-LPM1Time = (to_seconds(energest_type_time(ENERGEST_TYPE_LPM)));
-LPM4Time = (to_seconds(energest_type_time(ENERGEST_TYPE_DEEP_LPM))); // Difference in time between going to sleep and waking up
-TotalTime = (to_seconds(ENERGEST_GET_TOTAL_TIME()));
-
-LSPC = voltage *((ActiveTime * ActiveCurrent) + ((LPM1Time + LPM4Time) * LPM1Current));
-printf("Light Sleep System:\n");
-printf("     Active: %5lus, LPM1: %5lus, LPM4:     0s, Total Time: %5lus\n", ActiveTime, (LPM1Time + LPM4Time), TotalTime);
-printf("     Energy Used: %10luuW\n\n", LSPC);
-printf("Simulation_Data: Light %5lu %5lu 0 %5lu %10lu\n", ActiveTime, (LPM1Time + LPM4Time), TotalTime, LSPC);
-
-DSPC = voltage *((ActiveTime * ActiveCurrent) + (LPM1Time * LPM1Current) + (LPM4Time / LPM4Current_DIV));
-printf("Deep Sleep System:\n");
-printf("     Active: %5lus, LPM1: %5lus, LPM4: %5lus, Total Time: %5lus\n\n", ActiveTime, LPM1Time, LPM4Time, TotalTime);
-printf("     Energy Used: %10luuW\n\n", DSPC);
-printf("Simulation_Data: Deep %5lu %5lu %5lu %5lu %10lu\n", ActiveTime, LPM1Time, LPM4Time, TotalTime, DSPC);
-//printf("Active: %5lus\n", ActiveTime);
-// Trying to get the Deep LPM working
-/*
-  printf("Active:          %lus, LPM:      %gs, DEEP LPM: %gs,  Total time: %lus\n",
-         to_seconds(energest_type_time(ENERGEST_TYPE_CPU)),
-         (double)()(to_seconds(energest_type_time(ENERGEST_TYPE_LPM))-DeepSleepTime)),
-         DeepSleepTime,
-         to_seconds(ENERGEST_GET_TOTAL_TIME()));
-*/
-
-   //LSPC = voltage *( ((ActiveCurrent)*(to_seconds(energest_type_time(ENERGEST_TYPE_CPU)))) + LPM1Current*(to_seconds(energest_type_time(ENERGEST_TYPE_LPM))));
-//   LSPC = LPM1Current*(to_seconds(energest_type_time(ENERGEST_TYPE_LPM)));
-  // printf("Light Sleep Power Consumption: %g W\n", (double)LSPC);
-
-// --- END Code Block for Simulation ---
-
-  process_exit(&udp_client_sleep);
-  process_start(&udp_client_sleep, NULL);
-
-#if LLSEC802154_CONF_ENABLED
-  LOG_INFO_(" LLSEC LV:%d", uipbuf_get_attr(UIPBUF_ATTR_LLSEC_LEVEL));
-#endif
-
+    process_exit(&udp_client_sleep);
+    process_start(&udp_client_sleep, NULL);
+  }
 }
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(udp_client_process, ev, data)
 {
   void clock_init (void);
   static struct etimer periodic_timer;
-  static char str[32];
+  static char str[64];
   uip_ipaddr_t dest_ipaddr;
  
-  P5DIR |= 0x70;
 
   PROCESS_BEGIN();
   SENSORS_ACTIVATE(battery_sensor);
-  //P5OUT &= ~(1<<5);
+  SENSORS_ACTIVATE(sht11_sensor);
 
   /* Initialize UDP connection */
   simple_udp_register(&udp_conn, UDP_CLIENT_PORT, NULL,
                       UDP_SERVER_PORT, udp_rx_callback);
 
   etimer_set(&periodic_timer, random_rand() % SEND_INTERVAL);
-  lpm_on();
   while(1) {
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
     if(NETSTACK_ROUTING.node_is_reachable() && NETSTACK_ROUTING.get_root_ipaddr(&dest_ipaddr)) {
@@ -190,6 +192,14 @@ PROCESS_THREAD(udp_client_process, ev, data)
     etimer_set(&periodic_timer, SEND_INTERVAL
       - CLOCK_SECOND + (random_rand() % (2 * CLOCK_SECOND)));
   }
+  while(1){
+    etimer_set(&periodic_timer, 200 * CLOCK_SECOND);
+    PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
+    wake();
+    #if IN_SIMULATION == 1
+    print_energest_info();
+    #endif
+  }
 
   PROCESS_END();
 }
@@ -197,28 +207,11 @@ PROCESS_THREAD(udp_client_process, ev, data)
 PROCESS_THREAD(udp_client_sleep, ev, data)
 {
   static struct etimer periodic_timer;
-  etimer_set(&periodic_timer, 5 * CLOCK_SECOND);
   PROCESS_BEGIN();
-  LOG_INFO("Going to sleep\n");
-
-  //P5OUT &= ~(1<<4);
-  //P5OUT |= (1<<5);
-
-  // Comment out for simulation only:
+  etimer_set(&periodic_timer, 1*CLOCK_SECOND);
   PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
 
-   // For Simulation: Start timer to see how long it sleeps.
-  watchdog_stop();
-  start = clock_seconds();
-  //msp430_lpm4_required = 1; //Comment out to stay awake
-  ENERGEST_OFF(ENERGEST_TYPE_CPU);
-  ENERGEST_SWITCH(ENERGEST_TYPE_LPM, ENERGEST_TYPE_DEEP_LPM);
-  //LPM4; //Comment out to stay awake
-  watchdog_start();
-  
-
-
-  //printf("Start_2: %4lu\n", start); // Used for Debugging
+  sleep();
 
   PROCESS_END();
 }
