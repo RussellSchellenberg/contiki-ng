@@ -157,7 +157,7 @@ PROCESS_THREAD(udp_server_process, ev, data)
       }
     }
     rec_data = 0;
-    etimer_set(&periodic_timer, 200 * CLOCK_SECOND  + (random_rand() % (1 * CLOCK_SECOND)));
+    etimer_set(&periodic_timer, 10 * CLOCK_SECOND  + (random_rand() % (1 * CLOCK_SECOND)));
   }
 
   PROCESS_END();

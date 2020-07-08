@@ -1,0 +1,78 @@
+[2020-07-08 09:45:11] ../../Makefile.gcc:23: Warning: you're using an old version of msp430-gcc.
+[2020-07-08 09:45:11] ../../Makefile.gcc:24: Upgrade to 4.7.x is recommended for extended memory support and bugfixes.
+[2020-07-08 09:45:11] make IHEXFILE=udp-server.ihex sky-reset sky-upload
+[2020-07-08 09:45:11] make[1]: Entering directory '/home/bulldog/work/contiki-ng/Bulldog/rpl-udp'
+[2020-07-08 09:45:12] ../../Makefile.gcc:23: Warning: you're using an old version of msp430-gcc.
+[2020-07-08 09:45:12] ../../Makefile.gcc:24: Upgrade to 4.7.x is recommended for extended memory support and bugfixes.
+[2020-07-08 09:45:12] make -k -j 20 sky-reset-sequence
+[2020-07-08 09:45:12] make[2]: Entering directory '/home/bulldog/work/contiki-ng/Bulldog/rpl-udp'
+[2020-07-08 09:45:12] ../../Makefile.gcc:23: Warning: you're using an old version of msp430-gcc.
+[2020-07-08 09:45:12] ../../Makefile.gcc:24: Upgrade to 4.7.x is recommended for extended memory support and bugfixes.
+[2020-07-08 09:45:12] ../../tools/sky/msp430-bsl-linux --telosb -c /dev/ttyUSB0 -r
+[2020-07-08 09:45:12] MSP430 Bootstrap Loader Version: 1.39-telos-7
+[2020-07-08 09:45:12] Use -h for help
+[2020-07-08 09:45:12] Reset device ...
+[2020-07-08 09:45:12] Done
+[2020-07-08 09:45:12] make[2]: Leaving directory '/home/bulldog/work/contiki-ng/Bulldog/rpl-udp'
+[2020-07-08 09:45:12] make -j 20 sky-upload-sequence
+[2020-07-08 09:45:12] make[2]: Entering directory '/home/bulldog/work/contiki-ng/Bulldog/rpl-udp'
+[2020-07-08 09:45:12] ../../Makefile.gcc:23: Warning: you're using an old version of msp430-gcc.
+[2020-07-08 09:45:12] ../../Makefile.gcc:24: Upgrade to 4.7.x is recommended for extended memory support and bugfixes.
+[2020-07-08 09:45:12] +++++ Erasing /dev/ttyUSB0
+[2020-07-08 09:45:12] MSP430 Bootstrap Loader Version: 1.39-telos-7
+[2020-07-08 09:45:12] Use -h for help
+[2020-07-08 09:45:12] Mass Erase...
+[2020-07-08 09:45:13] Transmit default password ...
+[2020-07-08 09:45:15] +++++ Programming /dev/ttyUSB0
+[2020-07-08 09:45:15] MSP430 Bootstrap Loader Version: 1.39-telos-7
+[2020-07-08 09:45:15] Invoking BSL...
+[2020-07-08 09:45:16] Transmit default password ...
+[2020-07-08 09:45:16] Current bootstrap loader version: 1.61 (Device ID: f16c)
+[2020-07-08 09:45:16] Changing baudrate to 38400 ...
+[2020-07-08 09:45:16] Program ...
+[2020-07-08 09:46:14] 45182 bytes programmed.
+[2020-07-08 09:46:16] +++++ Resetting /dev/ttyUSB0
+[2020-07-08 09:46:16] MSP430 Bootstrap Loader Version: 1.39-telos-7
+[2020-07-08 09:46:16] Use -h for help
+[2020-07-08 09:46:16] Reset device ...
+[2020-07-08 09:46:16] Done
+[2020-07-08 09:46:16] make[2]: Leaving directory '/home/bulldog/work/contiki-ng/Bulldog/rpl-udp'
+[2020-07-08 09:46:16] make[1]: Leaving directory '/home/bulldog/work/contiki-ng/Bulldog/rpl-udp'
+[2020-07-08 09:46:16] rlwrap ../../tools/serial-io/serialdump -b115200 /dev/ttyUSB0
+[2020-07-08 09:46:16] connecting to /dev/ttyUSB0 [OK]
+[2020-07-08 09:46:32] [INFO: Main      ] Starting Contiki-NG-release/v4.4-71-g3f2d0669c
+[2020-07-08 09:46:32] [INFO: Main      ] - Routing: RPL Lite
+[2020-07-08 09:46:32] [INFO: Main      ] - Net: sicslowpan
+[2020-07-08 09:46:32] [INFO: Main      ] - MAC: CSMA
+[2020-07-08 09:46:32] [INFO: Main      ] - 802.15.4 PANID: 0xabcd
+[2020-07-08 09:46:32] [INFO: Main      ] - 802.15.4 Default channel: 26
+[2020-07-08 09:46:32] [INFO: Main      ] Node ID: 50322
+[2020-07-08 09:46:32] [INFO: Main      ] Link-layer address: 0012.7400.1a6c.c492
+[2020-07-08 09:46:32] [INFO: Main      ] Tentative link-local IPv6 address: fe80::212:7400:1a6c:c492
+[2020-07-08 09:46:32] [INFO: Sky       ] CC2420 CCA threshold -45
+[2020-07-08 09:46:49] [INFO: App       ] Received 'SYN' from fd00::212:7400:1a6c:d6ed
+[2020-07-08 09:46:49] 
+[2020-07-08 09:46:54] [INFO: App       ] Received 'SYN' from fd00::212:7400:13e3:79ff
+[2020-07-08 09:46:54] 
+[2020-07-08 09:46:55] [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+[2020-07-08 09:47:07] [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+[2020-07-08 09:47:07] [INFO: App       ] Received DATA 'Battery: 2611, Temperature: 6620' from fd00::212:7400:1a6c:d6ed
+[2020-07-08 09:47:07] 
+[2020-07-08 09:47:21] [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+[2020-07-08 09:47:22] [INFO: App       ] Received DATA 'Battery: 2599, Temperature: 6558' from fd00::212:7400:13e3:79ff
+[2020-07-08 09:47:22] 
+[2020-07-08 09:47:38] [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+[2020-07-08 09:47:39] [INFO: App       ] Received DATA 'Battery: 2611, Temperature: 6620' from fd00::212:7400:1a6c:d6ed
+[2020-07-08 09:47:39] 
+[2020-07-08 09:47:48] [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+[2020-07-08 09:47:49] [INFO: App       ] Received DATA 'Battery: 2599, Temperature: 6564' from fd00::212:7400:13e3:79ff
+[2020-07-08 09:47:49] 
+[2020-07-08 09:48:08] [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+[2020-07-08 09:48:08] [INFO: App       ] Received DATA 'Battery: 2607, Temperature: 6621' from fd00::212:7400:1a6c:d6ed
+[2020-07-08 09:48:08] 
+[2020-07-08 09:48:17] [INFO: App       ] Sending 'REQ' to fd00::212:7400:13e3:79ff
+[2020-07-08 09:48:17] [INFO: App       ] Received DATA 'Battery: 2597, Temperature: 6570' from fd00::212:7400:13e3:79ff
+[2020-07-08 09:48:17] 
+[2020-07-08 09:48:38] [INFO: App       ] Sending 'REQ' to fd00::212:7400:1a6c:d6ed
+[2020-07-08 09:48:38] [INFO: App       ] Received DATA 'Battery: 2607, Temperature: 6624' from fd00::212:7400:1a6c:d6ed
+[2020-07-08 09:48:38] 

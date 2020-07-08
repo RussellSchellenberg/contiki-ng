@@ -20,13 +20,13 @@ with open (args.inputpath, 'rt') as simfile:
     for line in simfile:
         if line.find("Received DATA") != -1:
             data = line.split()
-            time = datetime.datetime.strptime(data[0]+" "+data[1]+" "+data[2], "%b %d %H:%M:%S")
+            time = datetime.datetime.strptime(data[0]+" "+data[1], "[%Y-%m-%d %H:%M:%S]")
             if(start_time == 0):
                 start_time = time
             time = (time - start_time).total_seconds()
-            id = data[13]
-            battery = data[9][0:-1]
-            temperature = data[11][0:-1]
+            id = data[12]
+            battery = data[8][0:-1]
+            temperature = data[10][0:-1]
             rows.append(str(time) + "," + id + "," + battery + "," + temperature + "\n")
 with open (args.outputpath, 'w') as csvfile:
     for line in rows:

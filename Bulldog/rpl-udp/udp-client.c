@@ -21,11 +21,11 @@
 extern int msp430_lpm4_required;
 
 #ifndef USE_SLEEP_SCHEDULE
-#define USE_SLEEP_SCHEDULE 1
+#define USE_SLEEP_SCHEDULE 0
 #endif
 
 #ifndef IN_SIMULATION
-#define IN_SIMULATION 1
+#define IN_SIMULATION 0
 #endif
 
 bool is_sleeping = false;
@@ -193,7 +193,7 @@ PROCESS_THREAD(udp_client_process, ev, data)
       - CLOCK_SECOND + (random_rand() % (2 * CLOCK_SECOND)));
   }
   while(1){
-    etimer_set(&periodic_timer, 200 * CLOCK_SECOND);
+    etimer_set(&periodic_timer, 10 * CLOCK_SECOND);
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
     wake();
     #if IN_SIMULATION == 1
