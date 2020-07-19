@@ -27,7 +27,11 @@ with open (args.inputpath, 'rt') as simfile:
             try:
                 time = (datetime.datetime.strptime(data[0], "%M:%S.%f") - datetime.datetime(1900, 1, 1)).total_seconds()
             except:
-                time = (datetime.datetime.strptime(data[0], "%H:%M:%S.%f") - datetime.datetime(1900, 1, 1)).total_seconds()
+                try:
+                    time = (datetime.datetime.strptime(data[0], "%H:%M:%S.%f") - datetime.datetime(1900, 1, 1)).total_seconds()
+                except:
+                    time_arr = data[0].split(":")
+                    time = datetime.timedelta(hours=int(time_arr[0]), minutes=int(time_arr[1]), seconds=float(time_arr[2])).total_seconds()
             id = data[1][3:]
             active = data[3]
             lpm1 = data[4]

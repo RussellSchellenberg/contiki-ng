@@ -25,7 +25,7 @@ extern int msp430_lpm4_required;
 #endif
 
 #ifndef IN_SIMULATION
-#define IN_SIMULATION 0
+#define IN_SIMULATION 1
 #endif
 
 bool is_sleeping = false;
@@ -102,11 +102,11 @@ static void print_energest_info(){
   LPM4Time = (to_seconds(energest_type_time(ENERGEST_TYPE_DEEP_LPM))); // Difference in time between going to sleep and waking up
   TotalTime = (to_seconds(ENERGEST_GET_TOTAL_TIME()));
 
-  EnergyUsed = voltage *((ActiveTime * ActiveCurrent) + (LPM1Time * LPM1Current) + (LPM4Time / LPM4Current_DIV)) + (21*(18800*RXTime + 17400*TXTime))/10;
+  EnergyUsed = (voltage *((ActiveTime * ActiveCurrent) + (LPM1Time * LPM1Current) + (LPM4Time / LPM4Current_DIV)) + 21*(1880*RXTime + 1740*TXTime))/1000;
   printf("\nEnergest:\n");
   printf("     Active: %5lus, LPM1: %5lus, LPM4: %5lus, Total Time: %5lus\n\n", ActiveTime, LPM1Time, LPM4Time, TotalTime);
   printf("     RX: %5lus, TX: %5lus\n", RXTime, TXTime);
-  printf("     Energy Used: %10luuW\n\n", EnergyUsed);
+  printf("     Energy Used: %10lumJ\n\n", EnergyUsed);
   printf("Simulation_Data: %5lu %5lu %5lu %5lu %5lu %10lu\n", ActiveTime, LPM1Time, LPM4Time, RXTime, TXTime, EnergyUsed);
 }
 
